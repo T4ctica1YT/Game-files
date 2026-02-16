@@ -284,6 +284,7 @@ try {
     overlay.innerHTML = `<div style="background: linear-gradient(180deg, rgba(10,14,18,0.9), rgba(18,24,28,0.85)); color:#dff7ff; padding:18px 22px;border-radius:12px;box-shadow:0 8px 30px rgba(0,0,0,0.6); text-align:center; max-width:86vw;">
         <div style="font-family:Mario64DS,Arial;font-size:18px;margin-bottom:6px;">Tap or Click to Enable Audio & Start</div>
         <div style="font-size:13px; color:#bfe7f8;">This ensures sound is unlocked on your browser.</div>
+        <div style="font-size:13px; color:#bfe7f8;">If you cant click the first time refresh your browser and spam click the browser window.</div>
       </div>`;
     if (!document.getElementById('startOverlay')) document.body.appendChild(overlay);
 
