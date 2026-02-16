@@ -1,0 +1,31 @@
+# Default control mapping: KeyZ => A, KeyX => B, WASD => D-Pad, Arrow Keys => C-Stick
+fullscreen false
+
+# Map emulator A button to physical "Z" key (KeyZ = 90)
+key_a 90
+
+# Map emulator B button to physical "X" key (KeyX = 88)
+key_b 88
+
+# Start and R (misc) keys
+key_start 57
+key_r 54
+
+# Physical Z key used for emulator A; keep Space mapped to Z-button action (jump) for compatibility
+# (Some ports use key_z for the N64 Z button; keep this mapped to Space)
+key_z 32
+
+# Map C-Stick to Arrow Keys: Up, Down, Left, Right
+key_cup 38
+key_cdown 40
+key_cleft 37
+key_cright 39
+
+# Map D-Pad (digital pad) to WASD: W, S, A, D
+key_stickup 87
+key_stickdown 83
+key_stickleft 65
+key_stickright 68
+
+precache true
+skip intro false

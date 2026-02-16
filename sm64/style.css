@@ -1,0 +1,97 @@
+@font-face {
+  font-family: "Mario64";
+  src: url(fonts/Mario64.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Mario64DS";
+  src: url(fonts/Super-Mario-64-DS.ttf) format("truetype");
+  font-weight: normal;
+}
+
+/* Generic .card utility replaces global div styling so layout divs (like #container) are not constrained */
+.card {
+  align-items: center;
+  text-align: center;
+  border-radius: 12px;
+  padding: 12px;
+  max-width: 1000px;
+  width: auto;
+  background: transparent;
+}
+
+/* Remove repeating bg image so the game canvas occupies the entire viewport */
+body {
+  background: #07121a; /* subtle dark background */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+h1 {
+  font-family: "Mario64DS", sans-serif;
+    align-items: center;
+    font-size: 1m;
+    color: #09ff00;
+    font-style: bold;
+}
+
+h2 {
+  font-family: "Mario64", sans-serif;
+    font-size: 1em;
+    color: #00aeff;
+}
+
+li {
+  font-family: "Mario64", sans-serif;
+    font-size: 1m;
+    color: #00d0ff;
+}
+
+h2 {
+  font-family: "Mario64", sans-serif;
+    font-size: 1m;
+    color: #007bff;
+}
+
+h3 {
+  font-family: "Mario64", sans-serif;
+    font-size: 1m;
+    color: #00bfff;
+}
+h4 {
+  font-family: "Mario64", sans-serif;
+    font-size: 1m;
+    color: #00e5ff;
+}
+h1,
+h2 {
+  margin: 0;
+}
+p {
+  font-family:"Mario64", sans-serif;
+  font-size: 1em;
+  text-align: center;
+  color: #00a2ff;
+}
+
+/* Controls panel improvements */
+#controlsGrid { -webkit-overflow-scrolling: touch; overflow:auto; }
+.control-input {
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.04);
+  color: #e6f6ff;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+/* numeric badge to the right of inputs */
+.code-badge {
+  display:inline-block;
+  min-width:36px;
+  padding:6px 8px;
+  background: rgba(0,0,0,0.25);
+  color: #bfe7f8;
+  border-radius:6px;
+  font-size:12px;
+  text-align:center;
+}

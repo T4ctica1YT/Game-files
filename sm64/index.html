@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <title>Super Mario 64</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,viewport-fit=cover">
+    <link rel="icon" type="x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="ui.css">
+  </head>
+  <body>
+    <img class="logo" src="images/SuperMario64.png" alt="Super Mario 64" width="125" height="50">
+    <div id="container">
+      <canvas class="emscripten" id="canvas" width="1280" height="720" style="cursor: default;"></canvas>
+    </div>
+
+    <button id="menuBtn" aria-label="Open info menu">^</button>
+    <div id="panel" role="dialog" aria-hidden="true">
+    </div>
+
+    <div id="startOverlay" role="button" aria-label="Click to start game"></div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

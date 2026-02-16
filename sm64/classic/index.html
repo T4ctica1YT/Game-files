@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <title>Super Mario 64 (Classic)</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,viewport-fit=cover">
+    <link rel="icon" type="x-icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../ui.css">
+  </head>
+  <body>
+    <img class="logo" src="../images/SuperMario64.png" alt="Super Mario 64" width="125" height="50">
+    <div id="container">
+      <canvas class="emscripten" id="canvas" width="1280" height="720" style="cursor: default;"></canvas>
+    </div>
+
+    <button id="menuBtn" aria-label="Open info menu">^</button>
+
+    <div id="panel" role="dialog" aria-hidden="true"></div>
+
+    <div id="startOverlay" role="button" aria-label="Click to start game"></div>
+
+    <script src="../app.js"></script>
+
+    <!-- Override: ensure the classic game script is loaded when overlay is used in this classic page -->
+    <script>
+      (function(){
+        // Wait for app.js to create the overlay
+        function attach() {
+          var overlay = document.getElementById('startOverlay');
+          if (!overlay) { setTimeout(attach, 50); return; }
+
+          // replace overlay to clear any stale handlers
+          var newOverlay = overlay.cloneNode(true);
+          overlay.parentNode.replaceChild(newOverlay, overlay);
+          newOverlay.style.position = 'absolute';
+          newOverlay.style.left = '0';
+          newOverlay.style.top = '0';
+          newOverlay.style.width = '100vw';
+          newOverlay.style.height = '100vh';
+          newOverlay.style.display = 'flex';
+          newOverlay.style.alignItems = 'center';
+          newOverlay.style.justifyContent = 'center';
+          newOverlay.style.zIndex = '50';
+          newOverlay.style.backdropFilter = 'blur(2px)';
+          newOverlay.innerHTML = `<div style="background: linear-gradient(180deg, rgba(10,14,18,0.9), rgba(18,24,28,0.85)); color:#dff7ff; padding:18px 22px;border-radius:12px;box-shadow:0 8px 30px rgba(0,0,0,0.6); text-align:center; max-width:86vw;">
+            <div style="font-family:Mario64,Arial;font-size:30px;margin-bottom:6px;">Tap or Click to Enable Audio & Start</div>
+            <div style="font-size:13px; color:#bfe7f8;">This ensures sound is unlocked on your browser.</div>
+          </div>`;
+
+          // shared handlers list for reliable removal
+          var __handlers = [];
+          function addHandler(target, type, fn, opts) {
+            target.addEventListener(type, fn, opts || {passive:true});
+            __handlers.push({target: target, type: type, fn: fn, opts: opts});
+          }
+          function removeHandlers() {
+            for (var i=0;i<__handlers.length;i++) {
+              var h = __handlers[i];
+              try { h.target.removeEventListener(h.type, h.fn, h.opts); } catch(e){}
+            }
+            __handlers.length = 0;
+          }
+
+          function startClassic() {
+            removeHandlers();
+            try { if (window.__unlockAudio) window.__unlockAudio(); } catch(e){ console.warn(e); }
+            // remove overlay
+            if (newOverlay && newOverlay.parentNode) newOverlay.parentNode.removeChild(newOverlay);
+            try { document.getElementById('canvas').focus(); } catch(e){}
+            // load classic game script from this folder
+            var s = document.createElement('script');
+            s.src = 'game/sm64.js';
+            s.async = true;
+            s.type = 'text/javascript';
+            document.body.appendChild(s);
+          }
+
+          // Attach robust handlers to both overlay and document/window so input always triggers start.
+          var startBound = function(e){ try { startClassic(); } catch(e){ console.warn('startClassic error', e); } };
+          addHandler(newOverlay, 'click', startBound, {passive:true});
+          addHandler(newOverlay, 'touchstart', startBound, {passive:true});
+          addHandler(newOverlay, 'pointerdown', startBound, {passive:true});
+          addHandler(document, 'click', startBound, {passive:true});
+          addHandler(document, 'touchstart', startBound, {passive:true});
+          addHandler(document, 'pointerdown', startBound, {passive:true});
+          // keydown: respond once but ensure it's attached at window level robustly
+          addHandler(window, 'keydown', function keyOnce(e){ startBound(e); removeHandlers(); }, {passive:false});
+        }
+
+        // start attaching after a tick so app.js has run
+        setTimeout(attach, 60);
+      })();
+    </script>
+  </body>
+</html>
