@@ -31,5 +31,10 @@ Upon receiving the email and whenever i next check my email, the content will be
 # | No Commercial Intent |
 This project is provided free of charge, i also am making no money AT ALL from this repo / related repos and websites. No ownership is claimed, and no commercial profit is intended from the hosted content.
 
+# | Ports |
+I didnt make any of these web ports (Atless stated otherwise)
+
+Ports are mostly made by [bog](https://bog.lat/), [breadbb](https://github.com/gn-math), [98corbins](https://98corbins.itch.io/), and [slqnt](https://www.slqnt.dev/)   *(I HAVE NO AFFILIATION WITH ANY OF THESE PORTERS)*
+
 # | Contact |
 For any legal concerns (Like takedowns), please reach out via GitHub issues or my email at t4ctica1yt@gmail.com.
