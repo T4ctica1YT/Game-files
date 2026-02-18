@@ -3,7 +3,7 @@ All games, trademarks, logos, characters, audio, images, and other assets hosted
 
 I do not claim ownership of any game assets, intellectual property, trademarks, or copyrighted materials associated with the hosted games unless explicitly stated.
 
-This repository is intended for educational, archival, and preservation purposes only.
+This repository is intended for educational, archival, and preservation purposes.
 
 # | Lawful Acquisition |
 All game files hosted here were obtained through legitimate and lawful means. No content has been knowingly acquired through unauthorized distribution channels.
