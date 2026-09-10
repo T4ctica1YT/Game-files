@@ -1,0 +1,291 @@
+fileList.txt
+Data/Languages/Chinese/Achievements.txt
+Data/Languages/Chinese/DEMO.txt
+Data/Languages/Chinese/F.png
+Data/Languages/Chinese/Hello.txt
+Data/Languages/Chinese/Location 1.txt
+Data/Languages/Chinese/LocationDialogue Location1.txt
+Data/Languages/Chinese/LocationDialogue Location2.txt
+Data/Languages/Chinese/LocationDialogue Location3.txt
+Data/Languages/Chinese/LocationDialogue Location4.txt
+Data/Languages/Chinese/LocationHint Location1.txt
+Data/Languages/Chinese/LocationHint Location2.txt
+Data/Languages/Chinese/LocationHint Location3.txt
+Data/Languages/Chinese/LocationHint Location4.txt
+Data/Languages/Chinese/LocationHintKey Location General.txt
+Data/Languages/Chinese/Menu.txt
+Data/Languages/Chinese/Names.txt
+Data/Languages/Chinese/Translation.txt
+Data/Languages/Chinese/Textures/Location House/Books0.png
+Data/Languages/Chinese/Textures/Location House/Books1.png
+Data/Languages/Chinese/Textures/Location House/Books2.png
+Data/Languages/Chinese/Textures/Location House/Books4.png
+Data/Languages/Chinese/Textures/Location2/Dys.png
+Data/Languages/Chinese/Textures/Location2/Hello.png
+Data/Languages/Chinese/Textures/Location2/Play.png
+Data/Languages/Chinese/Textures/Location2/WhoAreYou.png
+Data/Languages/Chinese/Textures/Location3/TVJuice.png
+Data/Languages/Dutch/Achievements.txt
+Data/Languages/Dutch/DEMO.txt
+Data/Languages/Dutch/F.png
+Data/Languages/Dutch/Hello.txt
+Data/Languages/Dutch/Location 1.txt
+Data/Languages/Dutch/LocationDialogue Location1.txt
+Data/Languages/Dutch/LocationDialogue Location2.txt
+Data/Languages/Dutch/LocationDialogue Location3.txt
+Data/Languages/Dutch/LocationDialogue Location4.txt
+Data/Languages/Dutch/LocationHint Location1.txt
+Data/Languages/Dutch/LocationHint Location2.txt
+Data/Languages/Dutch/LocationHint Location3.txt
+Data/Languages/Dutch/LocationHint Location4.txt
+Data/Languages/Dutch/LocationHintKey Location General.txt
+Data/Languages/Dutch/Menu.txt
+Data/Languages/Dutch/Names.txt
+Data/Languages/Dutch/Translation.txt
+Data/Languages/Dutch/Textures/Location House/Books0.png
+Data/Languages/Dutch/Textures/Location House/Books1.png
+Data/Languages/Dutch/Textures/Location House/Books2.png
+Data/Languages/Dutch/Textures/Location House/Books4.png
+Data/Languages/Dutch/Textures/Location2/Dys.png
+Data/Languages/Dutch/Textures/Location2/Dys.png~
+Data/Languages/Dutch/Textures/Location2/Hello.png
+Data/Languages/Dutch/Textures/Location2/Hello.png~
+Data/Languages/Dutch/Textures/Location2/Play.png
+Data/Languages/Dutch/Textures/Location2/Play.png~
+Data/Languages/Dutch/Textures/Location2/WhoAreYou.png
+Data/Languages/Dutch/Textures/Location2/WhoAreYou.png~
+Data/Languages/Dutch/Textures/Location3/TVJuice.png
+Data/Languages/English/Achievements.txt
+Data/Languages/English/DEMO.txt
+Data/Languages/English/F.png
+Data/Languages/English/Hello.txt
+Data/Languages/English/Location 1.txt
+Data/Languages/English/LocationDialogue Location1.txt
+Data/Languages/English/LocationDialogue Location2.txt
+Data/Languages/English/LocationDialogue Location3.txt
+Data/Languages/English/LocationDialogue Location4.txt
+Data/Languages/English/LocationHint Location1.txt
+Data/Languages/English/LocationHint Location2.txt
+Data/Languages/English/LocationHint Location3.txt
+Data/Languages/English/LocationHint Location4.txt
+Data/Languages/English/LocationHintKey Location General.txt
+Data/Languages/English/Menu.txt
+Data/Languages/English/Names.txt
+Data/Languages/English/Translation.txt
+Data/Languages/English/Textures/Location House/Books0.png
+Data/Languages/English/Textures/Location House/Books1.png
+Data/Languages/English/Textures/Location House/Books2.png
+Data/Languages/English/Textures/Location House/Books4.png
+Data/Languages/English/Textures/Location2/Dys.png
+Data/Languages/English/Textures/Location2/Hello.png
+Data/Languages/English/Textures/Location2/Play.png
+Data/Languages/English/Textures/Location2/WhoAreYou.png
+Data/Languages/English/Textures/Location3/TVJuice.png
+Data/Languages/French/Achievements.txt
+Data/Languages/French/DEMO.txt
+Data/Languages/French/F.png
+Data/Languages/French/Hello.txt
+Data/Languages/French/Location 1.txt
+Data/Languages/French/LocationDialogue Location1.txt
+Data/Languages/French/LocationDialogue Location2.txt
+Data/Languages/French/LocationDialogue Location3.txt
+Data/Languages/French/LocationDialogue Location4.txt
+Data/Languages/French/LocationHint Location1.txt
+Data/Languages/French/LocationHint Location2.txt
+Data/Languages/French/LocationHint Location3.txt
+Data/Languages/French/LocationHint Location4.txt
+Data/Languages/French/LocationHintKey Location General.txt
+Data/Languages/French/Menu.txt
+Data/Languages/French/Names.txt
+Data/Languages/French/Translation.txt
+Data/Languages/French/Textures/Location House/Books0.png
+Data/Languages/French/Textures/Location House/Books1.png
+Data/Languages/French/Textures/Location House/Books2.png
+Data/Languages/French/Textures/Location House/Books4.png
+Data/Languages/French/Textures/Location2/Dys.png
+Data/Languages/French/Textures/Location2/Hello.png
+Data/Languages/French/Textures/Location2/Play.png
+Data/Languages/French/Textures/Location2/WhoAreYou.png
+Data/Languages/French/Textures/Location3/TVJuice.png
+Data/Languages/German/Achievements.txt
+Data/Languages/German/DEMO.txt
+Data/Languages/German/F.png
+Data/Languages/German/Hello.txt
+Data/Languages/German/Location 1.txt
+Data/Languages/German/LocationDialogue Location1.txt
+Data/Languages/German/LocationDialogue Location2.txt
+Data/Languages/German/LocationDialogue Location3.txt
+Data/Languages/German/LocationDialogue Location4.txt
+Data/Languages/German/LocationHint Location1.txt
+Data/Languages/German/LocationHint Location2.txt
+Data/Languages/German/LocationHint Location3.txt
+Data/Languages/German/LocationHint Location4.txt
+Data/Languages/German/LocationHintKey Location General.txt
+Data/Languages/German/Menu.txt
+Data/Languages/German/Names.txt
+Data/Languages/German/Translation.txt
+Data/Languages/German/Textures/Location House/Books0.png
+Data/Languages/German/Textures/Location House/Books1.png
+Data/Languages/German/Textures/Location House/Books2.png
+Data/Languages/German/Textures/Location House/Books4.png
+Data/Languages/German/Textures/Location2/Dys.png
+Data/Languages/German/Textures/Location2/Hello.png
+Data/Languages/German/Textures/Location2/Play.png
+Data/Languages/German/Textures/Location2/WhoAreYou.png
+Data/Languages/German/Textures/Location3/TVJuice.png
+Data/Languages/Polish/Achievements.txt
+Data/Languages/Polish/DEMO.txt
+Data/Languages/Polish/F.png
+Data/Languages/Polish/Hello.txt
+Data/Languages/Polish/Location 1.txt
+Data/Languages/Polish/LocationDialogue Location1.txt
+Data/Languages/Polish/LocationDialogue Location2.txt
+Data/Languages/Polish/LocationDialogue Location3.txt
+Data/Languages/Polish/LocationDialogue Location4.txt
+Data/Languages/Polish/LocationHint Location1.txt
+Data/Languages/Polish/LocationHint Location2.txt
+Data/Languages/Polish/LocationHint Location3.txt
+Data/Languages/Polish/LocationHint Location4.txt
+Data/Languages/Polish/LocationHintKey Location General.txt
+Data/Languages/Polish/Menu.txt
+Data/Languages/Polish/Names.txt
+Data/Languages/Polish/Translation.txt
+Data/Languages/Polish/Textures/Location House/Books0.png
+Data/Languages/Polish/Textures/Location House/Books1.png
+Data/Languages/Polish/Textures/Location House/Books2.png
+Data/Languages/Polish/Textures/Location House/Books4.png
+Data/Languages/Polish/Textures/Location2/Dys.png
+Data/Languages/Polish/Textures/Location2/Hello.png
+Data/Languages/Polish/Textures/Location2/Play.png
+Data/Languages/Polish/Textures/Location2/WhoAreYou.png
+Data/Languages/Polish/Textures/Location3/TVJuice.png
+Data/Languages/Romanian/Achievements.txt
+Data/Languages/Romanian/DEMO.txt
+Data/Languages/Romanian/F.png
+Data/Languages/Romanian/Hello.txt
+Data/Languages/Romanian/Location 1.txt
+Data/Languages/Romanian/LocationDialogue Location1.txt
+Data/Languages/Romanian/LocationDialogue Location2.txt
+Data/Languages/Romanian/LocationDialogue Location3.txt
+Data/Languages/Romanian/LocationDialogue Location4.txt
+Data/Languages/Romanian/LocationHint Location1.txt
+Data/Languages/Romanian/LocationHint Location2.txt
+Data/Languages/Romanian/LocationHint Location3.txt
+Data/Languages/Romanian/LocationHint Location4.txt
+Data/Languages/Romanian/LocationHintKey Location General.txt
+Data/Languages/Romanian/Menu.txt
+Data/Languages/Romanian/Names.txt
+Data/Languages/Romanian/Translation.txt
+Data/Languages/Romanian/Textures/Location House/Books0.png
+Data/Languages/Romanian/Textures/Location House/Books1.png
+Data/Languages/Romanian/Textures/Location House/Books2.png
+Data/Languages/Romanian/Textures/Location House/Books4.png
+Data/Languages/Romanian/Textures/Location2/Dys.png
+Data/Languages/Romanian/Textures/Location2/Hello.png
+Data/Languages/Romanian/Textures/Location2/Play.png
+Data/Languages/Romanian/Textures/Location2/WhoAreYou.png
+Data/Languages/Romanian/Textures/Location3/TVJuice.png
+Data/Languages/Russian/Achievements.txt
+Data/Languages/Russian/DEMO.txt
+Data/Languages/Russian/F.png
+Data/Languages/Russian/Hello.txt
+Data/Languages/Russian/Location 1.txt
+Data/Languages/Russian/LocationDialogue Location1.txt
+Data/Languages/Russian/LocationDialogue Location2.txt
+Data/Languages/Russian/LocationDialogue Location3.txt
+Data/Languages/Russian/LocationDialogue Location4.txt
+Data/Languages/Russian/LocationHint Location1.txt
+Data/Languages/Russian/LocationHint Location2.txt
+Data/Languages/Russian/LocationHint Location3.txt
+Data/Languages/Russian/LocationHint Location4.txt
+Data/Languages/Russian/LocationHintKey Location General.txt
+Data/Languages/Russian/Menu.txt
+Data/Languages/Russian/Names.txt
+Data/Languages/Russian/Translation.txt
+Data/Languages/Russian/Textures/Location House/Books0.png
+Data/Languages/Russian/Textures/Location House/Books1.png
+Data/Languages/Russian/Textures/Location House/Books2.png
+Data/Languages/Russian/Textures/Location House/Books4.png
+Data/Languages/Russian/Textures/Location2/Dys.png
+Data/Languages/Russian/Textures/Location2/Hello.png
+Data/Languages/Russian/Textures/Location2/Play.png
+Data/Languages/Russian/Textures/Location2/WhoAreYou.png
+Data/Languages/Russian/Textures/Location3/TVJuice.png
+Data/Languages/Spanish/Achievements.txt
+Data/Languages/Spanish/DEMO.txt
+Data/Languages/Spanish/F.png
+Data/Languages/Spanish/Hello.txt
+Data/Languages/Spanish/Location 1.txt
+Data/Languages/Spanish/LocationDialogue Location1.txt
+Data/Languages/Spanish/LocationDialogue Location2.txt
+Data/Languages/Spanish/LocationDialogue Location3.txt
+Data/Languages/Spanish/LocationDialogue Location4.txt
+Data/Languages/Spanish/LocationHint Location1.txt
+Data/Languages/Spanish/LocationHint Location2.txt
+Data/Languages/Spanish/LocationHint Location3.txt
+Data/Languages/Spanish/LocationHint Location4.txt
+Data/Languages/Spanish/LocationHintKey Location General.txt
+Data/Languages/Spanish/Menu.txt
+Data/Languages/Spanish/Names.txt
+Data/Languages/Spanish/Translation.txt
+Data/Languages/Spanish/Textures/Location House/Books0.png
+Data/Languages/Spanish/Textures/Location House/Books1.png
+Data/Languages/Spanish/Textures/Location House/Books2.png
+Data/Languages/Spanish/Textures/Location House/Books4.png
+Data/Languages/Spanish/Textures/Location2/Dys.png
+Data/Languages/Spanish/Textures/Location2/Hello.png
+Data/Languages/Spanish/Textures/Location2/Play.png
+Data/Languages/Spanish/Textures/Location2/WhoAreYou.png
+Data/Languages/Spanish/Textures/Location3/TVJuice.png
+Data/Languages/Turkish/Achievements.txt
+Data/Languages/Turkish/DEMO.txt
+Data/Languages/Turkish/F.png
+Data/Languages/Turkish/Hello.txt
+Data/Languages/Turkish/Location 1.txt
+Data/Languages/Turkish/LocationDialogue Location1.txt
+Data/Languages/Turkish/LocationDialogue Location2.txt
+Data/Languages/Turkish/LocationDialogue Location3.txt
+Data/Languages/Turkish/LocationDialogue Location4.txt
+Data/Languages/Turkish/LocationHint Location1.txt
+Data/Languages/Turkish/LocationHint Location2.txt
+Data/Languages/Turkish/LocationHint Location3.txt
+Data/Languages/Turkish/LocationHint Location4.txt
+Data/Languages/Turkish/LocationHintKey Location General.txt
+Data/Languages/Turkish/Menu.txt
+Data/Languages/Turkish/Names.txt
+Data/Languages/Turkish/Translation.txt
+Data/Languages/Turkish/Textures/Location House/Books0.png
+Data/Languages/Turkish/Textures/Location House/Books1.png
+Data/Languages/Turkish/Textures/Location House/Books2.png
+Data/Languages/Turkish/Textures/Location House/Books4.png
+Data/Languages/Turkish/Textures/Location2/Dys.png
+Data/Languages/Turkish/Textures/Location2/Hello.png
+Data/Languages/Turkish/Textures/Location2/Play.png
+Data/Languages/Turkish/Textures/Location2/WhoAreYou.png
+Data/Languages/Turkish/Textures/Location3/TVJuice.png
+Data/Languages/Ukrainian/Achievements.txt
+Data/Languages/Ukrainian/DEMO.txt
+Data/Languages/Ukrainian/F.png
+Data/Languages/Ukrainian/Hello.txt
+Data/Languages/Ukrainian/Location 1.txt
+Data/Languages/Ukrainian/LocationDialogue Location1.txt
+Data/Languages/Ukrainian/LocationDialogue Location2.txt
+Data/Languages/Ukrainian/LocationDialogue Location3.txt
+Data/Languages/Ukrainian/LocationDialogue Location4.txt
+Data/Languages/Ukrainian/LocationHint Location1.txt
+Data/Languages/Ukrainian/LocationHint Location2.txt
+Data/Languages/Ukrainian/LocationHint Location3.txt
+Data/Languages/Ukrainian/LocationHint Location4.txt
+Data/Languages/Ukrainian/LocationHintKey Location General.txt
+Data/Languages/Ukrainian/Menu.txt
+Data/Languages/Ukrainian/Names.txt
+Data/Languages/Ukrainian/Translation.txt
+Data/Languages/Ukrainian/Textures/Location House/Books0.png
+Data/Languages/Ukrainian/Textures/Location House/Books1.png
+Data/Languages/Ukrainian/Textures/Location House/Books2.png
+Data/Languages/Ukrainian/Textures/Location House/Books4.png
+Data/Languages/Ukrainian/Textures/Location2/Dys.png
+Data/Languages/Ukrainian/Textures/Location2/Hello.png
+Data/Languages/Ukrainian/Textures/Location2/Play.png
+Data/Languages/Ukrainian/Textures/Location2/WhoAreYou.png
+Data/Languages/Ukrainian/Textures/Location3/TVJuice.png

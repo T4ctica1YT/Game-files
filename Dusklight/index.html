@@ -1,4 +1,6 @@
-<!doctypehtml><html lang=en-us><head><meta charset=utf-8><meta content="text/html; charset=utf-8"http-equiv=Content-Type><meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover"name=viewport><title>Dusklight</title><style>
+<!doctypehtml><html lang=en-us><head><meta charset=utf-8><meta content="text/html; charset=utf-8"http-equiv=Content-Type><meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover"name=viewport><title>Dusklight</title>
+<script src=coi-serviceworker.js></script>
+<style>
 :root{--bg:#000;--panel:#16141a;--panel-2:#1d1a23;--border:#2b2733;--text:#d8d3c8;--dim:#8b8576;--gold:#c8a24a;--gold-dim:#8a7136;--error:#d06a5a}
 *{box-sizing:border-box}
 [hidden]{display:none!important}
@@ -126,7 +128,11 @@ function showError(e){failed=!0,progressElement.hidden=!0,setStatusText(e,!0),ap
 
 function checkRequirements(){
   if(!navigator.gpu){showError("<b>WebGPU is not available.</b> Use a current version of Chrome or Edge (and make sure WebGPU is not disabled in the browser flags).");return!1}
-  if(!window.crossOriginIsolated){showError("<b>This page is not cross-origin isolated</b>, so SharedArrayBuffer is unavailable. Serve the build with <code>python3 tools/serve-web.py</code> (it sends the required COOP/COEP headers) and open it via <code>http://localhost</code> or HTTPS.");return!1}
+  if(!window.crossOriginIsolated){
+    if(window.__coiFixing){setStatusText("Preparing this page&hellip;");return!1}
+    showError("<b>This page could not become cross-origin isolated</b>, so SharedArrayBuffer is unavailable. This needs a secure context (<code>https://</code> or <code>http://localhost</code>) with Service Workers enabled.");
+    return!1
+  }
   if(typeof WebAssembly.Suspending!="function"){showError("<b>This browser does not support WebAssembly JSPI yet</b>, which Dusklight requires. Use a current Chrome or Edge. Safari support arrives with Safari 27 (on iPhone/iPad every browser uses WebKit, so an iOS with Safari 27 is needed).");return!1}
   return!0
 }
@@ -338,4 +344,26 @@ document.querySelectorAll("#touch-overlay .t-btn").forEach((function(e){var t=pa
   e.addEventListener("pointerup",n),e.addEventListener("pointercancel",n)}));
 makeVirtualStick("t-stick-zone","t-stick-nub","stickX","stickY"),
 makeVirtualStick("t-cstick-zone","t-cstick-nub","substickX","substickY",{invertX:!0});
-</script><script async src=dusklight.js></script></body></html>
+
+/* --- Don't start the wasm runtime until we're actually cross-origin isolated ---
+   On static hosts (no custom headers, e.g. raw.githack.com) coi-serviceworker.js
+   fixes this by registering a Service Worker and reloading the page once. That
+   reload is asynchronous, so if we loaded dusklight.js unconditionally here it
+   could start spawning pthread workers and postMessage()-ing a SharedArrayBuffer
+   *before* the reload lands — which throws "SharedArrayBuffer transfer requires
+   self.crossOriginIsolated". Waiting here instead of racing it fixes that. */
+(function(){
+  function startGame(){var s=document.createElement("script");s.src="dusklight.js",s.async=!0,document.body.appendChild(s)}
+  if(window.crossOriginIsolated){
+    startGame()
+  }else if(window.__coiFixing){
+    /* A fix (Service Worker registration + one reload) is in progress. If it
+       turns out isolation can't be achieved after all, fall back to showing
+       the real diagnostic instead of hanging forever. */
+    window.addEventListener("coi-fix-failed",(function(){checkRequirements()}),{once:!0})
+  }
+  /* else: not isolated and no fix is in progress (insecure context, no Service
+     Worker support, etc.) — checkRequirements() already showed the real error
+     above; loading dusklight.js here would just crash with a confusing one. */
+})();
+</script></body></html>
