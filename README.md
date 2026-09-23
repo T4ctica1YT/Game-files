@@ -34,7 +34,7 @@ This project is provided free of charge, i also am making no money AT ALL from t
 # | Ports |
 I didnt make any of these web ports (Atless stated otherwise)
 
-Ports are mostly made by [bog](https://bog.lat/) (Truffled), [breadbb](https://github.com/gn-math) (GN-Math), [98corbins](https://portsby98corbin.neocities.org/), and [slqnt](https://www.slqnt.dev/)   *(I HAVE NO AFFILIATION WITH ANY OF THESE PORTERS)*
+Ports are mostly made by [bog](https://bog.lat/) (Truffled), [breadbb](https://github.com/gn-math) (GN-Math), [98corbins](https://portsby98corbin.neocities.org/), and [slqnt](https://www.slqnt.dev/)   *(I HAVE NO AFFILIATION WITH ANY OF THESE PORTERS, NOR THEIR WEBSITES AND DOMAINS)*
 
 # | Contact |
 For any legal concerns (Like takedowns), please reach out via GitHub issues or my email at t4ctica1yt@gmail.com.
