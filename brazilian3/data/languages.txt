@@ -1,0 +1,16 @@
+Português (Portuguese),loc_portuguese.txt
+Inglês (English),loc_english.txt
+Portuenglish,loc_portuenglish.txt
+Russian,loc_russian.txt
+French,loc_french.txt
+Spanish (Español),loc_spanish.txt
+Turkish, loc_turkish.txt
+Chinese traditional, loc_chinese.txt
+Chinese simplified, loc_chinese2.txt
+Japanese,loc_japanese.txt
+Korean,loc_korean.txt
+Romanian,loc_romanian.txt
+German,loc_german.txt
+Polish,loc_polish.txt
+Italian,loc_italian.txt
+Dutch,loc_dutch.txt

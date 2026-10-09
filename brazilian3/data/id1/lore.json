@@ -1,0 +1,96 @@
+{
+  "Menus": {
+    "Children": [
+      {
+        "Title": "$Personagens",
+        "Children": [
+          {
+            "Title": "Personagens Parte 1",
+            "Children": [
+              { "Title": "$Caze", "Children": [ { "Image": "gfx/cazeUS.png", "SubTitle": "$Caze_SubTitle" } ] },
+              { "Title": "$DaSilva", "Children": [ { "Image": "gfx/dasilvaUS.png", "SubTitle": "$DaSilva_SubTitle" } ] },
+              { "Title": "$Joeveno", "Children": [ { "Image": "gfx/joevenoUS.png", "SubTitle": "$Joeveno_SubTitle" } ] },
+              { "Title": "$Keyes", "Children": [ { "Image": "gfx/keyesUS.png", "SubTitle": "$Keyes_SubTitle" } ] },
+              { "Title": "$MackieJackie", "Children": [ { "Image": "gfx/mackieUS.png", "SubTitle": "$MackieJackie_SubTitle" } ] },
+              { "Title": "$MamadasAssassinas", "Children": [ { "Image": "gfx/mamadasUS.png", "SubTitle": "$MamadasAssassinas_SubTitle" } ] }
+            ]
+          },
+          {
+            "Title": "Personagens Parte 2",
+            "Children": [
+              { "Title": "$RonaldoMcDalest", "Children": [ { "Image": "gfx/McDalestUS.png", "SubTitle": "$RonaldoMcDalest_SubTitle" } ] },
+              { "Title": "$MitAia", "Children": [ { "Image": "gfx/mitaiaUS.png", "SubTitle": "$MitAia_SubTitle" } ] },
+              { "Title": "$MrMorning", "Children": [ { "Image": "gfx/mrmorningUS.png", "SubTitle": "$MrMorning_SubTitle" } ] },
+              { "Title": "$SavioSants", "Children": [ { "Image": "gfx/savioUS.png", "SubTitle": "$SavioSants_SubTitle" } ] },
+              { "Title": "$Sento", "Children": [ { "Image": "gfx/sentoUS.png", "SubTitle": "$Sento_SubTitle" } ] }
+            ]
+          }
+        ]
+      },
+      {
+        "Title": "$Armas",
+        "Children": [
+          {
+            "Title": "Armas Parte 1",
+            "Children": [
+              { "Title": "$TrintaEDoze", "Children": [ { "Image": "gfx/30e12US.png", "SubTitle": "$TrintaEDoze_SubTitle" } ] },
+              { "Title": "$DoubleGoldenShotgun", "Children": [ { "Image": "gfx/goldenshotUS.png", "SubTitle": "$DoubleGoldenShotgun_SubTitle" } ] },
+              { "Title": "$DoubleGoldenGlocks", "Children": [ { "Image": "gfx/goldenglocksUS.png", "SubTitle": "$DoubleGoldenGlocks_SubTitle" } ] },
+              { "Title": "$Mac1047", "Children": [ { "Image": "gfx/mac1047US.png", "SubTitle": "$Mac1047_SubTitle" } ] },
+              { "Title": "$BrokenRocketLauncher", "Children": [ { "Image": "gfx/brokenrocketlauncherUS.png", "SubTitle": "$BrokenRocketLauncher_SubTitle" } ] },
+              { "Title": "$Berimbau", "Children": [ { "Image": "gfx/berimbauUS.png", "SubTitle": "$Berimbau_SubTitle" } ] }
+            ]
+          },
+          {
+            "Title": "Armas Parte 2",
+            "Children": [
+              { "Title": "$Flazooka", "Children": [ { "Image": "gfx/flazookaUS.png", "SubTitle": "$Flazooka_SubTitle" } ] },
+              { "Title": "$TchauPayphone", "Children": [ { "Image": "gfx/payphoneUS.png", "SubTitle": "$TchauPayphone_SubTitle" } ] },
+              { "Title": "$FabSnake", "Children": [ { "Image": "gfx/fabsnakeUS.png", "SubTitle": "$FabSnake_SubTitle" } ] },
+              { "Title": "$AviaozinhoDoSavio", "Children": [ { "Image": "gfx/aviaoUS.png", "SubTitle": "$AviaozinhoDoSavio_SubTitle" } ] },
+              { "Title": "$Chinelo", "Children": [ { "Image": "gfx/chineloUS.png", "SubTitle": "$Chinelo_SubTitle" } ] },
+              { "Title": "$GuaranaGolly", "Children": [ { "Image": "gfx/guaranagollyUS.png", "SubTitle": "$GuaranaGolly_SubTitle" } ] },
+              { "Title": "$ArmaDeGel", "Children": [ { "Image": "gfx/armadegelUS.png", "SubTitle": "$ArmaDeGel_SubTitle" } ] }
+            ]
+          }
+        ]
+      },
+      {
+        "Title": "$InimigosPossuidos",
+        "Children": [
+          { "Title": "$Traficante", "Children": [ { "Image": "gfx/traficanteUS.png", "SubTitle": "$Traficante_SubTitle" } ] },
+          { "Title": "$Fofin", "Children": [ { "Image": "gfx/fofinUS.png", "SubTitle": "$Fofin_SubTitle" } ] },
+          { "Title": "$Torcedor", "Children": [ { "Image": "gfx/torcedorUS.png", "SubTitle": "$Torcedor_SubTitle" } ] },
+          { "Title": "$TorcedorCheiradorPedalaRobin", "Children": [ { "Image": "gfx/cheiradorUS.png", "SubTitle": "$TorcedorCheiradorPedalaRobin_SubTitle" } ] },
+        ]
+      },
+      {
+        "Title": "$AnimaisPossuidos",
+        "Children": [
+          { "Title": "$PossessedCapibara", "Children": [ { "Image": "gfx/capivaraUS.png", "SubTitle": "$PossessedCapibara_SubTitle" } ] },
+          { "Title": "$CarameloDog", "Children": [ { "Image": "gfx/carameloUS.png", "SubTitle": "$CarameloDog_SubTitle" } ] },
+          { "Title": "$LoroJosias", "Children": [ { "Image": "gfx/loroUS.png", "SubTitle": "$LoroJosias_SubTitle" } ] }
+        ]
+      },
+      {
+        "Title": "$InimigosSobrenaturais",
+        "Children": [
+          { "Title": "$BrickOgre", "Children": [ { "Image": "gfx/ogreUS.png", "SubTitle": "$BrickOgre_SubTitle" } ] },
+          { "Title": "$SerieB", "Children": [ { "Image": "gfx/serieBUS.png", "SubTitle": "$SerieB_SubTitle" } ] },
+          { "Title": "$FlaflamencoDemon", "Children": [ { "Image": "gfx/flaDemonUS.png", "SubTitle": "$FlaflamencoDemon_SubTitle" } ] },
+          { "Title": "$AntiPiracyHand", "Children": [ { "Image": "gfx/antipiracyhandUS.png", "SubTitle": "$AntiPiracyHand_SubTitle" } ] },
+          { "Title": "$Jumenta", "Children": [ { "Image": "gfx/jumentaUS.png", "SubTitle": "$Jumenta_SubTitle" } ] },
+          { "Title": "$Flapolin", "Children": [ { "Image": "gfx/flapolinUS.png", "SubTitle": "$Flapolin_SubTitle" } ] }
+        ]
+      },
+      {
+        "Title": "$Chefes",
+        "Children": [
+          { "Title": "$PossessedEdinho", "Children": [ { "Image": "gfx/edinhoUS.png", "SubTitle": "$PossessedEdinho_SubTitle" } ] },
+          { "Title": "$PossessedSaciPerere", "Children": [ { "Image": "gfx/saciUS.png", "SubTitle": "$PossessedSaciPerere_SubTitle" } ] },
+          { "Title": "$VasqDemon", "Children": [ { "Image": "gfx/VasqdemonUS.png", "SubTitle": "$VasqDemon_SubTitle" } ] }
+        ]
+      }
+    ]
+  }
+}

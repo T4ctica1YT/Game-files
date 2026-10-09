@@ -1,0 +1,51 @@
+diff --git a/src/gl/enable.c b/src/gl/enable.c
+index 7adec6d..7aeecd5 100644
+--- a/src/gl/enable.c
++++ b/src/gl/enable.c
+@@ -164,6 +164,8 @@ static void proxy_glEnable(GLenum cap, bool enable, void (APIENTRY_GLES *next)(G
+         proxy_GOFPE(GL_SAMPLE_ALPHA_TO_ONE, sample_alpha_to_one, );
+         proxy_GOFPE(GL_POINT_SMOOTH, point_smooth, );
+         proxy_GOFPE(GL_LINE_SMOOTH, line_smooth, );
++        // no polygon antialiasing in GLES: accept and ignore, instead of raising GL_INVALID_ENUM
++        case GL_POLYGON_SMOOTH: break;
+ 
+         proxy_GO(GL_POLYGON_OFFSET_FILL, polyfill_offset);
+ 
+diff --git a/src/gl/hint.c b/src/gl/hint.c
+index 655d54d..1bf7839 100644
+--- a/src/gl/hint.c
++++ b/src/gl/hint.c
+@@ -33,6 +33,8 @@ void APIENTRY_GL4ES gl4es_glHint(GLenum pname, GLenum mode) {
+                 return;
+             gles_glHint(pname, mode);
+             break;
++        case 0x0C53:   // GL_POLYGON_SMOOTH_HINT, no GLES equivalent
++            return;
+         case GL_POINT_SMOOTH_HINT:
+             if(hardext.esversion>1)
+                 return;
+diff --git a/src/glx/hardext.c b/src/glx/hardext.c
+index c89a123..1c97030 100644
+--- a/src/glx/hardext.c
++++ b/src/glx/hardext.c
+@@ -275,6 +275,20 @@ void GetHardwareExtensions(int notest)
+     if(strstr(Exts, "GL_APPLE_texture_2D_limited_npot ")) hardext.npot = 1;
+     if(strstr(Exts, "GL_IMG_texture_npot ")) hardext.npot = 1; // it should enable mipmap (so hardext.npot=2), but mipmap (so level > 0) needs to be POT-sized?!!
+     if(strstr(Exts, "GL_ARB_texture_non_power_of_two ") || strstr(Exts, "GL_OES_texture_npot ")) hardext.npot = 3;
++#ifdef __EMSCRIPTEN__
++    // WebGL 2 makes these GLES2 extensions core, so they are not listed in GL_EXTENSIONS.
++    {
++        const char *ver = (const char *) gles_glGetString(GL_VERSION);
++        if (ver && strstr(ver, "WebGL 2")) {
++            hardext.npot = 3;
++            hardext.elementuint = 1;
++            hardext.depthtex = 1;
++            hardext.depth24 = 1;
++            hardext.rgba8 = 1;
++            hardext.blendminmax = 1;
++        }
++    }
++#endif
+     if(hardext.npot>0) {
+         SHUT_LOGD("Hardware %s NPOT detected and used\n", hardext.npot==3?"Full":(hardext.npot==2?"Limited+Mipmap":"Limited"));
+     }

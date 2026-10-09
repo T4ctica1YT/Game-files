@@ -1,0 +1,14 @@
+{
+  "Menus": {
+    "Children": [
+      { "Title": "$Introduction", "Children": [ { "Image": "gfx/Introduction.png", "SubTitle": "$Introduction_Subtitle" } ] },
+      { "Title": "$Historia", "Children": [ { "Image": "gfx/History.png", "SubTitle": "$Historia_Subtitle" } ] },
+      { "Title": "$Controles", "Children": [ { "Image": "gfx/Controls.png", "SubTitle": "$Controles_Subtitle" } ] },
+      { "Title": "$weapons", "Children": [ { "Image": "gfx/weapons.png", "SubTitle": "$Weapons_Subtitle" } ] },
+      { "Title": "$Keys", "Children": [ { "Image": "gfx/Keys.png", "SubTitle": "$Keys_Subtitle" } ] },
+      { "Title": "$HealthAmmoProtections", "Children": [ { "Image": "gfx/Protection.png", "SubTitle": "$HealthAmmoProtections_Subtitle" } ] },
+      { "Title": "$MultiplayerExplanation", "Children": [ { "Image": "gfx/Multiplayer.png", "SubTitle": "$Multiplayer_Subtitle" } ] },
+      { "Title": "$Criadores", "Children": [ { "Image": "gfx/Creators.png", "SubTitle": "$Criadores_Subtitle" } ] },
+    ]
+  }
+}

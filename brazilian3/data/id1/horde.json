@@ -1,0 +1,124 @@
+[
+  {
+    "name": "horda_favela",
+    "data": "THERE'S CRAZY POSSESSED FELLAS IN SALGUEIRA GET THEM"
+  },
+  {
+    "name": "horda_pedro",
+    "data": "THERE'S POSSESSED IN THE TIRADENTES PLAZA"
+  },
+  {
+    "name": "horda_chavinha",
+    "data": "THERE'S MORE PORTALS IN THE VILLA SAVE THEM"
+  },
+  {
+    "name": "horda_cheirado",
+    "data": "ESCAPE THE FLOATING FAVELA AND FOOTBALL CAMP"
+  },
+  {
+    "name": "horda_dj",
+    "data": "SAVE DJALMA AND SEXCORP IN FURACAO 3000"
+  },
+  {
+    "name": "horda_cristoeagua",
+    "data": "PROTECT CHRIST REDEEMER"
+  },
+  {
+    "name": "horda_museuSP",
+    "data": "save the SAO PAULO MUSEUM"
+  },
+  {
+    "name": "horda_ShoppingGoncalo",
+    "data": "SAVE SANTA CLAUS IN THE SAO GONCALO SHOPPING"
+  },
+  {
+    "name": "horda_carnavaldecrack",
+    "data": "SAVE SANTA CLAUS IN THE SAO GONCALO SHOPPING"
+  },
+  {
+    "name": "horda_CAKESETUP",
+    "data": "ESCAPE FROM ZTUPIDCAKE SETUP"
+  },
+  {
+    "name": "horda_TremEGaveaFlutuantGiant",
+    "data": "FIGHT POSSESSEDS WITH FUNI RACOON ON GAVEA"
+  },
+  {
+    "name": "horda_kaijuRio",
+    "data": "GET IN A KAIJU FIGHT IN RIO"
+  },
+
+  {
+    "name": "Horda_RodoSG",
+    "data": "GET TO THE RODO PORTAL!"
+  },
+  {
+    "name": "horda_CorredorDosArcosJB",
+    "data": "GET TO THE JARDIM BOTANICO PORTAL!"
+  },
+  {
+    "name": "horda_ALCANTARATerminal",
+    "data": "EXPLORE THE ALCANTARA!"
+  },
+  {
+    "name": "horda_museudoscaes",
+    "data": "SEE CUTE DOGS"
+  },
+
+  {
+    "name": "horda_Sambodromo",
+    "data": "GET TO THE BADLY HIDDEN PORTAL IN ONE OF THE AREAS TO PROCEED!"
+  },
+  {
+    "name": "horda_portais",
+    "data": "GET TO THE BADLY HIDDEN PORTAL IN ONE OF THE AREAS TO PROCEED!"
+  },
+  {
+    "name": "horda_maraca",
+    "data": "SAVE MAMADAS IN THE MARACA STADIUM"
+  },
+  {
+    "name": "horda_portugal",
+    "data": "EPILOGUE:SAVE PORTUGAL IN A SIDE MISSION"
+  },
+  {
+    "name": "horda_brasil",
+    "data": "SIDE MISSION:WEIRD STUFF"
+  },
+  {
+    "name": "horda_festajunina",
+    "data": "SIDE MISSION:JUNE PARTY!"
+  },
+  {
+    "name": "horda_morumbet",
+    "data": "SIDE MISSION:WEIRD STUFF HAPPENING IN THE MORUMBET STADIUM"
+  },
+  {
+    "name": "horda_HexaAlgumDia",
+    "data": "SIDE MISSION:Mourn Brasil being eliminated from the world cup, roam around hoping for 2030"
+  },
+  {
+    "name": "horda_julina",
+    "data": "SIDE MISSION:Go to a July party to relax a bit after Brasil going out of the World Cup."
+  },
+  {
+    "name": "horda_curitiba",
+    "data": "SIDE MISSION:Go to a Jardim Botanico in Curitiba"
+  },
+  {
+    "name": "horda_restauranteDonaPamonha",
+    "data": "SIDE MISSION:Go to a Dona Pamonha's restaurant"
+  },
+  {
+    "name": "horda_showmitaia_1",
+    "data": "SIDE MISSION:Go to the Mit Aia Concert!"
+  },
+  {
+    "name": "horda_ShowdoMenorMeleka",
+    "data": "SIDE MISSION:Go to the MenorMeleka Concert!"
+  },
+  {
+    "name": "horda_iguacu",
+    "data": "SIDE MISSION:Take a trip to Cataratas do Iguacu!!!"
+  },
+]

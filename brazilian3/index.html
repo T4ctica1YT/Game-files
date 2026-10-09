@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BRAZILIAN DRUG DEALER 3: I OPENED A PORTAL TO HELL IN THE FAVELA TRYING TO REVIVE MIT AIA I NEED TO CLOSE IT</title>
+<link rel="icon" href="icon.png">
+<style>
+  :root {
+    --bg: #000;
+    --text: #f2efe6;
+    --muted: #a19d92;
+    --accent: #f2c230;
+    --danger: #ff6b5e;
+    --track: #2a2a30;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; height: 100%; background: var(--bg); color: var(--text); overflow: hidden;
+    font: 15px/1.45 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  /* SDL reads the canvas CSS size on resize, so CSS owns the canvas dimensions. */
+  #canvas { position: fixed; inset: 0; width: 100vw; height: 100vh; display: block; outline: none;
+    background: #000; image-rendering: auto; }
+
+  /* Bare loader: just text and a progress bar. */
+  #overlay { position: fixed; inset: 0; display: flex; flex-direction: column; align-items: center;
+    justify-content: center; gap: 14px; padding: 24px; background: var(--bg); text-align: center; }
+  #overlay[hidden] { display: none; }
+  h1 { margin: 0; max-width: 720px; font-size: 16px; font-weight: 700; letter-spacing: .5px; }
+  .bar { width: min(520px, 100%); height: 6px; background: var(--track); }
+  .bar > div { height: 100%; width: 0; background: var(--accent); transition: width .15s linear; }
+  #status { color: var(--muted); font-size: 13px; min-height: 1.4em; font-variant-numeric: tabular-nums; }
+  /* The only interactive bit: a click is required to start audio and capture the mouse. */
+  #play { font: inherit; background: none; border: 0; padding: 0; color: var(--text); cursor: pointer;
+    text-decoration: underline; }
+  #play:disabled { display: none; }
+  #play:focus-visible { outline: 2px solid #fff; outline-offset: 4px; }
+  #error { display: none; width: min(520px, 100%); color: var(--danger); text-align: left;
+    font: 12px/1.5 ui-monospace, Consolas, monospace; white-space: pre-wrap; max-height: 40vh; overflow: auto; }
+
+  #toast { position: fixed; left: 50%; bottom: 24px; transform: translateX(-50%); padding: 10px 16px;
+    border-radius: 99px; background: rgba(10,10,12,.85); color: var(--text); font-size: 13px;
+    pointer-events: none; opacity: 0; transition: opacity .2s; font-variant-numeric: tabular-nums; }
+  #toast.show { opacity: 1; }
+  .chip { position: fixed; top: 12px; right: 12px; background: rgba(10,10,12,.6); color: var(--text);
+    border: 0; border-radius: 10px; padding: 8px 12px; font: inherit; font-size: 12px; font-weight: 600;
+    cursor: pointer; opacity: 0; transition: opacity .2s; }
+  .chip:focus-visible { outline: 3px solid #fff; outline-offset: 2px; }
+  body.running:hover .chip { opacity: .8; }
+</style>
+</head>
+<body>
+<canvas id="canvas" tabindex="-1"></canvas>
+
+<div id="overlay">
+  <h1>BRAZILIAN DRUG DEALER 3: I OPENED A PORTAL TO HELL IN THE FAVELA TRYING TO REVIVE MIT AIA I NEED TO CLOSE IT</h1>
+  <div class="bar" role="progressbar" aria-label="Download progress"><div id="fill"></div></div>
+  <div id="status">Starting…</div>
+  <button id="play" disabled>Click to play</button>
+  <div id="error" role="alert"></div>
+</div>
+<div id="toast" aria-live="polite"></div>
+<button class="chip" id="fs" title="Fullscreen">Fullscreen</button>
+
+<script src="qssm.js"></script>
+<script>
+(function () {
+  const $ = id => document.getElementById(id);
+  const canvas = $('canvas'), fill = $('fill'), status = $('status'), play = $('play');
+  const errBox = $('error'), toast = $('toast'), overlay = $('overlay');
+  const mb = n => (n / 1048576).toFixed(n < 10485760 ? 1 : 0) + ' MB';
+  const log = [];
+
+  function fail(msg) {
+    overlay.hidden = false;
+    document.body.classList.remove('running');
+    play.disabled = true;
+    errBox.style.display = 'block';
+    errBox.textContent = msg + (log.length ? '\n\n' + log.slice(-12).join('\n') : '');
+  }
+
+  let lazyName = '', lazyGot = 0, toastTimer = 0;
+  function showToast(text) {
+    clearTimeout(toastTimer);
+    toast.textContent = text;
+    toast.classList.add('show');
+  }
+  function hideToast() { toastTimer = setTimeout(() => toast.classList.remove('show'), 400); }
+
+  const moduleArgs = {
+    canvas,
+    print: t => { console.log(t); },
+    printErr: t => { console.warn(t); log.push(t); if (log.length > 200) log.shift(); },
+    onProgress(done, total) {
+      const pct = total ? 100 * done / total : 0;
+      fill.style.width = pct.toFixed(1) + '%';
+      status.textContent = Math.floor(pct) + '%  (' + mb(done) + ' / ' + mb(total) + ')';
+    },
+    onLazyStart(path) { lazyName = path.split('/').pop(); lazyGot = 0; showToast('Loading ' + lazyName + '…'); },
+    onLazyProgress(n) { lazyGot += n; showToast('Loading ' + lazyName + ' · ' + mb(lazyGot)); },
+    onLazyEnd() { hideToast(); },
+    onLazyError(path) { showToast('Could not download ' + path); },
+    onAchievement(name) {
+      let got = [];
+      try { got = JSON.parse(localStorage.getItem('aviaozin3-achievements') || '[]'); } catch (e) {}
+      if (got.includes(name)) return;
+      got.push(name);
+      try { localStorage.setItem('aviaozin3-achievements', JSON.stringify(got)); } catch (e) {}
+      const pretty = name.replace(/^ACH(IEVEMENT)?_/i, '').replace(/_/g, ' ').toLowerCase().replace(/\b\w/g, c => c.toUpperCase());
+      showToast('🏆 Achievement unlocked: ' + pretty);
+      setTimeout(hideToast, 4000);
+    },
+    onFatal: fail,
+    onAbort: what => fail('The engine stopped: ' + what),
+    onExit: code => {
+      Module.webSyncPersist && Module.webSyncPersist();
+      if (code) fail('The engine exited with an error (code ' + code + ').');
+      else { overlay.hidden = false; play.disabled = true; status.textContent = 'Game closed. Reload the page to play again.';
+             document.body.classList.remove('running'); }
+    },
+  };
+  let Module;
+
+  window.addEventListener('error', e => { if (e.message && /abort|RuntimeError/i.test(e.message)) fail(e.message); });
+
+  createQuakeModule(moduleArgs).then(m => {
+    Module = m;
+    window.quake = m; // handy from the devtools console: quake.ccall("Web_Command", null, ["string"], ["map start"])
+    fill.style.width = '100%';
+    status.textContent = '100%';
+    play.disabled = false;
+    play.focus();
+  }, e => fail(String(e && e.message || e)));
+
+  play.addEventListener('click', () => {
+    overlay.hidden = true;
+    document.body.classList.add('running');
+    canvas.focus();
+    const w = Math.max(640, innerWidth), h = Math.max(400, innerHeight);
+    const args = ['-basedir', '/game', '-nolan', '-window', '-width', String(w), '-height', String(h)];
+    const extra = new URLSearchParams(location.search).get('args');
+    if (extra) args.push(...extra.split(' ').filter(Boolean));
+    try { Module.callMain(args); }
+    catch (e) { if (e !== 'unwind' && !(e && e.name === 'ExitStatus')) fail(String(e && e.stack || e)); }
+  });
+
+  $('fs').addEventListener('click', () => {
+    (document.fullscreenElement ? document.exitFullscreen() : document.documentElement.requestFullscreen())
+      .catch(() => {});
+    canvas.focus();
+  });
+  canvas.addEventListener('contextmenu', e => e.preventDefault());
+  // Ask before an accidental Ctrl+W / reload throws away unsaved progress.
+  addEventListener('beforeunload', e => {
+    if (document.body.classList.contains('running')) { e.preventDefault(); e.returnValue = ''; }
+  });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,118 @@
+[
+  {
+    "name": "1MAPA1.bsp",
+    "data": "$Mapa1"
+  },
+  {
+    "name": "2MAPA2.bsp",
+    "data": "$Mapa2"
+  },
+  {
+    "name": "3MapaTreze.bsp",
+    "data": "$Mapa3"
+  },
+  {
+    "name": "4CARRETA.bsp",
+    "data": "$Mapa4"
+  },
+  {
+    "name": "5Salga.bsp",
+    "data": "$Mapa5"
+  },
+  {
+    "name": "6Chavinha19.bsp",
+    "data": "$Mapa6"
+  },
+  {
+    "name": "7pierniteroi.bsp",
+    "data": "$Mapa7"
+  },
+  {
+    "name": "8praca16.bsp",
+    "data": "$Mapa8"
+  },
+  {
+    "name": "9aniversarioguanaSAOGONCALO.bsp",
+    "data": "$Mapa9"
+  },
+  {
+    "name": "10surfamazonia.bsp",
+    "data": "$Mapa10"
+  },
+  {
+    "name": "11zegaroto.bsp",
+    "data": "$Mapa11"
+  },
+  {
+    "name": "12RODOPRACAMARISACAMELO.bsp",
+    "data": "$Mapa12"
+  },
+  {
+    "name": "13partaginrocket.bsp",
+    "data": "$Mapa13"
+  },
+  {
+    "name": "14myhouse.bsp",
+    "data": "$Mapa14"
+  },
+  {
+    "name": "15jiboyaskate.bsp",
+    "data": "$Mapa15"
+  },
+  {
+    "name": "16ALCANTARARUADAFEIRA.bsp",
+    "data": "$Mapa16"
+  },
+  {
+    "name": "17GLOBE.bsp",
+    "data": "$Mapa17"
+  },
+  {
+    "name": "18niteroi.bsp",
+    "data": "$Mapa18"
+  },
+  {
+    "name": "19varginhao.bsp",
+    "data": "$Mapa19"
+  },
+  {
+    "name": "20cristopaodeacucar.bsp",
+    "data": "$Mapa20"
+  },
+  {
+    "name": "21cristopaodeacucar2.bsp",
+    "data": "$Mapa21"
+  },
+  {
+    "name": "22EDINHO.bsp",
+    "data": "$Mapa22"
+  },
+  {
+    "name": "23copaloco.bsp",
+    "data": "$Mapa23"
+  },
+  {
+    "name": "24Sambodromo.bsp",
+    "data": "$Mapa24"
+  },
+  {
+    "name": "25metrorio.bsp",
+    "data": "$Mapa25"
+  },
+  {
+    "name": "26AMANHA.bsp",
+    "data": "$Mapa26"
+  },
+  {
+    "name": "27ULTIMAFASE.bsp",
+    "data": "$Mapa27"
+  },
+  {
+    "name": "28FINAL.bsp",
+    "data": "$Mapa28"
+  },
+  {
+    "name": "29FINALEPILOGUE.bsp",
+    "data": "$Mapa29"
+  }
+]

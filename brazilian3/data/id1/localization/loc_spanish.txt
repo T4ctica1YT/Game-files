@@ -1,0 +1,4026 @@
+menu_gun_auto_aim_indented = "           AUTOAIM"
+
+
+influenci = "hey influencer!! creador aqui \n secuestre tu familia \n si no haces videos \n meto tu familia \n en microondas favela \n estan avisados \n firma : la banda"
+
+menu_autoaim = "AUTOAIM? USA CON CONTROL."
+
+lower = "Mata enemigos abajo abrir"
+
+endramp = "al final de la rampa \n pulsa salto 2 veces \n para doble salto \n usa dash tambien!"
+
+doublejump = "doble salto o dash \n en rampa hacia arriba"
+
+menu_autoaim = "AUTOAIM? USA CON CONTROL."
+
+
+Mapa1 = "  Mapa 1 SALGUEIRO y CIELO"
+
+Mapa2 = "  Mapa 2 Calle Salgueiro \n tu casa con los bros"
+
+Mapa3 = "  Mapa 3 Club Mama \n alma del Funk"
+
+Mapa4 = "  Mapa 4 Torre Ruke \n Copacabana salva bros"
+
+Mapa5 = "  Mapa 5 Mini Maracana \n pequeno Maracana"
+
+Mapa6 = "  Mapa 6 Lapa \n musica y locura"
+
+
+qc_newmoves= "en pre 4 tienes dash \n fuegos en el trasero \n pulsa shift al saltar \n cruza grandes huecos"
+
+qc_doublejump ="puedes doble salto \n porque eres brasileno \n PC espacio 2 veces \n PS X Xbox A \n dash sobre enemigos"
+
+qc_quicksave = "pulsa quicksave \n F2 guardar F3 cargar \n F6 quicksave \n F9 quickload"
+
+
+menu_search_for_steam_games = "BUSCAR JUEGOS DE STEAM"
+
+
+
+no = "no"
+
+
+yes = "yes"
+
+menu_steam_server = "STEAM"
+
+menu_languages = "IDIOMAS"
+
+
+msg_are_you_sure_loadquick ="¿Estás seguro? \n presiona y=sí/n=no \n o el botón de confirmación en el controlador"
+
+msg_are_you_sure_autoload ="¿Estás seguro? \n presiona y=sí/n=no \n o el botón de confirmación en el controlador"
+
+Introduction = "Introducción"
+
+Introduction_Subtitle = "¡Juega BRAZILIAN \n DRUG DEALER 3! Abrí \n un portal al infierno \n en la favela para \n revivir a Mit Aia. \n ¿Debo cerrarlo? \n Revisa las secciones. \n Presiona ESC o \n B(Xbox)/O(PS)/A(Nintendo) \n para salir y ver otras."
+
+Historia = "historia"
+
+Historia_Subtitle = "¡Eres Aviãozinho do \n Trafico DA SILVA, \n un narco brasileño! \n Fan de Mit Aia, \n intentaste revivirlo \n con un ritual satánico, \n pero abriste un portal \n al infierno! ¡Arregla el lío!"
+
+Controles = "controles"
+
+Controles_Subtitle = "Muévete con WASD o \n stick izquierdo. Usa \n ratón o stick derecho \n para cámara. Dispara \n con botón izquierdo o \n gatillo derecho. Salta \n con espacio o A(Xbox), \n X(PS), B(Nintendo). \n Abre puertas acercándote, \n estilo Quake!"
+
+weapons = "Armas"
+
+Weapons_Subtitle = "Con varias armas, usa \n teclas 1-8 o botones \n de hombro para cambiar. \n Para armas especiales, \n presiona 4-8 dos veces."
+
+Keys = "Llaves"
+
+Keys_Subtitle = "La mayoría de niveles \n tienen llaves para \n abrir PUERTAS. \n Búscalas en los niveles! \n Son plateadas y doradas."
+
+HealthAmmoProtections = "Salud, Munición, Objetos"
+
+HealthAmmoProtections_Subtitle = "Come pastel con caldo \n de caña para restaurar \n salud. Encuentra tamaños \n variados en mapas para \n más vida! (vida = salud). \n Munición, armas, power-ups \n dispersos; úsalos para \n aprender sus efectos."
+
+MultiplayerExplanation = "Multijugador"
+
+Multiplayer_Subtitle = "¡Juega local u online \n con amigos! Coop y \n Deathmatch hasta 32 \n jugadores. Abre puerto \n 26000 en router. Usa \n Hamachi o Radmin si \n el reenvío de puerto falla."
+
+Criadores = "Créditos del Equipo"
+
+Criadores_Subtitle = "¡Diviértete! Juego por \n Joeveno/Djalma Joe/ \n Yellowhead Productions. \n Programación: Rick O Max. \n Pruebas: Richard Santos. \n Consultora Creativa: \n Aline Andrade."
+
+
+Mapa1 = "Mapa 1 SALGUEIRO, donde realizaste el ritual"
+Mapa2 = "Mapa 2 CERVEJINHA y SATANISMO, escapa de Salgueiro a través del portal"
+Mapa3 = "Mapa 3 Estadio Maracaná, llega al siguiente portal"
+Mapa4 = "Mapa 4 Carreta, llega al coche de payaso del carnaval y escapa"
+Mapa5 = "Mapa 5 Furacao3000, escapa de Salgueiro de una vez por todas"
+Mapa6 = "Mapa 6, La Villa, salva la villa y reúne información para encontrar personas que puedan ayudarte"
+Mapa7 = "Mapa 7, Muelle de Niterói, llega a Praça 16"
+Mapa8 = "Mapa 8, Praça 16, llega al portal de São Paulo y dirígete al BCT para salvar a Sávio"
+Mapa9 = "Mapa 9, Supermercado Chuparaba, llega al portal para ir a la Amazonía y recolectar mejores armas"
+Mapa10 = "Mapa 10, Selva Amazónica, consigue armas poderosas y regresa a São Gonçalo"
+Mapa11 = "Mapa 11, Zé Garoto, tu avión se estrella, regresa a la ruta"
+Mapa12 = "Mapa 12, Plaza Rodo, salva a los vendedores ambulantes y llega al centro comercial"
+Mapa13 = "Mapa 13, Centro comercial, llega a la nave Partagin"
+Mapa14 = "Mapa 14, La casa del creador en el espacio, llega al portal para regresar a la ruta"
+Mapa15 = "Mapa 15, Parque de skate Jiboya, libera a tus amigos en el parque de skate"
+Mapa16 = "Mapa 16, Vendedores ambulantes de Alcântara, ayúdales contra una gran invasión de la mano antipiratería"
+Mapa17 = "Mapa 17, Globo, llega a la estación de televisión para teletransportarte a Niterói y conseguir la nave alienígena"
+Mapa18 = "Mapa 18, Niterói, consigue la nave alienígena"
+Mapa19 = "Mapa 19, Varginha, estrellaste la nave, pero llegaste a la casa de tus amigos alienígenas, libéralos y descubre a dónde debes ir"
+Mapa20 = "Mapa 20, Cristo Redentor fusionado con Pan de Azúcar, llega al Cristo Redentor para volverte gigante y salvar a Edinho"
+Mapa21 = "Mapa 21, Salva a Edinho en una batalla de Kaiju en Río"
+Mapa22 = "Mapa 22, Casa de Edinho, descubre cómo salvar a Mit Aia y a Río"
+Mapa23 = "Mapa 23, Copacabana loca, salva a los Mamadas, consigue las llaves de su coche Globeceta para ir al Sambódromo"
+Mapa24 = "Mapa 24, Sambódromo, estrellaste tu coche, sal de ahí y ve al metro para llegar al Museo del Mañana"
+Mapa25 = "Mapa 25, El metro, toma el tren para llegar al Museo del Mañana, que tiene una estructura de nivel inspirada en un juego de un tipo llamado Max"
+Mapa26 = "Mapa 26, Museo del Mañana, donde está el portal principal al infierno. Entra para derrotar a Vasq Demon y destruir el portal que alimenta todos los demás portales"
+Mapa27 = "Mapa 27, Enfrentamiento final contra Vasq Demon. Derrótalo para salvar a Mit Aia, destruye el portal principal junto con él y termina con la invasión"
+Mapa28 = "Mapa 28, Descubre la verdad"
+Mapa29 = "Mapa 29, Epílogo, fiesta en el coliseo celestial con Mit Aia, Mackie Jackie y los Mamadas, ¡habéis ganado!"
+menu_levels = "TODOS LOS NIVELES"
+menu_campaign = "CAMPAÑA"
+menu_allmods = "MODS NORMALES/MODS DE TALLER"
+msg_installing_mod = "Instalando"
+menu_workshop = "WORKSHOP"
+mod_authoranddate = "Por %s %s" 
+
+msg_activate_mod = "¿Deseas activar este mod? (S = sí, N = no)"
+msg_error_mod = "Hubo un error al instalar el mod seleccionado"
+menu_workshopmods = "mods del taller"
+workshop_activate = "activar"
+menu_workshopmods = "workshop mods"
+GuaranaGolly = "guaraná golly"
+GuaranaGolly_SubTitle = "¡La botella PET que lanza \n el sabor de Brasil!"
+ArmaDeGel = "Pistola de Gel"
+ArmaDeGel_SubTitle = "un arma que dispara bolas de gel. \n ¡Muy popular entre los niños! \n ¡Cuidado con los ojos!"
+Chinelo = "sandalia/LA CHANCLA"
+AntiPiracyHand = "mano antipiratería"
+AntiPiracyHand_SubTitle = "una figura inútil que destruye \n el trabajo de los vendedores callejeros \n inocentes e impide que compren \n comida para sus hijos."
+Jumenta = "burra voladora"
+Jumenta_SubTitle = "¡un burro volador inspirado en un cómic \n brasileño con una chica de grandes dientes!"
+Flapolin = "flapolin"
+Flapolin_SubTitle = "flapolin, un clon del flapolin escaralhado: \n un presentador de comedia que ama \n al flaflamenco. \n Son zombis clonados de su apariencia. \n Otra trampa diabólica de vasq \n para quemar la imagen del flaflamenco."
+RonaldoMcDalest = "Ronaldo MCDalest"
+Caze = "Caze"
+
+
+qc_keyzona="get the key and enter here"
+qc_motoboy="please cria help us the motoboys \n to liberate alcantara from \n the anti piracy hands \n that are patrolling this area!"
+qc_killall="killall piracy hands to open portal \n and save alcantara!"
+
+menu_gameover = "FIN DEL JUEGO"
+menu_quickload = "CARGA RÁPIDA"
+menu_standardload = "CARGA NORMAL"
+menu_restart = "REINICIAR"
+menu_controller = "               CONTROL"
+menu_controller_title = "TÍTULO"
+menu_controller_deadzone_look = "ZONA MUERTA VISTA"
+menu_controller_deadzone_move = "ZONA MUERTA MOVIMIENTO"
+menu_controller_outer_threshold_look = "UMBRAL DE VISTA"
+menu_controller_outer_threshold_move = "UMBRAL DE MOVIMIENTO"
+menu_controller_deadzone_trigger = "ZONA MUERTA GATILLO"
+menu_controller_sensitivity_yaw = "SENS. HORIZONTAL"
+menu_controller_sensitivity_pitch = "SENS. VERTICAL"
+menu_controller_exponent = "EXPONENTE"
+menu_controller_exponent_move = "EXP. MOVIMIENTO"
+menu_controller_invert = "INVERTIR"
+menu_controller_swapmovelook = "INTERCAMBIAR"
+menu_controller_enable = "ACTIVAR"
+menu_load_quicksave = "CARGAR QUICKSAVE"
+msg_are_you_sure_loadquick = "¿estás seguro?"
+msg_are_you_sure_autoload = "¿estás seguro?"
+
+
+Caze_SubTitle = "Cazé es el presentador de \nPraça é Foda, un programa \nbrasileño. Es tomado como \nrehén por los secuaces de \nVasq Demon. Tras ser \nrescatado por Da Silva, \nrevela info clave para \nencontrar a Savio."
+
+DaSilva_SubTitle = "Da Silva, narcotraficante de \nSalgueiro, intenta revivir a \nsu ídolo Mit Aia con un \nritual, pero provoca \nposesión masiva en los fans \nde Flaflamenco. Ahora debe \ncombatir fuerzas demoníacas \ny deshacer el caos."
+
+Joeveno_SubTitle = "Joeveno, un YouTuber \nbrasileño, también es el \ncreador del juego. Aparece \nal final, en la Llave de Oro, \nagradeciendo a los jugadores. \nSu presencia conecta el mundo \nficticio con el real, creando \nuna experiencia meta única."
+
+Keyes_SubTitle = "Keyes es un niño pequeño que \nvive en un barril cerca de \nSalgueiro. Sobrevive al caos \ny ayuda a Da Silva con humor \ny valentía."
+
+MackieJackie_SubTitle = "Mackie Jackie es un cantante \ninternacional famoso, admirado \npor Da Silva. Su fuerte \nadmiración lo trajo de vuelta \ninvoluntariamente durante el \nritual de Mit Aia. Ahora lucha \ncontra la invasión demoníaca."
+
+MamadasAssassinas_SubTitle = "Mamadas Assassinas es una \nbanda brasileña traída de \nvuelta por el ritual fallido \nde Da Silva. Su regreso ayuda \na combatir a los demonios, con \nsu música alimentando la \nbatalla."
+
+RonaldoMcDalest_SubTitle = "Ronaldo McDalest es un villano \nque trabaja con Vasq Demon. \nDirige McDalest, cadena de \ncomida rápida que vende carne \nde perro. Tras la invasión, es \nla única que queda, lucrando \ncon el caos."
+
+MitAia_SubTitle = "Mit Aia fue un cantante \nbrasileño famoso de los 70. \nTras su muerte en 1997, Da \nSilva intentó revivirlo, pero \ndesató una posesión demoníaca \npor toda la ciudad."
+
+MrMorning_SubTitle = "Señor Manhães es vecino del \npueblo y amigo de Da Silva. \nTambién cercano a Savio \nSants, dueño del canal BCT, \nque fue capturado por \ndemonios. Con cara de perro y \nmucha sabiduría, guía a Da \nSilva."
+
+SavioSants_SubTitle = "Savio Sants es el dueño del \ncanal BCT, clave en la \nhistoria. Capturado por las \nfuerzas demoníacas, depende de \nDa Silva rescatarlo."
+
+Sento_SubTitle = "Sento es un chico del pueblo \nque escapó por poco de ser \nasesinado por los demonios."
+
+TrintaEDoze_SubTitle = "Inspirada en la escopeta \ncasera brasileña Trinta e \nDoze (calibre 12). Con \naspecto oxidado, encaja \nperfecto en el juego. Es \nuna escopeta de bombeo, \neficaz a corta distancia."
+
+DoubleGoldenShotgun_SubTitle = "La Escopeta Doble Dorada es \nlujosa y exagerada, refleja \nel brillo del mundo \nsubterráneo. Pintada en oro, \nes símbolo de riqueza y \nestatus."
+
+DoubleGoldenGlocks_SubTitle = "Las Dobles Glocks Doradas \nson pistolas rápidas con \nplacado dorado y bandera de \nBrasil. Se recargan rápido y \nson precisas, perfectas para \nel combate cercano."
+
+Mac1047_SubTitle = "La MAC 10 47 es un arma \nautomática que lanza ráfagas \nde balas. Inspirada en el AK \n47, con nombre en broma. \nTambién pintada en dorado."
+
+BrokenRocketLauncher_SubTitle = "Parece rota, pero es un \nlanzacohetes adaptado para \ndisparar granadas. Única y \nideal contra grupos de \nenemigos."
+
+Berimbau_SubTitle = "El Berimbau es un \ninstrumento brasileño, pero \naquí dispara cocos \nexplosivos. Lanza cinco a la \nvez, perfecto para destruir \nzonas amplias."
+
+Flazooka_SubTitle = "El Flazooka es un \nlanzacohetes con los colores \ndel club Flaflamenco."
+
+TchauPayphone_SubTitle = "Inspirado en el ‘orelhão’ \n(brasileño), el Tchau \nPayphone dispara cocos \nverdes explosivos."
+
+FabSnake_SubTitle = "El FAB Snake viene del \nsímbolo de la Fuerza Aérea \nBrasileña, una serpiente \nfumando. Aquí es una \nserpiente eléctrica que \nelectrocuta enemigos."
+
+AviaozinhoDoSavio_SubTitle = "El Avioncito de Savio está \ninspirado en un presentador \nque lanzaba avioncitos a la \naudiencia. Aquí dispara \naviones eléctricos que se \nconectan para dañar varios \nenemigos."
+
+Chinelo_SubTitle = "¡Es una chancla! De madera, \nasí que duele bastante."
+
+GuaranaGolly_Subtitle = "Guaraná Golly es una botella \nde refresco que dispara el \n‘sabor brasileño’."
+
+ArmaDeGel_Subtitle = "La famosa pistola de gel con \nla que juegan los niños en \nBrasil. Úsala para disparar a \nlos enemigos y hacerlos \nsufrir, como en la vida real, \njaja."
+
+Traficante_SubTitle = "El enemigo más básico, \naparece en casi todos los \nniveles. Los traficantes \nllevan la TRINTA E DOZE y \nestán poseídos por las \nfuerzas demoníacas. Visten \ncamiseta de Flaflamenco y \nusan pasamontañas."
+
+Fofin_SubTitle = "Los Fofins son enemigos de \nsegundo nivel. Payasos de \nla calle de Carreta Furinga, \nposeídos y armados con MAC \n10 47. Su diseño recuerda a \nlos payasos populares de la \nTV brasileña, añadiendo humor \ny cultura."
+
+Torcedor_SubTitle = "Aficionados al fútbol \nposeídos durante el ritual \nde Mit Aia. Visten camiseta \nde Flaflamenco y atacan en \nmelee. Representan la pasión \ny el fanatismo del fútbol \nbrasileño."
+
+TorcedorCheiradorPedalaRobin_SubTitle = "Versión mejorada del \nTorcedor, drogada. Más \nfuerte, ataca con balones de \ncarne y hace bicicletas \n(Pedala Robin). Solo armas \npesadas como lanzacohetes \npueden derrotarlo."
+
+LoroJosias_SubTitle = "Un loro poseído que escupe \nlava. Versión oscura de un \npersonaje de TV matinal. \nSus ataques de fuego son muy \npeligrosos."
+
+BrickOgre_SubTitle = "El Ogro de Bloques es un \ngigante formado por juguetes \nque se unieron tras el \nritual. Viste camiseta de \nFlaflamenco y ataca con los \nbloques. Basado en el mod \nBlock Quake."
+
+SerieB_SubTitle = "El Fantasma de la Serie B es \nuna burla al club Vasq, \nfrecuentemente relegado. Con \ncapa y espada espectral, \nrepresenta al eterno perdedor."
+
+FlaflamencoDemon_SubTitle = "Mini-jefe, el Demonio \nFlaflamenco ataca con \nespadas cargadas de energía \ny lleva camiseta del club. \nEncarnación de la torcida \ncorrupta y demoníaca."
+
+PossessedSaciPerere_SubTitle = "El legendario Saci-Pererê \nha sido poseído. Dividido en \ntres versiones, el jugador \ndebe vencerlas para obtener \nla llave y escapar a São \nGonçalo."
+
+PossessedEdinho_SubTitle = "Edinho, sobrino de Mit Aia, \ntambién poseído. Se vuelve \ngigante y se divide en cinco \nclones, pero solo uno es real. \nEl jugador debe hallar al \nverdadero para liberarlo."
+
+VasqDemon_SubTitle = "Jefe final, Vasq Demon es el \nresponsable de la posesión de \nlos fans de Flaflamenco. Tras \nun ritual fallido, expandió el \ncaos y se beneficia de las \napuestas amañadas."
+
+CarameloDog_SubTitle = "El Perro Caramelo, \ninspirado en el callejero \nbrasileño, fue poseído. \nDesfigurado, se vuelve un \nenemigo feroz, añadiendo \nun ambiente siniestro."
+
+PossessedCapibara_SubTitle = "Uno de los más poderosos. La \ncapibara poseída creció \ngigante. Con garras y dientes \ncolosales, arrasa con todo lo \nque se cruza."
+
+Alien_SubTitle = "Los aliens del caso Varginha \nviven ocultos desde 1996. \nLiberados por Da Silva, \nayudan junto a Ronaldo, \nguiando hacia Edinho, clave \npara frenar la posesión."
+
+PorcoDaMeteESenta_SubTitle = "Porco da Mete e Senta es un \ncerdo que trabaja en BCT. \nAyuda a Da Silva abriendo un \nportal a São Paulo para \nsalvar a Savio. Aliado \ninesperado y crucial."
+
+menu_horde = "HORDA V1 (MÁS POR VENIR)"
+button_press = "Pulsa la tecla \"usar\" \npara activar"
+Knife = "chancla-cuchillo"
+qc_fadinha = "saludos al hada y al \npibe del skatepark"
+
+Inimigos = "Enemigos"
+Personagens = "Personajes"
+Armas = "Armas"
+InimigosPossuidos = "Enemigos Poseídos"
+AnimaisPossuidos = "Animales Poseídos"
+InimigosSobrenaturais = "Enemigos Sobrenaturales"
+Chefes = "Jefes"
+menu_back = "VOLVER"
+
+TrintaEDoze = "TRINTA E DOZE"
+DoubleGoldenShotgun = "Escopeta Doble Dorada"
+DoubleGoldenGlocks = "Dobles Glocks Doradas"
+Mac1047 = "Mac 10 47"
+BrokenRocketLauncher = "Lanzacohetes Roto"
+Berimbau = "Berimbau"
+Flazooka = "Flazooka"
+TchauPayphone = "Tchau Teléfono"
+FabSnake = "FabSnake"
+Traficante = "Traficante"
+Fofin = "Fofin"
+Torcedor = "Hincha"
+TorcedorCheiradorPedalaRobin = "Hincha Drogado Pedala Robin"
+PossessedCapibara = "Capibara Poseída"
+CarameloDog = "Perro Caramelo"
+LoroJosias = "Loro Josias"
+BrickOgre = "Ogro de Bloques"
+SerieB = "Fantasma de la Serie B"
+FlaflamencoDemon = "Demonio Flaflamenco"
+PossessedEdinho = "Edinho Poseído"
+PossessedSaciPerere = "Saci-Pererê Poseído"
+VasqDemon = "Vasq Demon"
+caze = "Cazé"
+DaSilva = "Da Silva"
+Joeveno = "Joeveno"
+Keyes = "Keyes"
+MackieJackie = "Mackie Jackie"
+MamadasAssassinas = "Mamadas Assassinas"
+RonaldoMcdalest = "Ronaldo McDalest"
+MitAia = "Mit AIA"
+MrMorning = "Sr. Manhães"
+SavioSants = "Savio Sants"
+Sento = "Sento"
+AviaozinhoDoSavio = "Avioncito de Savio"
+chinelo = "Chancla"
+guaranagolly = "Guaraná Golly"
+ArmadeGel = "Pistola de Gel"
+Cazé = "Cazé"
+
+
+
+menu_horde = hordev1
+
+button_press = "Press the \"use\" key to activate"
+
+
+Guaranagolly_SubTitle = "une bouteille PET qui tire \n le goût brésilien !"
+ArmaDeGel_SubTitle = "une arme qui tire des boules de gel. \n Très populaire auprès des enfants ! \n Attention aux yeux !" 
+Chinelo = "tong/LA CHANCLA"
+AntiPiracyHand = "main anti-piratage"
+AntiPiracyHand_SubTitle = "une figurine inutile qui détruit \n le travail d'innocents vendeurs de rue et les empêche \n de nourrir leurs enfants."
+jumenta = "âne volant"
+jumenta_subtitle = "un âne volant inspiré d'un \n âne d'une BD brésilienne d'une fille aux grands \n dents !"
+flapolin = "flapolin"
+flapolin_subtitle = "flapolin est un clone de flapolin escaralhado : \n un présentateur d'émission de comédie qui adore flaflamenco ! \n Ce sont des zombies clonés de son apparence. \n Un autre tour démoniaque de vasq pour brûler l'image de flaflamenco." 
+RonaldoMcDalest = "Ronaldo MCDalest"
+Caze = "Caze"
+
+menu_lore = "LORE"
+
+Inimigos = "Enemigos"
+Personagens = "Personajes"
+Armas = "Armas"
+InimigosPossuidos = "Enemigos Poseídos"
+AnimaisPossuidos = "Animales Poseídos"
+InimigosSobrenaturais = "Enemigos Sobrenaturales"
+Chefes = "Jefes"
+menu_back = "VOLVER"
+TrintaEDoze = "Treinta y Doce"
+DoubleGoldenShotgun = "Escopeta Doble Dorada"
+DoubleGoldenGlocks = "Glocks Dobles Doradas"
+Mac1047 = "Mac 10 47"
+BrokenRocketLauncher = "Lanzacohetes Roto"
+Berimbau = "Berimbau"
+Flazooka = "Flazooka"
+TchauPayphone = "Adiós Teléfono"
+FabSnake = "FabSnake"
+Traficante = "Traficante"
+Fofin = "Fofin"
+Torcedor = "Aficionado"
+TorcedorCheiradorPedalaRobin = "Aficionado Olfateador"
+PossessedCapibara = "Capibara Poseída"
+CarameloDog = "Perro Caramelo"
+LoroJosias = "Loro Josias"
+BrickOgre = "Ogro de Ladrillo"
+SerieB = "Serie B"
+FlaflamencoDemon = "Demonio Flaflamenco"
+PossessedEdinho = "Edinho Poseído"
+PossessedSaciPerere = "Saci Pererê Poseído"
+VasqDemon = "Demonio Vasqino"
+caze = "Caze"
+DaSilva = "Da Silva"
+Joeveno = "Joeveno"
+Keyes = "Cerradura"
+MackieJackie = "Mackie Jackie"
+MamadasAssassinas = "Mamadas Asesinas"
+RonaldoMcdalest = "Ronaldo Mcdalest"
+MitAia = "Mit AIA"
+MrMorning = "Señor Mañanas"
+SavioSants = "Savio Santoro"
+Sento = "Sento"
+
+TrintaEDozeImage = "gfx/30e12ES.png"
+AlienImage = "gfx/alienES.png"
+AviaozinhoDoSavioImage = "gfx/aviaoES.png"
+BerimbauImage = "gfx/berimbauES.png"
+BrokenRocketLauncherImage = "gfx/brokenrocketlauncherES.png"
+PossessedCapibaraImage = "gfx/capivaraES.png"
+CarameloDogImage = "gfx/carameloES.png"
+CazeImage = "gfx/cazeES.png"
+TorcedorCheiradorPedalaRobinImage = "gfx/cheiradorES.png"
+DaSilvaImage = "gfx/dasilvaES.png"
+EdinhoImage = "gfx/edinhoES.png"
+FabSnakeImage = "gfx/fabsnakeES.png"
+FlaflamencoDemonImage = "gfx/flaDemonES.png"
+FlazookaImage = "gfx/flazookaES.png"
+FofinImage = "gfx/fofinES.png"
+DoubleGoldenGlocksImage = "gfx/goldenglocksES.png"
+DoubleGoldenShotgunImage = "gfx/goldenshotES.png"
+JoevenoImage = "gfx/joevenoES.png"
+KeyesImage = "gfx/keyesES.png"
+LoroJosiasImage = "gfx/loroES.png"
+Mac1047Image = "gfx/mac1047ES.png"
+MackieJackieImage = "gfx/mackieES.png"
+MamadasAssassinasImage = "gfx/mamadasES.png"
+RonaldoMcDalestImage = "gfx/McDalestES.png"
+MitAiaImage = "gfx/mitaiaES.png"
+MrMorningImage = "gfx/mrmorningES.png"
+OgreImage = "gfx/ogreES.png"
+TchauPayphoneImage = "gfx/payphoneES.png"
+PorcoDaMeteESentaImage = "gfx/porcoES.png"
+PossessedSaciPerereImage = "gfx/saciES.png"
+SavioSantsImage = "gfx/savioES.png"
+SentoImage = "gfx/sentoES.png"
+SerieBImage = "gfx/serieBES.png"
+SexcorpAstrophysicsImage = "gfx/sexcorpES.png"
+TorcedorImage = "gfx/torcedorES.png"
+TraficanteImage = "gfx/traficanteES.png"
+VasqDemonImage = "gfx/vasqES.png"
+PossessedEdinhoImage = "gfx/edinhoES.png"
+BrickOgreImage = "gfx/ogreES.png"
+VasqDemonCharacterImage = "gfx/vasqES.png"
+KnifeImage = "gfx/knifeES.png"
+
+
+
+
+qc_destroyed = "tú destruiste"
+
+qc_vasqdemonn = "demonio vasq"
+
+qc_teamfans = "él poseyó a los fans de tu equipo"
+
+qc_vengenance = "por venganza contra ti...\n eran inocentes"
+
+qc_revivemit = "porque reviviste a mit cuando..."
+
+qc_lostto = "el equipo de demonios perdió\n contra tu equipo"
+
+qc_fighten = "otra lucha..."
+
+qc_money = "el dinero vence otra vez..."
+
+qc_emd = "FIN"
+
+
+qc_toygun = "¡Desbloqueaste la pistola de gel de juguete\n y la pistola de gel de guaraná!\n Presiona 4 dos veces\n para usar la pistola de juguete\n y 5 dos veces para usar la de guaraná!\n Necesitas la pistola para el juguete\n y 47 para la guaraná."
+
+qc_berimbau = "¡Felicidades! ¡Encontraste el berimbau\n y el teléfono público tchau con cocos\n de baja calidad y poco convincentes!\n Presiona 6 o 7 dos veces\n o desplaza la selección de armas\n para usarlos!\n Necesitas el lanzagranadas para el berimbau\n y el lanzacohetes para el teléfono.\n teléfono = teléfono público."
+
+
+autoload = "Carga rápida: 1 (tecla) %s (joystick)\nCarga normal: 2 (tecla) %s (joystick)\nReiniciar: 3 (tecla) %s (joystick)"
+
+qc_ronaldpartagin = "puse antigravedad en el\nshopping jaja ¡te fregaste!\n- Ronaldo McDalest"
+
+qc_killogre = "mata a los ogros\npara abrir"
+
+qc_killogre2 = "mata a seis ogros\npara abrir la escalera"
+
+qc_killogre3 = "mata 4 ogros en la tienda\nde juguetes para abrir\nla segunda escalera"
+
+qc_tutorial = "guardar/cargar estilo FPS\nviejo:\nF2 guarda, F3 carga\nF6 salva rápido, F9 carga rápida"
+
+qc_didi = "dispara\npara abrir"
+
+qc_enterhere = "enter here significa\nentra aquí"
+
+qc_quicksave = "¡pulsa el botón para\nsalvar rápido, humano!"
+
+qc_fechadura = "elimina a los vasq demon\nque tomaron el pueblo\ny salva al Sr. Mañana\n- Keyes"
+
+qc_ogrepier = "mata al ogro\npara abrir"
+
+qc_salvin = "salva a Savio,\nestá en el fondo"
+
+qc_mcdalest1 = "¡monopolio es genial!\nmás poseídos y tiendas\ncerradas = más tiendas\npara mí\n- Ronaldo McDalest"
+
+qc_tacaca = "¡VOY A TOMAR TACACÁ!\nDespués de Manaos,\nvisita Pará.\n¡saludos Ananindeua!"
+
+qc_riplegend = "¡DESCANSA EN PAZ, LEYENDA!\nde São Gonçalo\nal mundo"
+
+qc_vasqsucks = "la casa del creador\nse hizo gigante y se fue\nal espacio\n¡vasq demon apesta!"
+
+qc_beltyouuse = "el cinturón que usas\nda gravedad normal\nen la luna\nhay otros con\nantigravedad en la casa"
+
+qc_vasqdemon = "pulsa los 3 símbolos\nde la fla:\nderecha, izquierda, centro\nhazlo 3 veces\ny mata al vasq demon\n- mit aia"
+
+
+autoload = "Carga rápida: 1 (tecla) %s (joystick)\nCargar guardado normal: 2 (tecla) %s (joystick)\nReiniciar: 3 (tecla) %s (joystick)"
+
+qc_ronaldpartagin = "instalé un sistema antigravedad\nen el centro comercial jajaja te jodiste\n-Ronaldo mcdalest"
+
+qc_killogre = "hay que matar ogros para abrir"
+
+qc_killogre2 = "mata a los seis ogros para abrir\nla escalera"
+
+qc_killogre3 = "mata a los 4 ogros en la tienda\nde juguetes para abrir la 2da escalera"
+
+qc_tutorial = "guardar/cargar es como en FPS\nantiguos F2 guarda, F3 carga\nF6 guardado rápido, F9 carga rápida"
+
+qc_didi = "dispara para abrir"
+
+qc_enterhere = "entra aquí significa 'enter here'"
+
+qc_quicksave = "presiona el botón para guardado\nrápido, ¡humano!"
+
+qc_fechadura = "acaba con los capangas vasq demon\nque tomaron el pueblo y destruye\nlos poseídos\nsalva al señor Mañães por favor\n-fechadura"
+
+qc_ogrepier = "mata al ogro para abrir"
+
+qc_salvin = "salva a Sávio, está allá atrás"
+
+qc_mcdalest1 = "¡el monopolio es genial!\ncuantos más poseídos y tiendas cerradas,\nmás tiendas abro yo!\n-Ronaldo mcdalest"
+
+qc_tacaca = "¡VOY A TOMAR UN TACACÁ!\nAdemás de Manaus, ¡visita Pará!\n¡saludos a los amigos de\nAnanindeua!"
+
+qc_riplegend = "¡DESCANSA, LEYENDA!\nde São Gonçalo\n¡al mundo!"
+
+qc_vasqsucks = "vaya, la casa del creador de este\njuego se volvió gigante y fue al espacio.\n¡vasq demon es una basura!"
+
+qc_beltyouuse = "el cinturón que usas\nmantiene tu gravedad normal\nen la luna.\nhay cinturones antigravedad\nesparcidos por la casa si quieres."
+
+qc_vasqdemon = "presiona los 3 símbolos del Fla\nel de la derecha\nel de la izquierda\ny el del medio\n¡para herir al vasq demon!\n¡hazlo 3 veces y mátalo!\n-mit aia"
+
+qc_ronaldpartagin = "puse un sistema antigravedad\nen el centro comercial jajaja\n-Ronaldo mcdalest"
+
+qc_killogre = "hay que matar ogros para abrir puertas"
+
+autoload = "presiona %s para cargar quicksave.\npresiona %s para cargar el último guardado.\npresiona %s para reiniciar."
+
+gamesaved = "¡Juego guardado!"
+
+qc_plasma = "AVIONCITO ELÉCTRICO"
+
+qc_fell = "¿te caíste de boca en el hoyo, pícaro?"
+
+qc_super_lava_enabled = "ARMA DE GEL ACTIVADA\n"
+
+qc_lava_enabled = "GEL GOLLY ARMA ACTIVADA\n"
+
+qc_multi_gl_enabled = "Berimbau activado\n"
+
+qc_multi_rl_enabled = "AURICULAR TCHAU activado\n"
+
+qc_plasma_enabled = "avioncito eléctrico activado\n"
+
+qc_hand = "¡mata la mano inútil antipiratería!"
+
+menu_12hr_clock = "RELOJ 12H"
+
+menu_24hr_clock = "RELOJ 24H"
+
+menu_acceleration = "ACELERACIÓN"
+
+menu_accept_changes = "CONFIRMAR"
+
+menu_address_colon = "DIR.:"
+
+menu_all_maps = "MAPAS"
+
+menu_all_maps_online = "MAPAS (EN LÍNEA)"
+
+menu_all_maps_split = "MAPAS (DIVIDIDOS)"
+
+menu_alpha_indented = "            ALFA"
+
+menu_always_run = "CORRER"
+
+menu_always_run_indented = "            CORRER"
+
+menu_ambient_level = "AMBIENTE"
+
+menu_ambient_level_indented = "          AMBIENTE"
+
+menu_audio_rate = "AUDIO"
+
+menu_audio_rate_cd = "44100 HZ"
+
+menu_audio_rate_dvd = "48000 HZ"
+
+menu_audio_rate_generic = "%i HZ"
+
+menu_audio_rate_indented = "             AUDIO"
+
+menu_audio_rate_midrange = "22050 HZ"
+
+menu_audio_rate_winquake = "11025 HZ"
+
+menu_auto_demo = "DEMO AUTO"
+
+menu_auto_demo_indented = "         DEMO AUTO"
+
+menu_begin_game = "JUGAR"
+
+menu_blocked = "BLOQ."
+
+menu_bookmark_name = "FAVORITO"
+
+menu_bookmarks = "FAVORITOS"
+
+menu_capture_the_flag = "CAPT. BANDERA"
+
+menu_classic = "CLÁSICO"
+
+menu_cmd_colon_s = "CMD: %s"
+
+menu_color_indented = "           COLOR"
+
+menu_confirm = "OK"
+
+menu_connect_colon_s = "CON.: %s"
+
+menu_console = "CONSOLA"
+
+menu_console_chat = "CHAT CONSOLA"
+
+menu_console_chat_indented = "      CHAT CONSOLA"
+
+menu_console_font_size = "FUENTE CONSOLA"
+
+menu_console_font_size_indented = "    FUENTE CONSOLA"
+
+menu_console_height = "ALT. CONSOLA"
+
+menu_console_options = "OPCIONES CONSOLA"
+
+menu_console_space = "CONSOLA+ESP."
+
+menu_consolem = "               CONSOLA ..."
+
+menu_cooperative = "COOP"
+
+menu_copied_colon_s = "COP. %s"
+
+menu_crosshair = "MIRA"
+
+menu_crosshair_alpha = "ALFA MIRA"
+
+menu_crosshair_color = "COLOR MIRA"
+
+menu_crosshair_indented = "            MIRA"
+
+menu_crosshair_options = "OPCIONES MIRA"
+
+menu_crosshair_outline = "CONT. MIRA"
+
+menu_crosshair_scale = "ESC. MIRA"
+
+menu_crosshair_value_placeholder = "..."
+
+menu_crx_matches_only = "SOLO CRX"
+
+menu_ctrl_a_add_e_edit_backspace_delete = "ctrl+a:añadir e:editar bsp:elim"
+
+menu_ctrl_backspace_delete = "CTRL+BSP: ELIM"
+
+menu_custom_level = "      NIVEL PERS."
+
+menu_customize = "PERSONALIZAR"
+
+menu_damage_gun_tint_indented = "       TONAL. ARMA"
+
+menu_damage_kick = "RETROCESO DANO"
+
+menu_damage_kick_indented = "    RETROCESO DANO"
+
+menu_date_12hr = "FECHA + 12H"
+
+menu_date_24hr = "FECHA + 24H"
+
+menu_date_only = "SOLO FECHA"
+
+menu_deadbody_filter = "FILTRO CUERPOS"
+
+menu_deadbody_filter_indented = "    FILTRO CUERPOS"
+
+menu_deathmatch = "DEATHMATCH"
+
+menu_demo_playback = "DEMO PLAY"
+
+menu_demos = "DEMOS"
+
+menu_display = "               MOSTRAR ..."
+
+menu_down_up_speed = "VEL. ABAJO/ARRIBA"
+
+menu_easy = "ESTÚPIDAMENTE FÁCIL"
+
+menu_easy_difficulty = "ESTÚPIDAMENTE FÁCIL"
+
+menu_editbind = "ENTER CAMBIA, BSP LIMPIA"
+
+menu_ellipsis = "..."
+
+menu_enabled = "ON"
+
+menu_episode = "         EPISODIO"
+
+menu_exec_colon_s = "EXEC: %s"
+
+menu_ext_click_to_view = "EXT: VER"
+
+menu_ext_colon_s = "EXT: %s"
+
+menu_external_music = "MÚSICA EXT."
+
+menu_external_music_indented = "       MÚSICA EXT."
+
+menu_field_of_view = "CAMPO VISIÓN"
+
+menu_field_of_view_indented = "      CAMPO VISIÓN"
+
+menu_font_size = "TAMAÑO FUENTE"
+
+menu_font_size_indented = "   TAMAÑO FUENTE"
+
+menu_force_enemy_color = "COLOR ENEMIGO"
+
+menu_force_enemy_color_indented = "     COLOR ENEMIGO"
+
+menu_force_team_color = "COLOR EQUIPO"
+
+menu_force_team_color_indented = "      COLOR EQUIPO"
+
+menu_frag_limit = "            FRAGS"
+
+menu_friendly_fire = "FUEGO AMIGO"
+
+menu_game = "                 JUEGO ..."
+
+menu_game_options = "OPCIONES JUEGO"
+
+menu_game_type = "       TIPO JUEGO"
+
+menu_graphics = "              GRÁFICOS ..."
+
+menu_graphics_aliasshadow = "SOMBRAS"
+
+menu_graphics_antialiasing = "ANTIALIASING"
+
+menu_graphics_brightness = "BRILLO"
+
+menu_graphics_brushshadow = "SOMBRAS PINCEL"
+
+menu_graphics_classicparticles = "PARTÍCULAS CLÁS."
+
+menu_graphics_contrast = "CONTRASTE"
+
+menu_graphics_customparticles = "PARTÍCULAS PERS."
+
+menu_graphics_externaltex = "TEXTURAS EXT."
+
+menu_graphics_filtering = "FILTRO TEXTURA"
+
+menu_graphics_modellerp = "ANIMACIÓN SUAVE"
+
+menu_graphics_options = "OPCIONES GRÁFICOS"
+
+menu_graphics_renderscale = "ESC. RENDER"
+
+menu_graphics_replacementmodels = "MODELOS PERS."
+
+menu_gun_auto_switch = "CAMBIO AUTO ARMA"
+
+menu_gun_auto_switch_indented = "  CAMBIO AUTO ARMA"
+
+menu_gun_damage_tint = "TONAL. DANO ARMA"
+
+menu_half_1_2 = "1/2"
+
+menu_hard = "DIFÍCIL"
+
+menu_hard_difficulty = "DIFÍCIL"
+
+menu_height_indented = "          ALTURA"
+
+menu_history = "HISTÓRICO"
+
+menu_hostname = "HOST"
+
+menu_hostname_ip = "HOST/IP"
+
+menu_how_to_play = "CÓMO JUGAR"
+
+menu_hud = "                   HUD ..."
+
+menu_hud_options = "OPCIONES HUD"
+
+menu_hud_scale = "ESCALA HUD"
+
+menu_hud_scale_indented = "        ESCALA HUD"
+
+menu_i_frags = "%i FRAGS"
+
+menu_i_minutes = "%i MIN"
+
+menu_if_you_cant_sorry = "SI FALLAS, LO SIENTO :("
+
+menu_invert_mouse = "INVERT. RATÓN"
+
+menu_join_a_game = "ENTRAR JUEGO"
+
+menu_join_game = "JUGAR"
+
+menu_join_game_at_colon = "JUGAR EN:"
+
+menu_keysetup = "                TECLAS ..."
+
+menu_last_save = "GUARDADO:"
+
+menu_level = "            NIVEL"
+
+menu_level_time = "TIEMPO NIVEL"
+
+menu_levels = "NIVELES"
+
+menu_load_game = "CARGAR"
+
+menu_local_click_to_view = "LOCAL: VER"
+
+menu_local_colon_s = "LOCAL: %s"
+
+menu_maps = "MAPAS"
+
+menu_match_clock = "RELOJ PARTIDA"
+
+menu_match_clock_indented = "     RELOJ PARTIDA"
+
+menu_max_players = "   MÁX. JUGADORES"
+
+menu_menu_default = "MENÚ (PREDET.)"
+
+menu_menuscale = "           ESCALA MENÚ"
+
+menu_miscellaneous_options = "OPCIONES DIVERSAS"
+
+menu_modern_remaster = "MODERNO/REMASTER"
+
+menu_mods = "MODS"
+
+menu_mouse = "                 RATÓN ..."
+
+menu_mouse_acceleration = "     ACELERACIÓN"
+
+menu_mouse_invert = "   INVERT. RATÓN"
+
+menu_mouse_look = "     MIRAR RATÓN"
+
+menu_mouse_pitch_qs = "QS (ARRIBA/ABAJO)"
+
+menu_mouse_pitch_trad = "TRADIC."
+
+menu_mouse_pitchmode = "MODO INCLINACIÓN"
+
+menu_mouse_sensitivity = "    SENSIBILIDAD"
+
+menu_mouse_speed = "VEL. RATÓN"
+
+menu_mouse_title = "OPCIONES RATÓN"
+
+menu_movement_keys = "TECLAS MOV."
+
+menu_movement_keys_indented = "       TECLAS MOV."
+
+menu_multiplayer = "MULTI"
+
+menu_music_volume = "VOL. MÚSICA"
+
+menu_music_volume_indented = "       VOL. MÚSICA"
+
+menu_mute = "MUDO"
+
+menu_mute_indented = "              MUDO"
+
+menu_mute_mm1_chat = "MUTAR MM1"
+
+menu_mute_mm1_chat_indented = "         MUTAR MM1"
+
+menu_name_maker = "NOMBRES"
+
+menu_native_1_1 = "1/1"
+
+menu_new_game = "NUEVO"
+
+menu_nightmare = "MEDIO PESADILLA NO TANTO"
+
+menu_nightmare_difficulty = "Medio Pesadilla no tanto"
+
+menu_no = "NO"
+
+menu_no_communications_available = "Sin Com."
+
+menu_no_friendly_fire = "SIN FUEGO AMIGO"
+
+menu_no_quake_servers_found = "SIN SERVIDORES"
+
+menu_none = "NINGUNO"
+
+menu_none_known = "NINGUNO"
+
+menu_normal = "NORMAL"
+
+menu_normal_difficulty = "NORMAL"
+
+menu_numbers = "NÚMEROS"
+
+menu_off = "OFF"
+
+menu_off_jump_or_fire = "OFF (SALTAR/DISPARAR)"
+
+menu_off_override_ssqc = "OFF (SUB. SSQC)"
+
+menu_off_slow = "OFF (LENTO)"
+
+menu_off_when_minimized = "OFF+MINIM."
+
+menu_ok = "OK"
+
+menu_on = "ON"
+
+menu_on_compat_phys = "ON (FÍS. COMPAT.)"
+
+menu_on_jump_only = "ON (SOLO SALTAR)"
+
+menu_on_override_ssqc = "ON (SUB. SSQC)"
+
+menu_on_prewar_pmode = "ON+PRE-GUERRA"
+
+menu_one_flag_ctf = "CAPT. 1 BANDERA"
+
+menu_options = "OPCIONES"
+
+menu_outline_indented = "        CONTORNO"
+
+menu_pants_dash = "PANTALONES -"
+
+menu_player_auto_id = "ID AUTO"
+
+menu_player_auto_id_indented = "           ID AUTO"
+
+menu_port_colon = "PUERTO:"
+
+menu_power_bunnyhop = "SALTO PODEROSO"
+
+menu_prediction = "PREDICCIÓN"
+
+menu_prediction_indented = "        PREDICCIÓN"
+
+menu_presskey = "TECLA PARA ACCIÓN"
+
+menu_protocol_colon = "PROT.:"
+
+menu_protocol_exts = "EXT. PROTOCOLO"
+
+menu_protocol_exts_indented = "    EXT. PROTOCOLO"
+
+menu_public = "          PÚBLICO"
+
+menu_q3_item_bobbing = "BALANCEO Q3"
+
+menu_q3_item_bobbing_indented = "       BALANCEO Q3"
+
+menu_qc_extensions = "EXT. QC"
+
+menu_qc_extensions_indented = "           EXT. QC"
+
+menu_quake_needs_port_forward = "QUAKE PUERTO 26000"
+
+menu_quakeworld = "QUAKEWORLD"
+
+menu_quarter_1_4 = "1/4"
+
+menu_quit = "SALIR"
+
+menu_r2g_swap_rockets = "CAMBIO R2G"
+
+menu_r2g_swap_rockets_indented = "        CAMBIO R2G"
+
+menu_reset_config = "RESET CONFIG"
+
+menu_reset_config_indented = "      RESET CONFIG"
+
+menu_save_game = "GUARDAR"
+
+menu_save_menu = "GUARDAR"
+
+menu_scale_indented = "          ESCALA"
+
+menu_score_12hr = "PUNT./12H"
+
+menu_score_24hr = "PUNT./24H"
+
+menu_screen_flashes = "PARPADEOS"
+
+menu_screen_flashes_indented = "         PARPADEOS"
+
+menu_screen_size = "TAM. PANTALLA"
+
+menu_screen_size_indented = "     TAM. PANTALLA"
+
+menu_search_for_local_games = "JUEGOS LOCALES..."
+
+menu_search_for_public_games = "JUEGOS PÚBLICOS..."
+
+menu_searching_ellipsis = "BUSCANDO..."
+
+menu_server_browser = "SERVIDORES"
+
+menu_server_history = "HIST. SERVIDORES"
+
+menu_servers = "SERVIDORES"
+
+menu_setup = "CONFIG"
+
+menu_shift_for_rgb_colors = "+SHIFT RGB"
+
+menu_shirt_dash = "CAMISA -"
+
+menu_show_clock = "RELOJ"
+
+menu_show_clock_indented = "             RELOJ"
+
+menu_show_fps = "FPS"
+
+menu_show_fps_indented = "               FPS"
+
+menu_show_match_scores = "PUNT. PARTIDA"
+
+menu_show_match_scores_indented = "     PUNT. PARTIDA"
+
+menu_show_ping = "PING"
+
+menu_show_ping_indented = "              PING"
+
+menu_show_scores = "PUNTUACIONES"
+
+menu_show_scores_indented = "      PUNTUACIONES"
+
+menu_show_speed = "VELOCIDAD"
+
+menu_show_speed_indented = "         VELOCIDAD"
+
+menu_single_player = "SOLO"
+
+menu_skill = "        HABILIDAD"
+
+menu_skills = "HABILIDADES"
+
+menu_sound = "                SONIDO ..."
+
+menu_sound_options = "OPCIONES SONIDO"
+
+menu_sound_volume = "VOL. SONIDO"
+
+menu_sound_volume_indented = "       VOL. SONIDO"
+
+menu_spawn_trainer = "ENTRENADOR"
+
+menu_spawn_trainer_indented = "        ENTRENADOR"
+
+menu_speed_indented = "       VELOCIDAD"
+
+menu_start_demo_attract = "DEMO ATRACCIÓN"
+
+menu_start_up_screen = "PANTALLA INICIAL"
+
+menu_start_up_screen_indented = "  PANTALLA INICIAL"
+
+menu_startup_only = "SOLO INICIAL"
+
+menu_status_bar_style = "ESTILO BARRA"
+
+menu_status_bar_style_indented = "      ESTILO BARRA"
+
+menu_statusbar_alpha = "ALFA BARRA"
+
+menu_statusbar_alpha_indented = "        ALFA BARRA"
+
+menu_stop_sound = "PARAR SONIDO"
+
+menu_stop_sound_indented = "      PARAR SONIDO"
+
+menu_strafe_angle_tilt = "INCLINACIÓN STRAFE"
+
+menu_strafe_angle_tilt_indented = "INCLINACIÓN STRAFE"
+
+menu_style_d = "ESTILO %d"
+
+menu_system_throttle = "CONTROL SIST."
+
+menu_system_throttle_indented = "     CONTROL SIST."
+
+menu_tag = "TAG"
+
+menu_teamplay = "           EQUIPO"
+
+menu_third_1_3 = "1/3"
+
+menu_three_team_ctf = "CAPT. 3 EQUIPOS"
+
+menu_time_limit = "           TIEMPO"
+
+menu_to_create_servers = "CREAR SERVIDORES"
+
+menu_traditional = "TRADIC."
+
+menu_transparency = "TRANSP."
+
+menu_transparency_indented = "         TRANSP."
+
+menu_true_lightning = "RAYO REAL"
+
+menu_true_lightning_indented = "         RAYO REAL"
+
+menu_unknown = "DESCONOCIDO"
+
+menu_unknown_item_%d = "Item %d"
+
+menu_unused_slot = "--- RANURA VACÍA ---"
+
+menu_use_crosshair = "MIRA"
+
+menu_use_hamachi_or_radmin = "HAMACHI/RADMIN"
+
+menu_view_model = "MODELO VISIÓN"
+
+menu_visual_meter = "MEDIDOR VIS."
+
+menu_water_fx = "EFECTOS AGUA"
+
+menu_water_fx_indented = "      EFECTOS AGUA"
+
+menu_weapon = "ARMA"
+
+menu_weapon_bob = "BALANCEO ARMA"
+
+menu_weapon_bob_indented = "     BALANCEO ARMA"
+
+menu_weapon_crosshair = "ARMA+MIRA"
+
+menu_web_name_maker = "NOMBRES WEB"
+
+menu_yes = "SÍ"
+
+menu_your_name = "NOMBRE"
+
+msg_are_you_sure_new = "¿deseas empezar un nuevo juego? y=sí/n=no"
+
+menu_no_comm_avail = "SIN COMUNICACIONES DISPONIBLES"
+
+msg_reset_cfg_confirm = "¿quieres resetear configs? y=sí/n=no"
+
+menu_keys_add_edit_del = "¿QUIERES EDITAR?"
+
+msg_are_you_sure_you_want_to_start_a_new_game = "¿quieres empezar nueva partida? y-sí/n-no"
+
+msg_are_you_sure_you_want_to_reset_your_configuration = "¿quieres resetear tus configs? y-sí/n-no"
+
+qc_mitaia = "no debí intentar revivirte MIT AIA\n"
+
+qc_demoniotodolado = "hay demonios por todos lados\n"
+
+qc_fecharportal = "necesito cerrar el portal"
+
+qc_bem = "estoy bien"
+
+qc_silvio = "salva a Silvio en la plaza 15"
+
+qc_praca = "toma los barcos pae"
+
+qc_maoe = "gracias maoe habla con los aliens"
+
+qc_matacha = "necesito matar al que tiene la llave"
+
+qc_clone = "mata a los clones y toma el chtullu"
+
+qc_filas = "las filas aún son gigantes"
+
+qc_dik = "¿por qué esto parece un pene?"
+
+qc_dvd = "vendo DVD para dar comida a los hijos"
+
+qc_hermes = "tenías que ver Hermes y Renato"
+
+qc_salvar = "gracias por salvar mi tienda"
+
+qc_nave = "entra en la nave, pae"
+
+qc_sofa = "este es el famoso test del sofá"
+
+qc_varginha1 = "busca conocimiento... espera, ET equivocado"
+
+qc_ronaldo = "salva a Ronaldo, él tiene la respuesta"
+
+qc_libertar = "voy a liberarte, RONALDO"
+
+qc_ed = "busca a Ed, él ayuda — ve al río"
+
+qc_possuido = "¿cuál de estos es el Edinho poseído?"
+
+qc_principal = "hay que buscar el portal principal"
+
+qc_entra = "entra en el portal y busca"
+
+qc_tio = "salva a mi tío y a Brasil"
+
+qc_backrooms = "estoy en backrooms... qué original..."
+
+qc_carro = "¿dónde está la llave para abrir el auto?"
+
+qc_mamonas = "toma las llaves y ve al sambódromo"
+
+qc_ferrou = "la cagué, necesito ir al metro"
+
+qc_michael = "alinea el portal primero HEE HEE"
+
+qc_cupade = "¡sálvame, compadre! presiona los símbolos del Fla"
+
+qc_salvado = "GRACIAS POR SALVARME, ¡VAMOS AL CIELO!"
+
+qc_curtir = "gracias por salvarnos, a disfrutar"
+
+qc_obrigado = "gracias por jugar mi juego"
+
+qc_ring_fade = "¡TU COLA ESTÁ A LA VISTA!\n"
+
+qc_protection_fade = "¡PIERDES LA PROTECCIÓN DE LA COLA!\n"
+
+qc_quad_fade = "¡EL GPL SE ESTÁ DESLICENCIANDO!\n"
+
+qc_biosuit_fade = ""
+
+qc_entered = "entró en este lío\n"
+
+qc_discharge_slime = "se convirtió en slime\n"
+
+qc_discharge_lava = "se convirtió en churrasco\n"
+
+qc_discharge_water = "se ahogó en la piscina\n"
+
+qc_suicide_pin = "ENTREGÓ PUNTOS POR ABURRIMIENTO\n"
+
+qc_suicide_bored = "SE SUICIDÓ POR ABURRIMIENTO"
+
+qc_changed_teams = "cambió de lado como chaquetero\n"
+
+qc_tried_change_teams = "intentó ser chaquetero\n"
+
+qc_suicide_loafoi_dessa_pra_melhor = "vasqeafoi al más allá\n"
+
+qc_ff_teammate = "disparó al colega\n"
+
+qc_ff_glasses = "se puso como oclinhos\n"
+
+qc_ff_otherteam = "disparó al otro equipo\n"
+
+qc_ff_friend = "disparó al amigo\n"
+
+qc_death_ax = "vasqed axed\n"
+
+qc_death_sg = "recibió doce en la cara\n"
+
+qc_death_dbl = "super recibió doce en la cara\n"
+
+qc_death_nail = "se convirtió en colador de glock\n"
+
+qc_death_sng = "se convirtió en colador de AK\n"
+
+qc_death_gl1 = "berimbaued\n"
+
+qc_death_gl2 = "berimbaueed\n"
+
+qc_death_rl_quad1 = "fusilado con cohete fla\n"
+
+qc_death_rl_quad2 = "explotó con cohete fla\n"
+
+qc_death_rl1 = "fue con cohete fla\n"
+
+qc_death_rl2 = "fue al más allá\n"
+
+qc_death_rl3 = "FUE CON DIOS\n"
+
+qc_death_lg1 = "recibió choque de agua\n"
+
+qc_death_lg2 = "tostado en jacuzzi eléctrico\n"
+
+qc_death_burned = "le quemaron el trasero\n"
+
+qc_death_fused = "recibió plano en la frente\n"
+
+qc_death_blasted = "le explotaron el trasero\n"
+
+qc_ks_grunt = "VASQUEADO POR TRAFICANTE\n"
+
+qc_ks_fiend = "VASQUEADO POR CAPIBARA\n"
+
+qc_ks_rottweiler = "VASQUEADO POR CARAMELO\n"
+
+qc_ks_enforcer = "VASQUEADO POR FOFO\n"
+
+qc_ks_deathknight = "VASQUEADO POR FANTASMA SERIE B"
+
+qc_ks_knight = "VASQUEADO POR HINCHA LOCO\n"
+
+qc_ks_ogre = "VASQUEADO POR BRICK FLAFLA\n"
+
+qc_ks_shub = "VASQUEADO POR DEMONIO\n"
+
+qc_ks_vore = "VASQUEADO POR EDINHO POSEÍDO\n"
+
+qc_ks_shambler = "VASQUEADO POR DEMONCITO"
+
+qc_ks_spawn = "VASQUEADO POR FULEQUIN"
+
+qc_ks_vomitus = "VASQUEADO POR FULEQUIN"
+
+qc_ks_scrag = "VASQUEADO POR LORO\n"
+
+qc_ks_zombie = "VASQUEADO POR OLIENTE\n"
+
+qc_ks_wrath = "VASQUEADO POR BURRA\n"
+
+qc_ks_swordsman = "VASQUEADO POR FLAPOLIN\n"
+
+qc_ks_hephaestus = "VASQUEADO POR VASQ CTHULLU"
+
+qc_ks_mummy = "VASQUEADO POR PERERÉ POSEÍDO"
+
+qc_ks_blew_up = "vasqed blown\n"
+
+qc_death_squish = "se convirtió en pamonha\n"
+
+qc_ks_spiked = "espinado\n"
+
+qc_ks_lavaball = "se convirtió en churrasco\n"
+
+qc_ks_tried_leave = "intentó salir de puntillas\n"
+
+qc_ks_rode_lightning = "surfeó en el trueno\n"
+
+qc_ks_plasma = "plasmado\n"
+
+qc_death_vengeance = "vengado\n"
+
+qc_death_smashed = "RECIBIÓ EL SMACK THAT, SALVE AKON\n"
+
+qc_death_drown1 = "QUISO SER AQUAMAN\n"
+
+qc_death_drown2 = "QUISO SER AQUAMAN SERIAMENTE\n"
+
+qc_death_slime1 = "RECIBIÓ EL SLIME\n"
+
+qc_death_slime2 = "SLIMEEEEEADO\n"
+
+qc_death_lava1 = "OLIÓ LAVA\n"
+
+qc_death_lava2 = "COMIÓ UN POCO DE LAVA\n"
+
+qc_death_lava3 = "ASPIRÓ LAVA\n"
+
+qc_death_squish = "CONVERTIDO EN FAROFA\n"
+
+qc_death_fall = "cayó en el vasco\n"
+
+qc_death_died = "VASQUEADO\n"
+
+qc_found_secret = "Encontraste un secretito ¡felicidades!\n"
+
+ach_achieved = "CONQUISTADO"
+
+ach_desc_close_shave = "Mata a un shambler con un hacha."
+
+ach_desc_complete_e1m7 = "Completa el Episodio 1 de Quake:\nDimensión de los Condenados en modo\nun jugador."
+
+ach_desc_complete_e2m6 = "Completa el Episodio 2 de Quake:\nEl Reino de la Magia Negra en modo\nun jugador."
+
+ach_desc_complete_e3m6 = "Completa el Episodio 3 de Quake:\nEl Inframundo en modo un jugador."
+
+ach_desc_complete_e4m7 = "Completa el Episodio 4 de Quake:\nEl Mundo Anciano en modo un jugador."
+
+ach_desc_complete_e5end = "Completa Dimensión del Pasado\nen modo un jugador."
+
+ach_desc_complete_e5end_nightmare = "Completa Dimensión del Pasado\nen modo Pesadilla en modo un jugador."
+
+ach_desc_complete_hip1m4 = "Completa el Episodio 1 de Scourge\nof Armagon: Fortaleza de los Muertos\nen modo un jugador."
+
+ach_desc_complete_hip2m5 = "Completa el Episodio 2 de Scourge\nof Armagon: Dominio de las Tinieblas\nen modo un jugador."
+
+ach_desc_complete_hipend = "Completa el Episodio 3 de Scourge\nof Armagon: La Grieta en modo un jugador."
+
+ach_desc_complete_hipend_nightmare = "Completa Scourge of Armagon\nen modo Pesadilla en modo un jugador."
+
+ach_desc_complete_mgend = "Completa Dimensión de la Máquina\nen modo un jugador."
+
+ach_desc_complete_mgend_nightmare = "Completa Dimensión de la Máquina\nen modo Pesadilla en modo un jugador."
+
+ach_desc_complete_r1m7 = "Completa el Episodio 1 de Dissolution\nof Eternity: Fortaleza del Infierno\nen modo un jugador."
+
+ach_desc_complete_r2m8 = "Completa el Episodio 2 de Dissolution\nof Eternity: Los Corredores del Tiempo\nen modo un jugador."
+
+ach_desc_complete_r2m8_nightmare = "Completa Dissolution of Eternity\nen modo Pesadilla en modo un jugador."
+
+ach_desc_defeat_shub = "Derrota a Shub-Niggurath\nen modo un jugador."
+
+ach_desc_defeat_shub_nightmare = "Completa Quake en modo Pesadilla\nen modo un jugador."
+
+ach_desc_find_dopefish = "Encuentra el Pozo de los Deseos\nen la Cripta del Declive."
+
+ach_desc_find_e1m8 = "Encuentra la salida secreta en\nel Episodio 1 de Quake: Dimensión\nde los Condenados."
+
+ach_desc_find_e2m7 = "Encuentra la salida secreta en\nel Episodio 2 de Quake: El Reino\nde la Magia Negra."
+
+ach_desc_find_e3m7 = "Encuentra la salida secreta en\nel Episodio 3 de Quake: El Inframundo."
+
+ach_desc_find_e4m8 = "Encuentra la salida secreta en\nel Episodio 4 de Quake: El Mundo Anciano."
+
+ach_desc_find_e5m8 = "Encuentra la salida secreta en\nDimensión del Pasado."
+
+ach_desc_find_hip1m5 = "Encuentra la salida secreta en\nel Episodio 1 de Scourge of Armagon:\nFortaleza de los Muertos."
+
+ach_desc_find_hip2m6 = "Encuentra la salida secreta en\nel Episodio 2 de Scourge of Armagon:\nDominio de las Tinieblas."
+
+ach_desc_find_hipdm1 = "Encuentra la salida secreta en\nel Episodio 3 de Scourge of Armagon:\nLa Grieta."
+
+ach_desc_find_mge1m3 = "Encuentra la salida secreta en\nDimensión de la Máquina."
+
+ach_desc_find_secret = "Encuentra una área secreta."
+
+ach_desc_find_supposed_be_here = "Encuentra el mensaje secreto en\nTur Torment."
+
+ach_desc_friendly_fire = "Mata a un monstruo con el ataque\nde otro monstruo."
+
+ach_desc_pacifist = "Completa E1M1: El Complejo Slipgate\nen modo Pesadilla sin disparar un tiro."
+
+ach_desc_painless_maze = "Completa E4M6: El Laberinto del Dolor\nen modo Pesadilla sin recibir daño."
+
+ach_desc_platnium = "Conquistaste todos los reinos de\nlos Dioses Antiguos. Felicitaciones."
+
+ach_desc_shambler_dance = "Mata a un shambler antes de que\nlance su ataque de rayo."
+
+ach_desc_survive_discharge = "En deathmatch, electrocuta a un\nenemigo en el agua sin morir."
+
+ach_name_close_shave = "Por un Triz"
+
+ach_name_complete_e1m7 = "Hunde el Horror Eléctrico"
+
+ach_name_complete_e2m6 = "Fondo del Pozo"
+
+ach_name_complete_e3m6 = "Bajo las Cámaras Azules"
+
+ach_name_complete_e4m7 = "El Último Camino Inexplorado"
+
+ach_name_complete_e5end = "El Año Cero"
+
+ach_name_complete_e5end_nightmare = "De Otro Mundo"
+
+ach_name_complete_hip1m4 = "Viajero del Portal"
+
+ach_name_complete_hip2m5 = "Dominio Dominado"
+
+ach_name_complete_hipend = "Arma-gone"
+
+ach_name_complete_hipend_nightmare = "Flagelo Completado con Éxito"
+
+ach_name_complete_mgend = "Venganza Negada"
+
+ach_name_complete_mgend_nightmare = "Cabeza de Máquina"
+
+ach_name_complete_r1m7 = "Suserano Derrotado"
+
+ach_name_complete_r2m8 = "Matador de Dragones"
+
+ach_name_complete_r2m8_nightmare = "Ranger Rebelde"
+
+ach_name_defeat_shub = "Indigestión"
+
+ach_name_defeat_shub_nightmare = "Amigo de Shub"
+
+ach_name_find_dopefish = "El Pozo de los Deseos"
+
+ach_name_find_e1m8 = "Venganza Vertical"
+
+ach_name_find_e2m7 = "Nunca Más"
+
+ach_name_find_e3m7 = "El Camino Caliente y Sinuoso"
+
+ach_name_find_e4m8 = "En la Ciudad de Sandy"
+
+ach_name_find_e5m8 = "La Casa del Destino"
+
+ach_name_find_hip1m5 = "Complejo Militar"
+
+ach_name_find_hip2m6 = "El Dominio del Gremlin"
+
+ach_name_find_hipdm1 = "Un Largo Camino"
+
+ach_name_find_mge1m3 = "Cuarto de Sandy"
+
+ach_name_find_secret = "Detective Secreto"
+
+ach_name_find_supposed_be_here = "¡No deberías estar aquí!"
+
+ach_name_friendly_fire = "Fuego Amigo"
+
+ach_name_pacifist = "Pacifista del Slipgate"
+
+ach_name_painless_maze = "El Laberinto sin Dolor"
+
+ach_name_platnium = "Gran Ascendencia del Gran Antiguo"
+
+ach_name_shambler_dance = "La Danza del Shambler"
+
+ach_name_survive_discharge = "Descarga"
+
+bnet_aa_scroll = "DESPLAZAR"
+
+bnet_account_agreements = "ACUERDOS DE LA CUENTA"
+
+bnet_account_exists = "CUENTA DETECTADA"
+
+bnet_achievements = "LOGROS"
+
+bnet_aexist_body = "Este correo ya está en uso.\nSi jugaste alguno de nuestros juegos,\nya podrías tener una cuenta."
+
+bnet_aexist_body_nx = "Inicia sesión en tu cuenta Bethesda.net."
+
+bnet_aexist_body_pc = "Inicia sesión en tu cuenta Bethesda.net.\nEsto vinculará tu cuenta para login\nautomático en Bethesda.net."
+
+bnet_aexist_body_pr = "Inicia sesión en tu cuenta Bethesda.net.\nEsto vinculará tu cuenta para PlayStation™Network\npara login automático en Bethesda.net."
+
+bnet_aexist_body_ps = "Inicia sesión en tu cuenta Bethesda.net.\nEsto vinculará tu cuenta para PlayStation™Network\npara login automático en Bethesda.net."
+
+bnet_aexist_body_ws = "Inicia sesión en tu cuenta Bethesda.net.\nEsto vinculará tu Cuenta Microsoft\npara login automático en Bethesda.net."
+
+bnet_aexist_body_xb = "Inicia sesión en tu cuenta Bethesda.net.\nEsto vinculará tu Cuenta Microsoft\npara login automático en Bethesda.net."
+
+bnet_aexist_body_xs = "Inicia sesión en tu cuenta Bethesda.net.\nEsto vinculará tu Cuenta Microsoft\npara login automático en Bethesda.net."
+
+bnet_aexist_password = "Contraseña"
+
+bnet_aexist_username = "Nombre de Usuario"
+
+bnet_back = "VOLVER"
+
+bnet_beth_games_account = "https://beth.games/account"
+
+bnet_cancel = "CANCELAR"
+
+bnet_connecting_body = "Conectando a Bethesda.net..."
+
+bnet_connecting_title = "CONECTANDO"
+
+bnet_connection_body = "Hmm, hubo un problema al conectar\na Bethesda.net.\nPor favor, verifica tu conexión y\nintenta de nuevo."
+
+bnet_connection_error = "ERROR DE CONEXIÓN"
+
+bnet_continue = "CONTINUAR"
+
+bnet_create_account = "CREAR CUENTA"
+
+bnet_error_account_prob = "Hay un problema con tu cuenta.\nPor favor, visita https://help.bethesda.net\npara contactar al soporte al cliente."
+
+bnet_error_acct_already = "Esta cuenta Bethesda.net ya está\nvinculada. Por favor, inicia sesión\nen otra cuenta Bethesda.net o visita\nhttps://beth.games/account para gestionar\no desvincular tu cuenta."
+
+bnet_error_drm = "Este juego requiere validación.\n\nPor favor, inicia sesión en el Bethesda.net\nLauncher con una conexión activa a internet\ny intenta de nuevo."
+
+bnet_error_error = "Error:"
+
+bnet_error_generic = "Bethesda.net reportó un error.\nPor favor, intenta de nuevo."
+
+bnet_error_if_persists = "Si el problema persiste, por favor,\nvisita https://help.bethesda.net."
+
+bnet_error_not_linked = "Hubo un problema al vincular tu cuenta.\nPor favor, visita https://beth.games/account\npara gestionar o recuperar tu cuenta."
+
+bnet_error_title = "ERROR"
+
+bnet_error_validation = "Validación Necesaria"
+
+bnet_exit_game = "Salir del Juego"
+
+bnet_friend_accept = "Aceptar"
+
+bnet_friend_block = "Bloquear"
+
+bnet_friend_blocked_users = "Usuarios bloqueados"
+
+bnet_friend_cancel = "Cancelar"
+
+bnet_friend_friends = "Amigos"
+
+bnet_friend_goto_search = "Búsqueda de jugadores"
+
+bnet_friend_ignore = "Ignorar"
+
+bnet_friend_incoming = "Solicitudes recibidas"
+
+bnet_friend_invite = "Invitar al juego"
+
+bnet_friend_invited = "Amigos invitados"
+
+bnet_friend_manage_modal = "GESTIONAR AMIGOS"
+
+bnet_friend_name = "Nombre"
+
+bnet_friend_outgoing = "Solicitudes enviadas"
+
+bnet_friend_remove = "Eliminar"
+
+bnet_friend_request = "Enviar solicitud"
+
+bnet_friend_search = "Iniciar búsqueda"
+
+bnet_friend_search_modal = "BÚSQUEDA DE JUGADORES"
+
+bnet_friend_unblock = "Desbloquear"
+
+bnet_get_acct_help = "OBTENER AYUDA CON LA CUENTA"
+
+bnet_help_account = "AYUDA CON LA CUENTA"
+
+bnet_help_bethesda_net = "https://help.bethesda.net"
+
+bnet_help_other = "OTRA AYUDA"
+
+bnet_help_username_pw = "AYUDA CON NOMBRE DE USUARIO O CONTRASEÑA"
+
+bnet_invalid_email = "Por favor, introduce un correo\nválido."
+
+bnet_lets_go = "¡VAMOS!"
+
+bnet_link_success_body = "Tu cuenta está vinculada."
+
+bnet_link_success_ok = "OK"
+
+bnet_link_successful = "¡TODO LISTO!"
+
+bnet_login = "INICIAR SESIÓN"
+
+bnet_login_body_nx = "Inicia sesión en tu cuenta Bethesda.net."
+
+bnet_login_body_pc = "Inicia sesión en tu cuenta Bethesda.net.\nEsto vinculará tu cuenta para login\nautomático en Bethesda.net."
+
+bnet_login_body_pr = "Inicia sesión en tu cuenta Bethesda.net.\nEsto vinculará tu cuenta para PlayStation™Network\npara login automático en Bethesda.net."
+
+bnet_login_body_ps = "Inicia sesión en tu cuenta Bethesda.net.\nEsto vinculará tu cuenta para PlayStation™Network\npara login automático en Bethesda.net."
+
+bnet_login_body_ws = "Inicia sesión en tu cuenta Bethesda.net.\nEsto vinculará tu Cuenta Microsoft\npara login automático en Bethesda.net."
+
+bnet_login_body_xb = "Inicia sesión en tu cuenta Bethesda.net.\nEsto vinculará tu Cuenta Microsoft\npara login automático en Bethesda.net."
+
+bnet_login_body_xs = "Inicia sesión en tu cuenta Bethesda.net.\nEsto vinculará tu Cuenta Microsoft\npara login automático en Bethesda.net."
+
+bnet_login_error = "Nombre de usuario o contraseña inválidos."
+
+bnet_login_lower = "Bethesda.net"
+
+bnet_login_subheader = "¿NUEVO EN BETHESDA.NET?"
+
+bnet_management_access = " para acceder a todas las funciones\nde Bethesda.net."
+
+bnet_management_email = "CORREO"
+
+bnet_management_link = "Añadir un nombre de usuario"
+
+bnet_management_munlink = "GESTIONAR O DESVINCULAR CUENTA"
+
+bnet_management_uname = "NOMBRE DE USUARIO"
+
+bnet_marketing_optin = "¡Inscríbeme para recibir las últimas\nnoticias, actualizaciones, acceso a betas\nexclusivos y más de Bethesda!"
+
+bnet_mp_check_body = "Verificando permisos de multijugador\nen línea..."
+
+bnet_mp_check_title = "MULTIJUGADOR"
+
+bnet_news = "Noticias"
+
+bnet_next = "Página siguiente"
+
+bnet_no_email = "No se pudo recuperar el correo"
+
+bnet_prev = "Página anterior"
+
+bnet_profile_merge_confirm = "CONFIRMAR SELECCIÓN"
+
+bnet_profile_merge_desc = "Bethesda.net detectó una sesión existente\npara este perfil. Por favor, selecciona\nla sesión que deseas mantener. Los datos\nde la otra sesión se perderán."
+
+bnet_profile_merge_points = "Puntos"
+
+bnet_profile_merge_prof1 = "PERFIL 1"
+
+bnet_profile_merge_prof2 = "PERFIL 2"
+
+bnet_profile_merge_time = "Tiempo"
+
+bnet_profile_merge_title = "SELECCIONAR SESIÓN"
+
+bnet_qa_af_tooltip_pr = "Usa el correo de tu cuenta para\nPlayStation™Network. Tus datos serán\nenviados a ZeniMax Media en EE.UU.\ny usados para vincular tu cuenta para\nPlayStation™Network a Bethesda.net."
+
+bnet_qa_af_tooltip_ps = "Usa el correo de tu cuenta para\nPlayStation™Network. Tus datos serán\nenviados a ZeniMax Media en EE.UU.\ny usados para vincular tu cuenta para\nPlayStation™Network a Bethesda.net."
+
+bnet_qa_af_tooltip_ws = "Rellena con el correo de tu Cuenta\nMicrosoft para usar en la creación\nde la cuenta Bethesda.net."
+
+bnet_qa_af_tooltip_xb = "Rellena con el correo de tu Cuenta\nMicrosoft para usar en la creación\nde la cuenta Bethesda.net."
+
+bnet_qa_af_tooltip_xs = "Rellena con el correo de tu Cuenta\nMicrosoft para usar en la creación\nde la cuenta Bethesda.net."
+
+bnet_qa_body_nx = "Ingresa tu correo para crear una\ncuenta Bethesda.net."
+
+bnet_qa_body_pc = "Ingresa tu correo para crear una\ncuenta Bethesda.net. Esto vinculará\ntu cuenta para login automático\nen Bethesda.net."
+
+bnet_qa_body_pr = "Ingresa tu correo para crear una\ncuenta Bethesda.net. Esto vinculará\ntu cuenta para PlayStation™Network\npara login automático en Bethesda.net."
+
+bnet_qa_body_ps = "Ingresa tu correo para crear una\ncuenta Bethesda.net. Esto vinculará\ntu cuenta para PlayStation™Network\npara login automático en Bethesda.net."
+
+bnet_qa_body_ws = "Ingresa tu correo para crear una\ncuenta Bethesda.net. Esto vinculará\ntu Cuenta Microsoft para login automático\nen Bethesda.net."
+
+bnet_qa_body_xb = "Ingresa tu correo para crear una\ncuenta Bethesda.net. Esto vinculará\ntu Cuenta Microsoft para login automático\nen Bethesda.net."
+
+bnet_qa_body_xs = "Ingresa tu correo para crear una\ncuenta Bethesda.net. Esto vinculará\ntu Cuenta Microsoft para login automático\nen Bethesda.net."
+
+bnet_qa_email_address = "Correo electrónico"
+
+bnet_qa_legal_statement = "Al seleccionar CREAR CUENTA, acepto\nlos Términos de Servicio y el Código\nde Conducta, y reconozco que ZeniMax\nMedia puede usar y procesar mis datos\npersonales según su Política de Privacidad."
+
+bnet_qa_subheader = "¿YA TIENES UNA CUENTA?"
+
+bnet_retry = "Intentar de nuevo"
+
+bnet_sc_body = "¡Gracias por iniciar sesión en Bethesda.net!\nComo miembro del Slayers Club, recibirás\nítems exclusivos en el juego para DOOM Eternal.\nElige el botón de abajo para reclamar\ntu recompensa del club."
+
+bnet_sc_redeem = "Reclamar Tu Recompensa"
+
+bnet_sc_success = "Todo listo. Tus ítems digitales exclusivos\nhan sido desbloqueados. ¡Gracias por jugar!"
+
+bnet_sc_title = "CLUB DE LOS MATADORES"
+
+bnet_updated_agr_body = "El siguiente documento legal de\nBethesda.net ha sido actualizado.\nDebes aceptar para continuar usando\nlos servicios de Bethesda.net."
+
+bnet_updated_agr_lower = "Al elegir CONTINUAR, acepto el documento\nde arriba."
+
+bnet_updated_agreement = "ACUERDO ACTUALIZADO"
+
+bnet_updated_privpolicy = "Al elegir CONTINUAR, reconozco que\nZeniMax Media puede usar y procesar\nmis datos personales según el documento\nde arriba."
+
+bnet_view_agreements = "VER ACUERDOS DE LA CUENTA"
+
+chat_all = "Todos"
+
+chat_cycle_channel = "Ciclo de canal"
+
+chat_team = "Equipo"
+
+error_no_internet = "Sin conexión a internet."
+
+error_no_multiplayer = "Multijugador no disponible."
+
+m_a11y = "Accesibilidad"
+
+m_a11y_customize = "Personalizar ajustes de accesibilidad..."
+
+m_a11y_disable_all = "Desactivar todos los ajustes"
+
+m_aa = "Antialiasing"
+
+m_achievements = "Logros"
+
+m_activate = "Activar"
+
+m_addons = "Complementos"
+
+m_addons_download_error = "Fallo en la descarga del complemento."
+
+m_addons_empty = "No tienes complementos descargados\npara gestionar. Ve en línea para\nnavegar y descargar complementos."
+
+m_addons_error = "Hubo un problema al descargar\nla lista de complementos."
+
+m_aim_assist = "Asistencia de Apuntado"
+
+m_aim_x = "Apuntado X"
+
+m_aim_y = "Apuntado Y"
+
+m_alternate_typeface = "Fuente Alternativa"
+
+m_always = "Siempre"
+
+m_always_run = "Siempre Correr"
+
+m_ao = "Oclusión Ambiental"
+
+m_apply_settings = "Aplicar Ajustes"
+
+m_attack = "Atacar"
+
+m_back = "Volver"
+
+m_backpedal = "Retroceder"
+
+m_block = "Bloquear"
+
+m_blue = "Azul"
+
+m_bnet = "Bethesda.net"
+
+m_bnet_friend_mgmt_title = "Gestionar Amigos Bethesda.net"
+
+m_bnet_invite_friends = "Invitar amigos..."
+
+m_bnet_manage_friends = "Amigos Bethesda.net"
+
+m_borderless = "Sin Bordes"
+
+m_bot_chat_axe_murder_0 = "lo siento, ¡pero tienes que partirte!"
+
+m_bot_chat_axe_murder_1 = "¡ey, tengo que preguntarte algo con hacha!"
+
+m_bot_chat_axe_murder_10 = "¡desastre sangriento!"
+
+m_bot_chat_axe_murder_11 = "¡cuidado con la cabeza!"
+
+m_bot_chat_axe_murder_2 = ":-D"
+
+m_bot_chat_axe_murder_3 = "¡tienes mi hacha!"
+
+m_bot_chat_axe_murder_4 = "¡no viste eso venir!"
+
+m_bot_chat_axe_murder_5 = "¿te duele la cabeza?"
+
+m_bot_chat_axe_murder_6 = "¡vaya!"
+
+m_bot_chat_axe_murder_7 = "apuesto que eso duele"
+
+m_bot_chat_axe_murder_8 = "¡ops!"
+
+m_bot_chat_axe_murder_9 = "¡pasando por aquí!"
+
+m_bot_chat_connected_0 = "hola"
+
+m_bot_chat_connected_1 = "oi"
+
+m_bot_chat_connected_10 = "¡hola!"
+
+m_bot_chat_connected_2 = "hola"
+
+m_bot_chat_connected_3 = "yo"
+
+m_bot_chat_connected_4 = "qué pasa"
+
+m_bot_chat_connected_5 = "qué tal"
+
+m_bot_chat_connected_6 = "hola, vaquero"
+
+m_bot_chat_connected_7 = "holaa"
+
+m_bot_chat_connected_8 = "oi"
+
+m_bot_chat_connected_9 = "¡hola, hola!"
+
+m_bot_chat_ctf_attacking_enemy_carrier_0 = "¡voy a matar al portador de la\nbandera enemiga!"
+
+m_bot_chat_ctf_attacking_enemy_carrier_1 = "¡voy tras ese idiota con nuestra\nbandera!"
+
+m_bot_chat_ctf_attacking_enemy_carrier_2 = "voy a matar al portador de la\nbandera de ellos"
+
+m_bot_chat_ctf_attacking_enemy_carrier_3 = "¡voy a recuperar nuestra bandera!"
+
+m_bot_chat_ctf_attacking_enemy_carrier_4 = "rastreando al portador de la\nbandera de ellos"
+
+m_bot_chat_ctf_attacking_enemy_carrier_5 = "cazando al portador de la\nbandera de ellos"
+
+m_bot_chat_ctf_camping_enemy_base_0 = "voy a emboscar en la base de ellos"
+
+m_bot_chat_ctf_camping_enemy_base_1 = "voy a acampar en la base de ellos\ny esperar"
+
+m_bot_chat_ctf_camping_enemy_base_2 = "voy a montar una emboscada en\nla base de ellos"
+
+m_bot_chat_ctf_camping_enemy_base_3 = "yendo a la base de ellos para\nemboscar"
+
+m_bot_chat_ctf_camping_enemy_base_4 = "voy a la base de ellos y espero\nen emboscada"
+
+m_bot_chat_ctf_camping_enemy_base_5 = "estaré en la base de ellos\nacampando"
+
+m_bot_chat_ctf_camping_enemy_base_6 = "estaré en la base de ellos\nesperando por ellos"
+
+m_bot_chat_ctf_delivering_flag_0 = "¡tengo la bandera de ellos! ¡cúbranme!"
+
+m_bot_chat_ctf_delivering_flag_1 = "volviendo al granero con la bandera"
+
+m_bot_chat_ctf_delivering_flag_2 = "¡tengo la bandera! ¡necesito ayuda!"
+
+m_bot_chat_ctf_delivering_flag_3 = "¡la bandera es mía! ¡necesito un\npoco de ayuda aquí!"
+
+m_bot_chat_ctf_delivering_flag_4 = "¡todos conmigo - tengo la bandera\nde ellos!"
+
+m_bot_chat_ctf_delivering_flag_5 = "tengo la bandera - ¡necesito ayuda!"
+
+m_bot_chat_ctf_delivering_flag_6 = "¡necesito refuerzos - tengo la bandera!"
+
+m_bot_chat_ctf_on_defense_0 = "¡voy a proteger la base!"
+
+m_bot_chat_ctf_on_defense_1 = "voy a quedarme en casa"
+
+m_bot_chat_ctf_on_defense_2 = "¡estoy en defensa!"
+
+m_bot_chat_ctf_on_defense_3 = "quedándome en casa"
+
+m_bot_chat_ctf_on_defense_4 = "voy a vigilar nuestra bandera"
+
+m_bot_chat_ctf_on_offense_0 = "¡voy a por la bandera enemiga!"
+
+m_bot_chat_ctf_on_offense_1 = "¡estoy en ataque!"
+
+m_bot_chat_ctf_on_offense_2 = "¡la bandera de ellos es mía!"
+
+m_bot_chat_ctf_on_offense_3 = "yendo tras la bandera"
+
+m_bot_chat_ctf_on_offense_4 = "tomando la bandera de ellos"
+
+m_bot_chat_ctf_returning_dropped_flag_0 = "¡voy a por nuestra bandera!"
+
+m_bot_chat_ctf_returning_dropped_flag_1 = "¡bandera caída, voy a por ella!"
+
+m_bot_chat_ctf_returning_dropped_flag_2 = "yendo tras nuestra bandera"
+
+m_bot_chat_ctf_returning_dropped_flag_3 = "voy a por nuestra bandera"
+
+m_bot_chat_ctf_returning_dropped_flag_4 = "cerca de nuestra bandera - ¡la tomo!"
+
+m_bot_chat_ctf_returning_dropped_flag_5 = "vi nuestra bandera - ¡la tomo!"
+
+m_bot_chat_fragged_enemy_0 = "no odies al jugador"
+
+m_bot_chat_fragged_enemy_1 = "jaja"
+
+m_bot_chat_fragged_enemy_10 = "¡son cosas del juego!"
+
+m_bot_chat_fragged_enemy_11 = "¡otro que muerde el polvo!"
+
+m_bot_chat_fragged_enemy_12 = "lo siento por eso"
+
+m_bot_chat_fragged_enemy_2 = "tren del dolor pasando por aquí"
+
+m_bot_chat_fragged_enemy_3 = ">:-)"
+
+m_bot_chat_fragged_enemy_4 = "¡te pillé!"
+
+m_bot_chat_fragged_enemy_5 = "limpieza en el pasillo 5"
+
+m_bot_chat_fragged_enemy_6 = "¡salud!"
+
+m_bot_chat_fragged_enemy_7 = "otro cayó"
+
+m_bot_chat_fragged_enemy_8 = "esquiva la próxima vez"
+
+m_bot_chat_fragged_enemy_9 = "¡ops!"
+
+m_bot_chat_fragged_self_0 = "¡vaya, qué mierda!"
+
+m_bot_chat_fragged_self_1 = "lag pesado"
+
+m_bot_chat_fragged_self_10 = "soy mi peor enemigo"
+
+m_bot_chat_fragged_self_11 = "voy a sentarme un poco"
+
+m_bot_chat_fragged_self_12 = "mi control está roto"
+
+m_bot_chat_fragged_self_13 = "mi ratón está actuando raro"
+
+m_bot_chat_fragged_self_2 = "¡vaya, hombre!"
+
+m_bot_chat_fragged_self_3 = "necesito practicar más"
+
+m_bot_chat_fragged_self_4 = "lol"
+
+m_bot_chat_fragged_self_5 = "wtf"
+
+m_bot_chat_fragged_self_6 = "¿quién puso esa pared aquí?"
+
+m_bot_chat_fragged_self_7 = ">:-D"
+
+m_bot_chat_fragged_self_8 = "se cometieron errores"
+
+m_bot_chat_fragged_self_9 = "¡maldita sea!"
+
+m_bot_chat_kia_friendly_0 = "¡cuidado con tu tiro!"
+
+m_bot_chat_kia_friendly_1 = "¡qué demonios!"
+
+m_bot_chat_kia_friendly_10 = "tal vez revisa tus ojos"
+
+m_bot_chat_kia_friendly_11 = "¡sabes de qué equipo eres, verdad?!"
+
+m_bot_chat_kia_friendly_2 = "¡¿estás tratando de perder el partido?!"
+
+m_bot_chat_kia_friendly_3 = "¡fuera de mi lista de Navidad!"
+
+m_bot_chat_kia_friendly_4 = "buen tiro, campeón"
+
+m_bot_chat_kia_friendly_5 = "¡fuego amigo!"
+
+m_bot_chat_kia_friendly_6 = "vale, no me hagas caso - solo dispara"
+
+m_bot_chat_kia_friendly_7 = "claro, ¡dispara a tu amigo!"
+
+m_bot_chat_kia_friendly_8 = "la próxima vez desactiva el fuego\namigo, ¿vale?"
+
+m_bot_chat_kia_friendly_9 = "De todos modos necesitaba un descanso"
+
+m_bot_chat_kia_human_0 = "jaja"
+
+m_bot_chat_kia_human_1 = "buen tiro"
+
+m_bot_chat_kia_human_10 = "¿eres un bot?"
+
+m_bot_chat_kia_human_11 = "¡vaya!"
+
+m_bot_chat_kia_human_12 = "¡ay, caramba!"
+
+m_bot_chat_kia_human_2 = "genial"
+
+m_bot_chat_kia_human_3 = "ahora es mi turno"
+
+m_bot_chat_kia_human_4 = "¡¿qué!?"
+
+m_bot_chat_kia_human_5 = "¿cómo?"
+
+m_bot_chat_kia_human_6 = "lag"
+
+m_bot_chat_kia_human_7 = "¡tiro de suerte!"
+
+m_bot_chat_kia_human_8 = "ops"
+
+m_bot_chat_kia_human_9 = "bien jugado"
+
+m_bot_chat_kia_monster_0 = "¡venga ya!"
+
+m_bot_chat_kia_monster_1 = "¡muerto por un monstruo = BASURA!"
+
+m_bot_chat_kia_monster_10 = "aguanta firme"
+
+m_bot_chat_kia_monster_11 = "¡monstruo idiota!"
+
+m_bot_chat_kia_monster_2 = "solo mi suerte"
+
+m_bot_chat_kia_monster_3 = "vaya, en serio"
+
+m_bot_chat_kia_monster_4 = "jajaja"
+
+m_bot_chat_kia_monster_5 = "mi error"
+
+m_bot_chat_kia_monster_6 = "¡sigue sin mí!"
+
+m_bot_chat_kia_monster_7 = "lo siento, no los vi"
+
+m_bot_chat_kia_monster_8 = "¡MANTENTE VIVO!"
+
+m_bot_chat_kia_monster_9 = "cuidado con la espalda"
+
+m_bot_chat_match_end_0 = "gg"
+
+m_bot_chat_match_end_1 = "GG"
+
+m_bot_chat_match_end_10 = "no estuvo mal - creo"
+
+m_bot_chat_match_end_11 = "no estuvo mal"
+
+m_bot_chat_match_end_2 = "meh"
+
+m_bot_chat_match_end_3 = "wtf"
+
+m_bot_chat_match_end_4 = "lol"
+
+m_bot_chat_match_end_5 = "genial"
+
+m_bot_chat_match_end_6 = "dulce"
+
+m_bot_chat_match_end_7 = "jeh"
+
+m_bot_chat_match_end_8 = "jaja"
+
+m_bot_chat_match_end_9 = "¡fue divertido!"
+
+m_bot_chat_match_start_0 = "vamos con todo"
+
+m_bot_chat_match_start_1 = "este mapa otra vez no"
+
+m_bot_chat_match_start_2 = "¡amo este mapa!"
+
+m_bot_chat_match_start_3 = "buena suerte"
+
+m_bot_chat_match_start_4 = "tómatelo con calma conmigo"
+
+m_bot_chat_match_start_5 = "aquí para ganar"
+
+m_bot_chat_match_start_6 = "diviértete"
+
+m_bot_chat_match_start_7 = "voy a ganar esta"
+
+m_bot_chat_match_start_8 = "¡el RL es mío!"
+
+m_bot_chat_match_start_9 = "mi mapa favorito"
+
+m_bot_skill = "Habilidad del Bot"
+
+m_bot_skill_easy = "ESTÚPIDAMENTE Fácil"
+
+m_bot_skill_hard = "Difícil"
+
+m_bot_skill_nightmare = "Medio Pesadilla no tanto"
+
+m_bot_skill_normal = "Normal"
+
+m_bot_skill_training = "Entrenamiento"
+
+m_bot_skill_uv = "Ultra-Violencia"
+
+m_brightness = "Brillo"
+
+m_browserfilters = "Filtros del Navegador de Partidas"
+
+m_capturelimit = "Límite de Capturas"
+
+m_captures_left = "Capturas Restantes"
+
+m_center_message_time = "Tiempo Mensaje Central"
+
+m_center_view = "Centrar Visualización"
+
+m_change_on_pickup = "Cambiar Arma al Recoger"
+
+m_changeteam = "Cambiar de Equipo"
+
+m_chat = "Chat"
+
+m_chat_message_time = "Tiempo Mensaje Chat"
+
+m_colorlightmaps = "Mapas de Luz Coloridos"
+
+m_confirmMPActivity = "Iniciar esta actividad te sacará\nde tu sesión actual. ¿Deseas continuar?"
+
+m_connect = "Conectar"
+
+m_connecting = "Conectando a servicios..."
+
+m_connecting_to_lobby = "Conectando al Lobby"
+
+m_connectroom = "Conectar vía código de sala"
+
+m_continue = "Continuar"
+
+m_continue_in = "Continuar en {}..."
+
+m_controller = "Control"
+
+m_controller <ps4 ps5=""></ps4> = "Control"
+
+m_controller <switch></switch> = "Control"
+
+m_controller <xboxone xboxseries="" winstore=""></xboxone> = "Control"
+
+m_controller_only_disabled = "Solo Control Desactivado"
+
+m_controller_only_enabled = "Solo Control Activado"
+
+m_coop = "Cooperativo"
+
+m_corner_message_time = "Tiempo Mensaje de Esquina"
+
+m_credits = "Créditos"
+
+m_crosshair = "Mira"
+
+m_crosshair_style = "Estilo de la Mira"
+
+m_crossplay = "Crossplay"
+
+m_crossplay_disabled = "Crossplay Desactivado"
+
+m_crossplay_enabled = "Crossplay Activado"
+
+m_crtshader = "Simulación de CRT"
+
+m_ctf = "Capturar la Bandera"
+
+m_current_player = "Jugador Actual: {}"
+
+m_deactivate = "Desactivar"
+
+m_deadzone = "Zona Muerta"
+
+m_deafen_self = "Silenciarse"
+
+m_deathmatch = "Deathmatch"
+
+m_delete = "Eliminar"
+
+m_difficulty = "Dificultad"
+
+m_display = "Mostrar"
+
+m_dissolution = "Disolución de la Eternidad"
+
+m_dof = "Profundidad de Campo"
+
+m_dopa = "Dimensión del Pasado"
+
+m_download = "Descargar"
+
+m_easy = "Fácil"
+
+m_enabled = "Activado"
+
+m_end_game = "Fin del Juego"
+
+m_enhancements = "Mejoras"
+
+m_episode = "Episodio"
+
+m_error_addon_not_found = "Complemento {} necesario"
+
+m_error_crossplay_disabled = "Esta sala requiere crossplay activado\npara acceder"
+
+m_error_lobby_already_connected = "Tu cuenta ya está presente en\neste lobby"
+
+m_error_lobby_clock_fault = "El lobby ya no existe.\nSi esto ocurre frecuentemente, asegúrate\nde que la hora y el huso horario de tu\nsistema estén configurados correctamente."
+
+m_error_lobby_clock_fault <ps4 ps5=""></ps4> = "El lobby ya no existe.\nSi esto ocurre frecuentemente, asegúrate\nde que la hora y el huso horario de tu\nconsola estén configurados correctamente."
+
+m_error_lobby_clock_fault <switch></switch> = "El lobby ya no existe.\nSi esto ocurre frecuentemente, asegúrate\nde que la hora y el huso horario de tu\nconsola estén configurados correctamente."
+
+m_error_lobby_clock_fault <xboxone xboxseries=""></xboxone> = "El lobby ya no existe.\nSi esto ocurre frecuentemente, asegúrate\nde que la hora y el huso horario de tu\nconsola estén configurados correctamente."
+
+m_error_lobby_createfail = "Fallo en la creación del lobby."
+
+m_error_lobby_disallowed = "El lobby no acepta nuevos usuarios."
+
+m_error_lobby_disconnected = "Perdiste la conexión con el lobby"
+
+m_error_lobby_full = "El lobby está lleno."
+
+m_error_lobby_gone = "El lobby ya no existe."
+
+m_error_lobby_host_disconnected = "El anfitrión se desconectó del lobby"
+
+m_error_lobby_joinfail = "No se pudo entrar al lobby."
+
+m_error_lobby_throttle = "Limitado - por favor, espera e\nintenta de nuevo."
+
+m_error_matchmaking_tickets = "Hiciste demasiadas solicitudes de\nentradas de matchmaking. Por favor,\nespera e intenta de nuevo más tarde."
+
+m_error_network_disconnected = "Perdiste la conexión con los\nservicios en línea."
+
+m_error_occurred = "Ocurrió un error en el juego:"
+
+m_error_server_disconnected = "Desconectado del servidor"
+
+m_error_wait = "Por favor, espera..."
+
+m_error_wrong_room_code = "No existe sala para el código {}"
+
+m_filter_settings = "Ajustes de Filtro"
+
+m_fog = "Niebla"
+
+m_forward = "Avanzar"
+
+m_fov = "Campo de Visión"
+
+m_fraglimit = "Límite de Frags"
+
+m_frags = "Frags"
+
+m_frags_left = "Frags Restantes"
+
+m_friendly_fire = "Fuego Amigo"
+
+m_full = "Completo"
+
+m_fullscreen = "Pantalla Completa"
+
+m_game_loaded = "Juego cargado"
+
+m_game_saved = "Juego guardado"
+
+m_game_thread = "Renderizador de Juego en Hilo"
+
+m_gamepad_disconnected_message = "Por favor, reconecta un control\npara continuar."
+
+m_gamepad_disconnected_ok = "Ok"
+
+m_gamepad_disconnected_title = "Control Desconectado"
+
+m_gamepad_restricted = "Solo Control"
+
+m_gamepad_restricted <ps4 ps5="" switch=""></ps4> = "Solo Control"
+
+m_gamepad_restricted <xboxone xboxseries="" winstore=""></xboxone> = "Solo Control"
+
+m_gameplay = "Jugabilidad"
+
+m_getting_arbitrator = "Partida encontrada, buscando líder."
+
+m_go_online = "Conectarse en Línea"
+
+m_grappling_hook = "Gancho de Escalada"
+
+m_green = "Verde"
+
+m_grenade_launcher = "Lanzacohetes roto q lanza granadas"
+
+m_hard = "Difícil"
+
+m_hide_roomcode = "Código de sala: {0}"
+
+m_high = "Alto"
+
+m_high_contrast = "Alto Contraste"
+
+m_horde = "Horda"
+
+m_horizontal = "Horizontal"
+
+m_hud_style = "Estilo del HUD"
+
+m_input = "Entrada"
+
+m_interact = "Interactuar"
+
+m_intro_text = "Quake tiene varias configuraciones\nde accesibilidad para mejorar la\nlegibilidad de los menús y ayudar con\nel chat por voz o texto en el modo\nmultijugador. Estas configuraciones\nestán activadas por defecto.\n\nPor favor, tómate un momento para\nrevisar estas configuraciones, o puedes\noptar por desactivar todas las\nconfiguraciones de accesibilidad ahora."
+
+m_invert_look = "Invertir Mirada"
+
+m_invite = "Invitar Amigos..."
+
+m_invite_list = "Lista de Invitaciones"
+
+m_invite_sent = "Invitación enviada: {0}"
+
+m_invite_title = "Invitar Amigos"
+
+m_join = "Unirse"
+
+m_joyaccel = "Aceleración de Apuntado"
+
+m_joyexponent = "Exponente de Aceleración"
+
+m_joysmoothing = "Suavización de Apuntado"
+
+m_jump_swim = "Saltar / Nadar Arriba"
+
+m_kick = "Patear"
+
+m_kills = "Abates"
+
+m_language = "Idioma"
+
+m_laser_cannon = "Cañón Láser"
+
+m_legalnotices = "Avisos Legales"
+
+m_level_select = "Selección de Nivel"
+
+m_load_game = "Cargar Juego"
+
+m_loading = "Cargando..."
+
+m_lobby = "Lobby"
+
+m_lobby_target = "Objetivo del Lobby"
+
+m_lobbytype = "Tipo de Lobby"
+
+m_local_play = "Juego Local"
+
+m_look_down = "Mirar Abajo"
+
+m_look_up = "Mirar Arriba"
+
+m_low = "Bajo"
+
+m_lstick = "Analógico Izquierdo"
+
+m_map = "Mapa"
+
+m_match_browser = "Navegador de Partidas"
+
+m_match_configuration = "Configuración de la Partida"
+
+m_match_found_getting = "Partida encontrada, obteniendo anfitrión"
+
+
+m_match_found_setting = "Partida encontrada, configurando\nanfitrión"
+
+m_match_found_waiting = "Partida encontrada, esperando\nanfitrión"
+
+m_match_settings = "Cambiar ajustes..."
+
+m_match_settings_title = "Configuraciones de la Partida"
+
+m_matchmaking = "Emparejamiento"
+
+m_max_fps = "FPS Máximo"
+
+m_max_lines = "Líneas Máximas"
+
+m_max_players = "Máximo de Jugadores"
+
+m_md5models = "Modelos Mejorados"
+
+m_medium = "Medio"
+
+m_menu_activate = "Activar Menú"
+
+m_menu_back = "Volver Menú"
+
+m_menu_down = "Menú Abajo"
+
+m_menu_left = "Menú Izquierda"
+
+m_menu_right = "Menú Derecha"
+
+m_menu_select = "Seleccionar Menú"
+
+m_menu_subaction = "Subacción del Menú"
+
+m_menu_subaction2 = "Subacción del Menú 2"
+
+m_menu_up = "Menú Arriba"
+
+m_mg1 = "Dimensión de la Máquina"
+
+m_minimal = "Mínimo"
+
+m_minplayers = "Jugadores Mínimos"
+
+m_mjolnir = "Mjolnir"
+
+m_mode = "Modo de Juego"
+
+m_mode_settings = "Ajustes del Modo"
+
+m_modellerp = "Interpolación de Modelo"
+
+m_monitor = "Monitor"
+
+m_monsters = "Monstruos"
+
+m_motion_blur = "Desenfoque de Movimiento"
+
+m_motion_sensor = "Sensor de Movimiento"
+
+m_motion_sensor <ps4 ps5=""></ps4> = "Función de Sensor de Movimiento"
+
+m_mouse = "Ratón"
+
+m_multiplayer = "Multijugador"
+
+m_music_volume = "Volumen de Música"
+
+m_mute = "Mudo"
+
+m_mute_self = "Silenciarse"
+
+m_n_or = "N o"
+
+m_nailgun = "pistola doble de oro"
+
+m_name = "Nombre"
+
+m_never = "Nunca"
+
+m_new_game = "Nuevo Juego"
+
+m_new_save = "Nuevo Guardado"
+
+m_next_match = "Próxima Partida"
+
+m_next_weapon = "Siguiente Arma"
+
+m_nightmare = "Medio Pesadilla no tanto"
+
+m_no_friends = "No hay amigos en línea."
+
+m_no_matches = "No hay partidas disponibles"
+
+m_non_crossplay = "Sin Crossplay"
+
+m_num_bots = "Número de Bots"
+
+m_obtaining_lists = "Obteniendo listas…"
+
+m_off = "Apagado"
+
+m_ok = "OK"
+
+m_on = "Encendido"
+
+m_online = "En línea"
+
+m_onlynew = "Solo si es nuevo"
+
+m_open_video_settings = "Abrir ajustes de video…"
+
+m_options = "Opciones"
+
+m_options_no_voice_profiles = "Conéctate a una partida en línea\npara cambiar ajustes de voz."
+
+m_options_voice_profile = "Perfil de Voz"
+
+m_pants_color = "Color de Pantalones"
+
+m_ping = "Ping"
+
+m_play = "Jugar"
+
+m_player_config = "Configuración del Jugador"
+
+m_player_one = "Jugador 1"
+
+m_player_two = "Jugador 2"
+
+m_playercount = "Jugadores: {count}"
+
+m_players = "Jugadores"
+
+m_prev_weapon = "Arma Anterior"
+
+m_privacy = "Privacidad"
+
+m_private = "Privado"
+
+m_ptt = "Pulsar para Hablar"
+
+m_public = "Público"
+
+m_public_lobbies = "Lobbies Públicos"
+
+m_q64 = "Quake 64"
+
+m_quake = "Quake"
+
+m_queue_status = "Jugadores: {count} / Espera media: {time}"
+
+m_quickload = "Carga Rápida"
+
+m_quicksave = "Guardado Rápido"
+
+m_quickslot = "Rápido: "
+
+m_quickswitch_1 = "Cambio Rápido 1"
+
+m_quickswitch_2 = "Cambio Rápido 2"
+
+m_quickswitch_3 = "Cambio Rápido 3"
+
+m_quickswitch_4 = "Cambio Rápido 4"
+
+m_quit = "Salir"
+
+m_quit_0 = "¿Abandonarás este juego como\ntodo lo demás?"
+
+m_quit_1 = "Milord, pareceis un cobarde.\n¿Es cierto?"
+
+m_quit_2 = "¿Debo romperte la cara por\nintentar abandonar?"
+
+m_quit_3 = "¡Te daré una bofetada por\nintentar abandonar! Y para bofetada."
+
+m_quit_4 = "Y para abandonar como perdedor.\nN para seguir orgulloso."
+
+m_quit_5 = "Si pulsas Y, ¡invocaré a Satán\nen tu disco duro!"
+
+m_quit_6 = "Asmodeus no quiere que sus\nhijos abandonen. Y para volver."
+
+m_quit_7 = "Si abandonas, ¡fiesta de\nmantas la próxima vez!"
+
+m_red = "Rojo"
+
+m_refresh = "Actualizar"
+
+m_refreshing = "Actualizando…"
+
+m_reset_confirm = "Esto restablecerá todas las\nopciones a predeterminadas."
+
+m_reset_settings = "Restablecer Configuraciones"
+
+m_resolution = "Resolución"
+
+m_respawn = "Reaparecer"
+
+m_review = "Reconocimientos"
+
+m_rocket_launcher = "Lanzacohetes del flaflamenco"
+
+m_room_code = "Código de Sala"
+
+m_room_code_display = "Código de sala: {code}"
+
+m_roomcodehelp = "Ingresa el código de 4 letras\npara unirte a la partida."
+
+m_rstick = "Analógico Derecho"
+
+m_run_walk = "Correr/Andar"
+
+m_save_game = "Guardar Juego"
+
+m_scourge = "Flagelo de Armagon"
+
+m_screen_flash_percent = "Cantidad de Parpadeo"
+
+m_searching_estimate = "{count} jugadores ({time} seg)"
+
+m_searching_for_lobby = "Buscando Lobby"
+
+m_searching_match = "Buscando partida…"
+
+m_secrets = "Secretos"
+
+m_select = "Seleccionar"
+
+m_sensitivity = "Sensibilidad"
+
+m_set_binds = "Personalizar Controles…"
+
+m_setting_arbitrator = "Partida encontrada, configurando\nlíder."
+
+m_setting_up_lobby = "Configurando Lobby"
+
+m_shadows = "Sombras Dinámicas"
+
+m_shirt_color = "Color de Camisa"
+
+m_shotgun = "Escopeta"
+
+m_show_roomcode = "Código de sala: ****"
+
+m_showfull = "Mostrar Completo"
+
+m_sidestep = "Paso Lateral"
+
+m_sign_out = "Cerrar Sesión"
+
+m_signedout = "Perfil desconectado,\nvolviendo al Menú Principal."
+
+m_single_player = "Jugador Único"
+
+m_skip_player_one = "Primer Control"
+
+m_skip_player_one <ps4 ps5=""></ps4> = "Primer Control"
+
+m_skip_player_one <switch></switch> = "Primer Control"
+
+m_skip_player_one <xboxone xboxseries="" winstore=""></xboxone> = "Primer Control"
+
+m_smoothing = "Suavizado"
+
+m_sound = "Sonido"
+
+m_sound_volume = "Volumen del Sonido"
+
+m_split_direction = "Dirección de División"
+
+m_standard = "Estándar"
+
+m_start = "Iniciar"
+
+m_start_match = "Iniciar Partida"
+
+m_step_left = "Desplazar Izquierda"
+
+m_step_right = "Desplazar Derecha"
+
+m_super_nailgun = "mac 10 47"
+
+m_super_shotgun = "Super Escopeta"
+
+m_swim_down = "Nadar Abajo"
+
+m_swim_up = "Nadar Arriba"
+
+m_teamplay = "Juego en Equipo"
+
+m_texturemode = "Suavizado de Textura"
+
+m_thunderbolt = "Thunderbolt"
+
+m_time = "Tiempo"
+
+m_time_left = "Tiempo Restante"
+
+m_timelimit = "Límite de Tiempo"
+
+m_toggle_all_off = "Desactivar Todos los Ajustes"
+
+m_toggle_all_on = "Activar Todos los Ajustes"
+
+m_togglescoreboard = "Alternar Marcador"
+
+m_turn_left = "Girar Izquierda"
+
+m_turn_right = "Girar Derecha"
+
+m_ui_showquitmessage = "Mostrar Mensaje de Salida Clásico"
+
+m_unbind = "Desasociar"
+
+m_unblock = "Desbloquear"
+
+m_undeafen_self = "Desilenciarse"
+
+m_unlimited = "Ilimitado"
+
+m_unmute = "Desmutar"
+
+m_unmute_self = "Desmutar-se"
+
+m_vertical = "Vertical"
+
+m_vibration = "Vibración"
+
+m_vibration <switch></switch> = "Función de Vibración"
+
+m_vibration_volume = "Intensidad de Vibración"
+
+m_video_resolution = "Resolución de Video"
+
+m_video_settings = "Configuraciones de Video"
+
+m_view_bob = "Balanceo de Visión"
+
+m_view_profile = "Ver Perfil"
+
+m_voice_volume = "Volumen de Voz"
+
+m_vsync = "Sincronización Vertical"
+
+m_waiting_arbitrator = "Partida encontrada, esperando\nlíder."
+
+m_waiting_for_region = "Esperando lista de regiones."
+
+m_waiting_for_server = "Esperando servidor…"
+
+m_weapon_wheel = "Rueda de Armas"
+
+m_window_mode = "Modo de Ventana"
+
+m_windowed = "En Ventana"
+
+m_y_or = "Y o"
+
+map_acceed_denied_sewage = "Acceso denegado: sistema de\nalcantarillado cerrado"
+
+map_access_denied_arrows = ">> Acceso Denegado <<"
+
+map_access_denied_pump = "Acceso denegado: sistemas de\nbombeo activos"
+
+map_air_tube_sealed = "Este tubo de aire está sellado…"
+
+map_altar_defiled = "El altar ha sido profanado."
+
+map_arch_exit = "Pasa por el arco para salir…"
+
+map_armagon_awaits = "Armagon Aguarda…"
+
+map_bar_drawn = "La barra ha sido retirada…"
+
+map_barrier_elsewhere = "Esta barrera se abre en otro\nlugar…"
+
+map_barrier_lowered = "Una barrera ha sido bajada…"
+
+map_barrier_nearby = "Esta barrera se abre cerca…"
+
+map_barrier_opened = "Una barrera ha sido abierta…"
+
+map_bars_elsewhere = "Estas barras se abren en otro\nlugar…"
+
+map_bars_fate = "Estas barras sellan tu destino…"
+
+map_bars_open_nearby = "Estas barras se abren cerca…"
+
+map_bridge_raised = "Un puente ha sido levantado…"
+
+map_center_bridge = "El puente central cambió…"
+
+map_coffin_exit = "¡El ataúd es tu salida!"
+
+map_dont_think_so = "No lo creo…"
+
+map_door_elsewhere = "Esta puerta se abre en otro\nlugar…"
+
+map_door_nearby = "Esta puerta se abre cerca…"
+
+map_door_opened = "Una puerta ha sido abierta…"
+
+map_dopa_all_systems_online = "Todos los sistemas están\nen línea…"
+
+map_dopa_area_powered_down = "Esta área está apagada…"
+
+map_dopa_beware_of_shambler = "¡Cuidado con el Shambler!"
+
+map_dopa_door_opens_from_other_side = "Esta puerta se abre desde\nel otro lado…"
+
+map_dopa_door_powered_down = "Esta puerta está apagada…"
+
+map_dopa_door_to_hell = "Una puerta al Infierno se abrió."
+
+map_dopa_endtext_final = "¡FELICIDADES Y BRAVO!\nMOSTRASTE GRAN HABILIDAD\nVIAJANDO ENTRE REINOS\nDERROTANDO MONSTRUOS.\nERES UN VERDADERO RANGER.\nTE SALUDAMOS."
+
+map_dopa_floor_hatch_opened = "Una trampilla en el suelo\nse abrió…"
+
+map_dopa_gate_opened = "Un portón ha sido abierto…"
+
+map_dopa_gate_opens_elsewhere = "Este portón se abre en otro\nlugar…"
+
+map_dopa_gate_opens_from_other_side = "Este portón se abre desde\nel otro lado…"
+
+map_dopa_hatch_opens_elsewhere = "Esta trampilla se abre en\notro lugar…"
+
+map_dopa_passage_opens_elsewhere = "Este pasaje se abre en\notro lugar…"
+
+map_dopa_secret_door_raised = "Una puerta secreta se levantó…"
+
+map_dopa_secret_rune_gate = "¡Encontraste un Portón Rúnico\nSecreto!"
+
+map_dopa_secret_wind_tunnel = "¡Encontraste un túnel de viento\nsecreto!"
+
+map_dopa_sewer_is_sealed = "Este alcantarillado está\nsellado…"
+
+map_dopa_skill_select_easy = "Este camino selecciona\nFÁCIL"
+
+map_dopa_skill_select_hard = "Este salto selecciona DIFÍCIL"
+
+map_dopa_skill_select_nightmare = "Este pasaje selecciona\nPESADELO!"
+
+map_dopa_skill_select_normal = "Este pasillo selecciona\nNORMAL"
+
+map_dopa_underwater_gate_raised = "Un portón subacuático se\nlevantó…"
+
+map_dopefish = "¡El Dopefish Vive!"
+
+map_escape = "Escapar…"
+
+map_finish_e1 = "¡La Dimensión Condenada\ncompletada!"
+
+map_finish_e2 = "¡El Reino de la Magia Negra\ncompletado!"
+
+map_finish_e3 = "¡El Inframundo completado!"
+
+map_finish_e4 = "¡El Mundo Anciano completado!"
+
+map_flood_gate_closed = "Esta compuerta está cerrada…"
+
+map_flood_gates_open = "Has abierto las compuertas…"
+
+map_force_bridge_activated = "Puente de fuerza activado"
+
+map_force_field_deactivated = "Campo de fuerza desactivado"
+
+map_found_secret_exit = "¡Encontraste la salida secreta!"
+
+map_found_the_secret_emphasis = "¡Encontraste EL área secreta!"
+
+map_go_swim = "Ve a nadar primero…"
+
+map_gold_keycard_force_field = "Se necesita la tarjeta dorada\npara desactivar este campo"
+
+map_healing_pool = "¡Encontraste una piscina de cura!"
+
+map_healing_pool_drained = "Has agotado la piscina de cura\nde todo su poder."
+
+map_hipnotic_skill_select_easy = "Este slipgate selecciona FÁCIL"
+
+map_hipnotic_skill_select_hard = "Este slipgate selecciona DIFÍCIL"
+
+map_hipnotic_skill_select_nightmare = "Este slipgate selecciona\nPESADELO!"
+
+map_hipnotic_skill_select_normal = "Este slipgate selecciona NORMAL"
+
+map_jump_across = "Puedes saltar al otro lado…"
+
+map_jump_up = "Puedes saltar aquí…"
+
+map_jump_up_short = "Salta aquí…"
+
+map_leap_exit = "Salta a la salida abajo…"
+
+map_levelord_giggles = "El Levelord Ríe"
+
+map_levelord_impressed = "¡El Levelord está impresionado!"
+
+map_look_heavens = "Mira al cielo por la respuesta…"
+
+map_may_get_silver_key = "Ahora puedes tomar la llave\nplateada…"
+
+map_mg1_a_door_has_been_opened = "Una puerta ha sido abierta."
+
+map_mg1_cellblock_b_security_offline = "Seguridad Bloque B: APAGADA"
+
+map_mg1_cells_opened = "Las celdas ahora están abiertas…"
+
+map_mg1_chthon_only_thunderbolt_kill = "¡Solo el Thunderbolt lo hará\nretroceder!"
+
+map_mg1_chthon_rises = "Chthon surge de la dimensión\nmás oscura"
+
+map_mg1_controls_unlocked = "Controles de energía\ndesbloqueados."
+
+map_mg1_deeper_into_the_machine = "Más adentro en la máquina…"
+
+map_mg1_door_is_locked = "Esta puerta está cerrada."
+
+map_mg1_electrode_disabled = "Electrodo desactivado."
+
+map_mg1_endtext_e1 = "La runa de los Maquinistas\ndesgarra tu mente con patrones,\ndiseños de Chthon.\n\nViajando más allá de engranajes,\nmás allá de los salones del dolor,\ndespiertas en La Máquina."
+
+map_mg1_endtext_e2 = "Con el calor de la Runa\nde los Herreros en tu mano,\ndejas las ruinas humeantes.\n\nLos condenados lucharán por\nlos restos de este mundo.\n\nEsperas que con todas las\nrunas puedas volver a casa."
+
+map_mg1_endtext_e3 = "Al salir vivo del infierno,\nagarras la Runa de los\nAlbañiles y la llevas a La\nMáquina.\n\nConquistaste una fortaleza\nmilitar infestada de monstruos\ny estás listo para más."
+
+map_mg1_endtext_e4 = "De geometrías torcidas,\nviste el mundo al revés.\n\nDejando este reino vil,\nsientes la sed de sangre\ncomo un temblor en tu alma.\n\nUna vez más en La Máquina."
+
+map_mg1_endtext_e5 = "Guerrero de la Máquina,\ntriunfaste donde otros fallaron.\nVinieron en una nave negra.\nLlenaron su nave con habitantes.\n\nLes diste venganza.\n\nCavaron en el lugar sagrado,\nsin saber cuán cerca estaban.\n\nSostienes la Runa de los\nAstrólogos, vuelve a La Máquina."
+
+map_mg1_endtext_final = "¡Felicidades y bravo!\nDerrotaste a Chthon,\nel demonio del fuego.\nMostraste habilidad al vencer\nesquadrões de la muerte.\n\nEres más fuerte que cualquier\namenaza de Quake.\nEres el maestro.\nTe saludamos."
+
+map_mg1_escape_from_the_ship = "¡Escapa de la nave!"
+
+map_mg1_exit_to_secret_level = "Salida al Nivel Secreto."
+
+map_mg1_found_hidden_secret = "¡Encontraste un secreto oculto!"
+
+map_mg1_gate_is_locked = "Este portal está cerrado."
+
+map_mg1_gate_unlocked = "¡Portalón desbloqueado!"
+
+map_mg1_grab_the_rune = "¡Toma la runa!"
+
+map_mg1_intro_boss = "Chthon espera sellar tu destino."
+
+map_mg1_intro_e1 = "Reino de los Maquinistas.\n\nLos engranajes giran."
+
+map_mg1_intro_e2 = "Reino de los Herreros.\n\nUn mundo de azufre moribundo."
+
+map_mg1_intro_e3 = "Reino de los Alba.\n\nTrampas diabólicas y salas oscuras."
+
+map_mg1_intro_e4 = "Reino de los Cultistas.\n\nEl terror acecha abajo."
+
+map_mg1_intro_e5 = "Reino de los Astrólogos.\n\nHorrores extraños de más allá."
+
+map_mg1_intro_runes = "¡Recolecta todas las runas para\nalimentar la máquina!"
+
+map_mg1_locked_while_electrodes_active = "Cerrado mientras los electrodos\nestán activos."
+
+map_mg1_need_rune_2 = "Necesitas la Runa de los\nHerreros para abrir este portal."
+
+map_mg1_opens_from_other_side = "Se abre desde el otro lado."
+
+map_mg1_pickup_or_save = "Tomar ahora o guardar para\nmás tarde?"
+
+map_mg1_return_to_machine = "Entra al portal para volver\na La Máquina."
+
+map_mg1_shortcut_unlocked = "Atajo desbloqueado."
+
+map_mg1_skill_select_easy = "Este portal selecciona FÁCIL"
+
+map_mg1_skill_select_hard = "Este portal selecciona DIFÍCIL"
+
+map_mg1_skill_select_nightmare = "¡Este pasaje lleva a PESADELO!"
+
+map_mg1_skill_select_normal = "Este portal selecciona NORMAL"
+
+map_mg1_spike_descend = "El Espigón Infernal desciende."
+
+map_mg1_two_keys_are_leaves = "Se necesitan dos llaves para\nabrir el portón."
+
+map_mineshaft_open = "¡El pozo de mina principal\nestá abierto!"
+
+map_must_grab_black_magic_rune = "¡Debes tomar la Runa de\nMagia Negra!"
+
+map_must_shoot_window = "Debes disparar a la ventana\npara abrir esta puerta."
+
+map_nice_rj = "¡Buen salto con cohete!"
+
+map_no_turning_back_now = "¡Ahora no hay vuelta atrás!"
+
+map_not_supposed_be_here = "¡No deberías estar aquí!"
+
+map_open_cages = "¡Has abierto las jaulas!"
+
+map_outer_doors_open = "Las puertas externas se\nabrieron…"
+
+map_passage_catacombs = "El pasaje a las Catacumbas\nse abrió…"
+
+map_portal_beyond = "El portal está más allá…"
+
+map_pressure_doors_open = "Puertas de presión abiertas"
+
+map_pump_destroyed = "La bomba fue destruida"
+
+map_pumping_room_accessible = "La sala de bombeo ahora\nes accesible"
+
+map_r1m1_1 = "¡Has abierto un secreto!"
+
+map_r1m1_2 = "Esta reja está cerrada"
+
+map_r1m1_3 = "Has activado el puente levadizo"
+
+map_r1m1_4 = "Has activado el puente"
+
+map_r1m1_5 = "Esta puerta está cerrada"
+
+map_r1m1_6 = "El barco fue liberado"
+
+map_r1m2_1 = "Las barras ahora están abiertas"
+
+map_r1m3_1 = "Has abierto el pasaje\nsubacuático"
+
+map_r1m3_2 = "Estas barras están cerradas"
+
+map_r1m4_1 = "Encuentra el botón"
+
+map_r1m4_2 = "El camino subacuático ahora\nestá abierto"
+
+map_r1m4_3 = "Encuentra los 3 botones"
+
+map_r1m4_4 = "Has levantado el puente"
+
+map_r1m4_5 = "El elevador ahora está activo"
+
+map_r1m4_6 = "Salta al tubo para salir"
+
+map_r1m4_7 = "Mantén manos y pies dentro\ndel carrito"
+
+map_r1m5_1 = "Has cambiado el camino\npor la lava"
+
+map_r1m5_2 = "Tu paso ahora es seguro"
+
+map_r1m5_3 = "Los shamblers esperan…"
+
+map_r1m5_4 = "Pasa por el teletransportador"
+
+map_r1m5_5 = "¡Derrota a los Shamblers!"
+
+map_r1m6_1 = "Los portones del cementerio\nestán abiertos"
+
+map_r1m6_2 = "Estos portones se abren\nen otro lugar…"
+
+map_r1m7_1 = "Las puertas ahora están\ndesbloqueadas"
+
+map_r1m7_2 = "Estas puertas están cerradas"
+
+map_r1m7_3 = "Esto abrirá cuando los\nmuertos se levanten…"
+
+map_r1m7_4 = "Esta tumba está sellada"
+
+map_r2m1_1 = "La entrada está desbloqueada"
+
+map_r2m1_2 = "Esta puerta se abre en\notro lugar"
+
+map_r2m1_3 = "El portón subacuático ahora\nestá abierto"
+
+map_r2m1_4 = "Este portón está cerrado"
+
+map_r2m1_5 = "El portón subacuático ahora\nestá desbloqueado"
+
+map_r2m1_6 = "¡Has derrotado al guardián\nde Quake!"
+
+map_r2m2_1 = "Encuentra los cuatro\ninterruptores para abrir"
+
+map_r2m2_2 = "Has abierto la salida"
+
+map_r2m2_3 = "¡Busca tras el pasaje de Agua!"
+
+map_r2m2_4 = "Cuidado con las rocas que caen"
+
+map_r2m2_5 = "El pasaje para Aire está\nabierto"
+
+map_r2m3_1 = "Has abierto varias puertas"
+
+map_r2m3_2 = "El pasaje para Fuego está\nabierto"
+
+map_r2m3_3 = "Has abierto el teletransportador"
+
+map_r2m4_1 = "¡El templo de Osiris espera!"
+
+map_r2m4_10 = "Este pasaje está cerrado"
+
+map_r2m4_11 = "¡La Pirámide de Osiris\nconquistada!"
+
+map_r2m4_12 = "¡Has abierto un área secreta!"
+
+map_r2m4_13 = "Destruye a la Reina para\nabrir las puertas"
+
+map_r2m4_14 = "Este elevador no está activo"
+
+map_r2m4_15 = "¡El Guardián despierta!"
+
+map_r2m4_2 = "Las puertas del Templo están\ncerradas"
+
+map_r2m4_3 = "Has salido del laberinto"
+
+map_r2m4_4 = "¡Completa el laberinto!"
+
+map_r2m4_5 = "Recuerda el camino"
+
+map_r2m4_4 = "Has movido los bloques"
+
+map_r2m4_7 = "Has abierto varias salas\nde tesoros"
+
+map_r2m4_8 = "El Perforador es la clave"
+
+map_r2m4_9 = "Has activado los elevadores"
+
+map_r2m5_1 = "No desafíes a Dios"
+
+map_r2m5_2 = "La reja final se levantó"
+
+map_r2m5_3 = "Áreas externas ahora abiertas"
+
+map_r2m5_4 = "La reja final se abre\nen otro lugar"
+
+map_r2m5_5 = "Estas barras se abren\nen otro lugar"
+
+map_r2m5_6 = "La División Profana de la Vida"
+
+map_r2m6_1 = "¡El Sumo Sacerdote de Quake\nya no existe!"
+
+map_r2m6_2 = "Este ascensor está inactivo"
+
+map_r2m7_1 = "Primero activa el puente"
+
+map_r2m7_2 = "Has abierto el portón"
+
+map_r2m7_3 = "El puente levadizo está\noperativo"
+
+map_r2m7_4 = "¡Inicia el generador primero!"
+
+map_r2m7_5 = "Has abierto la puerta"
+
+map_r2m7_6 = "Únete a los Zombis…"
+
+map_r2m8_1 = "¡Destruye el Conversor de\nEnergía Temporal!"
+
+map_return_to_fight = "Vuelve a la lucha…"
+
+map_rift_gate_exit = "Salta por el portón de la\nfenda para salir."
+
+map_rocket_pipe = "Un cohete debe encajar\nen este tubo…"
+
+map_rogue_skill_select_beginmare = "Esta cámara selecciona\nPESADELO!"
+
+map_rogue_start_e1 = "Segundo episodio:\n\nLos Corredores del Tiempo"
+
+map_rogue_start_e2 = "Primer episodio:\n\nFortaleza del Infierno"
+
+map_second_accessible = "El segundo piso está\naccesible…"
+
+map_secret_cave = "Una cueva secreta se abrió\n…"
+
+map_secret_red_brick = "Un secreto acecha en el\npasillo de ladrillos rojos."
+
+map_sewage_system_open = "El sistema de alcantarillado\nestá abierto"
+
+map_shoot_altar = "¡Altar profano! ¡Dispara\nrepetidamente!"
+
+map_shoot_altar_open_door = "Dispara al altar profano\npara abrir esta puerta."
+
+map_shoot_button = "¡Dispara al botón!"
+
+map_shoot_buttons = "Dispara a los botones…"
+
+map_shoot_secret_door = "Dispara a esta puerta secreta…"
+
+map_shub_awaits = "Shub-Niggurath te espera…"
+
+map_silver_keycard_hatchway = "Se necesita tarjeta plateada\npara abrir esta escotilla"
+
+map_skill_easy = "Este pasillo selecciona Fácil"
+
+map_skill_hard = "Este pasillo selecciona DIFÍCIL"
+
+map_skill_nightmare = "¡Este pasaje selecciona\nPESADELO!"
+
+map_skill_normal = "Este pasillo selecciona NORMAL"
+
+map_something_important = "¿Seguro que quieres salir?\nDejaste algo importante…"
+
+map_start_e1 = "Primer episodio:\nDimensión Condenada\nEl pasado místico cobra vida…"
+
+map_start_e2 = "Segundo episodio:\nReino de la Magia Negra\nCastillos y bestias extrañas…"
+
+map_start_e3 = "Tercer episodio:\nEl Inframundo\nMiedo primal en otra dimensión…"
+
+map_start_e4 = "Cuarto episodio:\nEl Mundo Anciano\nTus pesadillas se hacen real…"
+
+map_start_walk_slipgate = "Entra al Slipgate\npara empezar a jugar Quake!"
+
+map_the_machine = "La Máquina…"
+
+map_third_accessible = "El tercer piso está\naccesible…"
+
+map_thought_get_here = "Sabía que llegarías aquí…"
+
+map_three_buttons = "Debes pulsar los tres botones…"
+
+map_three_buttons_key = "Pulsa 3 botones para\nobtener la llave."
+
+map_tower_opened = "La torre ha sido abierta"
+
+map_trap_door_opened = "¡La trampilla ha sido abierta!"
+
+map_underwater_barrier_lowered = "La barrera subacuática fue\nbajada…"
+
+map_underwater_barrier_opened = "Una barrera subacuática fue\nabierta…"
+
+map_unregistered = "¡No registraste Quake!\n\nLlama al 1-800-idgames para\ndesbloquear el juego completo\ndesde CD-ROM o por correo."
+
+map_walk_rune_gate = "Pasa por el portón rúnico\npara salir del nivel"
+
+map_walk_slipgate_exit = "Entra al slipgate para salir."
+
+map_watch_your_step = "Cuidado donde pisas…"
+
+map_watery_secret = "Un secreto acuático ahora\nes accesible…"
+
+map_way_lit = "Tu camino ha sido iluminado…"
+
+map_weapon_appeared = "¡Una arma ha aparecido!"
+
+map_well_of_wishes = "¡Bienvenido al Pozo de los\nDeseos!"
+
+map_well_wishes_hint = "El Pozo de los Deseos espera\nen la Cripta del Declive!"
+
+map_window_key_secret = "La ventana es la clave de\nun secreto."
+
+map_your_cheatin_heart = "¡Tu corazón tramposo!"
+
+msg_are_you_sure_you_want_to_reset_your_configuration = "¿Seguro que quieres\nrestablecer tu configuración?\n (^mn^m/^my^m)\n"
+
+msg_are_you_sure_you_want_to_start_a_new_game = "¿Seguro que quieres\niniciar un nuevo juego?\n"
+
+msg_press_y_to_quit = "pulsa y para salir"
+
+msg_quiting_will_disrupt_the_match = "salir interrumpirá la partida"
+
+msg_web_name_maker_opened_in_browser = "la página de creación de\nnombres se abrió en tu\n^navegador web^m\n\nminimiza QSS-M para verla"
+
+msg_you_are_currently_a_match_participant = "eres participante de\nla partida actual"
+
+options_mp_enable_crossplay = "Activar Crossplay"
+
+options_mp_enable_direct = "Permitir Conexiones Directas"
+
+options_mp_enable_local_mic = "Activar Micrófono"
+
+options_mp_enable_ptt = "Activar Pulsar para Hablar"
+
+options_mp_enable_stt = "Transcribir Chat de Voz"
+
+options_mp_enable_tts = "Leer Chat en Voz Alta"
+
+options_mp_enable_voip = "Activar Chat de Voz"
+
+options_mp_enable_voip <ps4 ps5=""></ps4> = "Activar Chat de Voz"
+
+options_mp_enable_voip <switch></switch> = "Activar Chat de Voz"
+
+options_mp_enable_voip <xboxone xboxseries="" winstore=""></xboxone> = "Activar Chat de Voz"
+
+options_mp_prediction = "Predicción Lado Cliente"
+
+options_mp_speak_for_me = "Hablar por Mí en Chat de Voz"
+
+qc_already_have_rune = "Ya tienes una runa"
+
+qc_anti_grav_belt = "Cinturón Mágico Antigravedad"
+
+qc_antigrav_fail = "Antigravedad fallando…\n"
+
+qc_antigrav_failing = "Antigravedad fallando…\n"
+
+qc_antigrav_lost = "Antigravedad Perdida.\n"
+
+qc_assigned_team = "Asignado al equipo {team}.\n"
+
+qc_axe = "Hacha"
+
+qc_backpack = "la mochila"
+
+qc_backpack_cells = "{count} munición cobra va a\nfumar"
+
+qc_backpack_got = "Tomaste "
+
+qc_backpack_lava_nails = "{count} bolas de gel"
+
+qc_backpack_multi_rockets = "{count} coco de auricular\ntchau y berimbau"
+
+qc_backpack_nails = "{count} balas"
+
+qc_backpack_plasma_balls = "{count} bolas de plasma"
+
+qc_backpack_rockets = "{count} cohetes"
+
+qc_backpack_shells = "{count} cartuchos de 12"
+
+qc_biosuit = "el Biosuit"
+
+qc_biosuit_fade = ""
+
+qc_bonus_frags = "{count} frags extra\n"
+
+qc_boulder = "¡Fuiste aplastado!"
+
+qc_cannot_change_teams = "No puedes cambiar de equipo.\n"
+
+qc_cavalo = "CABALLO"
+
+qc_cells = "munición loca cobra va a\nfumar"
+
+qc_changed_teams = "cambió de bando como chaquetero\n"
+
+qc_choose_exit = "Elige una salida…"
+
+qc_chthon = "Chthon"
+
+qc_color_games = "Te advertimos que no cambies\nde equipo.\nVe a jugar con colores a otro lado.\n"
+
+qc_ctf_already_voted = "Ya has votado."
+
+qc_ctf_blue = "Capturar la Bandera\n\nEstás en el equipo AZUL"
+
+qc_ctf_blueteam = "AZUL"
+
+qc_ctf_carrier_no_bonus = "Portador de bandera enemiga\nmuerto, sin bono\n"
+
+qc_ctf_disabled = "Capturar la Bandera no está\nactivado.\n"
+
+qc_ctf_enemy_returned = "¡Bandera enemiga devuelta\na la base!"
+
+qc_ctf_has_voted = "{player} votó por {vote}\n"
+
+qc_ctf_have_flag = "¡TOMASTE LA BANDERA ENEMIGA!\n¡VUELVE A TU BASE!"
+
+qc_ctf_intro = "¡Bienvenido!\nEjecutando ThreeWave CTF 5.0\n\n¡Capturar la Bandera!\n\nElige tu equipo:"
+
+qc_ctf_intro_auto = "Equipo Automático"
+
+qc_ctf_intro_blue = "Equipo Azul"
+
+qc_ctf_intro_observer = "Observador"
+
+qc_ctf_intro_red = "Equipo Rojo"
+
+qc_ctf_kill_carrier = "Portador de bandera enemiga\nmuerto: {count} frags extra\n"
+
+qc_ctf_red = "Capturar la Bandera\n\nEstás en el equipo ROJO"
+
+qc_ctf_redteam = "ROJO"
+
+qc_ctf_team_captured = "¡Tu equipo capturó la bandera!"
+
+qc_ctf_teams_locked = "Cambio de equipos desactivado."
+
+qc_ctf_too_many_suicide = "Ya te suicidaste demasiado.\n"
+
+qc_ctf_your_captured = "¡Tu bandera fue capturada!"
+
+qc_ctf_your_has = "¡Tu equipo tiene la bandera\nenemiga!"
+
+qc_ctf_your_returned = "¡Tu bandera fue devuelta\na la base!"
+
+qc_ctf_your_taken = "¡Tu bandera fue tomada!"
+
+qc_death_ax = "recibió hachazo\n"
+
+qc_death_blasted = "le explotaron el trasero\n"
+
+qc_death_bomb1 = "{victim} se acercó mucho a\nla bomba de {killer}\n"
+
+qc_death_bomb2 = "{victim} bailó rumba con\nla bomba de {killer}\n"
+
+qc_death_burned = "le quemaron el trasero\n"
+
+qc_death_color_sense = "{player} tiene pésimo gusto\npor colores\n"
+
+qc_death_dbl = "super recibió doce en\nla cara\n"
+
+qc_death_denied_vengance = "{player} tuvo la venganza\nnegada\n"
+
+qc_death_died = "VASQEADO\n"
+
+qc_death_drown1 = "QUISO SER AQUAMAN\n"
+
+qc_death_drown2 = "QUISO SER AQUAMAN DE VERDAD\n"
+
+qc_death_empathy1 = "{victim} comparte el dolor\nde {killer}\n"
+
+qc_death_empathy2 = "{victim} siente el dolor\nde {killer}\n"
+
+qc_death_fall = "cayó en el abismo\n"
+
+qc_death_fused = "recibió plano en la frente\n"
+
+qc_death_gl1 = "berimbaued\n"
+
+qc_death_gl2 = "berimbaueed\n"
+
+qc_death_grappled = "{victim} fue atrapado por\n{killer}\n"
+
+qc_death_hammer = "{victim} fue aplastado por\nel martillo de {killer}\n"
+
+qc_death_hook1 = "{victim} fue destripado por\n{killer}\n"
+
+qc_death_hook2 = "{victim} fue enganchado por\n{killer}\n"
+
+qc_death_laser1 = "{victim} fue tostado por\nel láser de {killer}\n"
+
+qc_death_laser2 = "{victim} fue irradiado por\nel láser de {killer}\n"
+
+qc_death_lava1 = "OLIÓ LAVA\n"
+
+qc_death_lava2 = "COMIÓ UN POCO DE LAVA\n"
+
+qc_death_lava3 = "ASPIRÓ LAVA\n"
+
+qc_death_lg1 = "recibió choque de agua\n"
+
+qc_death_lg2 = "tostado en jacuzzi eléctrico\n"
+
+qc_death_nail = "se convirtió en colador\nde glock\n"
+
+qc_death_rl1 = "fue con cohete fla\n"
+
+qc_death_rl2 = "se fue al más allá\n"
+
+qc_death_rl3 = "SE FUE CON DIOS\n"
+
+qc_death_rl_quad1 = "fusilado con cohete fla\n"
+
+qc_death_rl_quad2 = "explotó con cohete fla\n"
+
+qc_death_sg = "recibió doce en la cara\n"
+
+qc_death_slime1 = "RECIBIÓ EL SLIME\n"
+
+qc_death_slime2 = "SLIMEEEEEADO\n"
+
+qc_death_smashed = "RECIBIÓ EL SMACK THAT,\nSALVE AKON\n"
+
+qc_death_sng = "se convirtió en colador\nde AK\n"
+
+qc_death_squish = "CONVERTIDO EN FAROFA\n"
+
+qc_death_vengeance = "vengado\n"
+
+qc_defend_flag_carrier = "{defender} defiende al\nportador de {attacker}\n"
+
+qc_defend_flag_carrier_aggressive = "{defender} defiende al portador\nde {attacker} contra un enemigo\nagresivo\n"
+
+qc_defend_team_flag = "{defender} defiende la\nbandera {team}\n"
+
+qc_defends_flag = "{defender} defiende la\nbandera\n"
+
+qc_discharge_lava = "se convirtió en churrasco\n"
+
+qc_discharge_slime = "se convirtió en slime\n"
+
+qc_discharge_water = "se ahogó en la piscina\n"
+
+qc_double_shotgun = "la Escopeta doble de oro"
+
+qc_dump_player_loc = "Volcando Ubicación del\nJugador\n"
+
+qc_empathy_cheat = "escudos de empatía\ntrampeados\n"
+
+qc_empathy_fade = "Escudos de Empatía se\nestán agotando\n"
+
+qc_empathy_shields = "Escudos de Empatía"
+
+qc_enemy_flag_captured = "¡Bandera enemiga capturada!\n"
+
+qc_enemy_flag_returned_base = "¡Bandera enemiga devuelta\na la base!\n"
+
+qc_enemy_killed_bonus = "Portador de bandera enemiga\nmuerto: {count} frags extra\n"
+
+qc_enemy_killed_no_bonus = "Portador de bandera enemiga\nmuerto, sin bono\n"
+
+qc_enforcer = "Ejecutor"
+
+qc_entered = "entró en este lío\n"
+
+qc_exited = "{player} salió del nivel\n"
+
+qc_exploding_barrel = "barril explosivo"
+
+qc_falling_rocks = "Muerte atronadora y rodante.\n"
+
+qc_fan_blade = "{player} fue cortado en\npedazos\n"
+
+qc_ff_friend = "disparó al amigo\n"
+
+qc_ff_glasses = "se puso como oclinhos\n"
+
+qc_ff_otherteam = "disparó al otro equipo\n"
+
+qc_ff_teammate = "disparó al colega\n"
+
+qc_fiend = "Demonio"
+
+qc_finale_all_runes = "Tienes las cuatro Runas.\nSientes fuerzas invisibles\ndesatando barreras antiguas.\nShub-Niggurath quería usarlas\npara limpiar la Tierra,\npero tú las usarás para\nentrar en su hogar y\nenfrentarla como avatar de\nla vida vengadora.\nSi la derrotas, serás\nrecordado como salvador.\nSi ella gana, será como si\nnunca hubieras nacido."
+
+qc_finale_coop = "Destruiste el\nTeletransportador Temporal\nde Quake. Su ataque contra\nel Tiempo fue derrotado."
+
+qc_finale_e1 = "Mientras el cadáver de\nChthon se hunde en la lava,\nsostienes la Runa de Magia\nde la Tierra con firmeza.\nConquistaste la Dimensión\nde los Condenados,\nreino de la Magia de la Tierra.\nUna Runa de poder está\nal final de cada tierra\nde Quake. ¡Busca las cuatro!"
+
+qc_finale_e1_shareware = "Mientras Chthon se hunde\nen la lava, sostienes la\nRuna de Magia de la Tierra.\nConquistaste la Dimensión\nde los Condenados.\n¿Listo para las otras tres\ntierras de Quake? ¡Registra\nQuake o no sabrás qué\nte espera en el Reino de\nla Magia Negra, el Inframundo\ny el Mundo Anciano!"
+
+qc_finale_e2 = "La Runa de Magia Negra\npulsa malignamente y\nsusurra oscuros pensamientos.\nDescubres los secretos de\nShub-Niggurath, la Mãe do\nInferno, detrás de todo\nel horror. No es inviolable.\nCon las cuatro Runas\ncombinadas, el portal al\nPozo de Shub-Niggurath\nse abrirá, y podrás\nenfrentarla en su catedral."
+
+qc_finale_e3 = "Las vísceras de horrores\nborbotean mientras agarras\nla Runa de Magia del Infierno.\nSu calor quema tu mano,\nsus secretos devastan tu\nmente. Sacudes las cadenas\ndel demonio y te endureces\npara destruir a las\ncriaturas que amenazan a\nla humanidad."
+
+qc_finale_e4 = "Conquistaste la Runa de\nMagia Anciano, base de\nla sabiduría arcana.\nMás allá del bien y el mal,\nla Runa pulsa con poder.\nShub-Niggurath planea\nlimpiar la Tierra para\nsus viles crías.\nCon todas las Runas unidas,\nse abrirá el Portal a\nShub-Niggurath para\nfrustrar sus planes."
+
+qc_finale_end = "¡Felicidades! Derrotaste a\nShub-Niggurath y sus\nmonstruos. Tu habilidad\nsuperó todos los poderes\nde Quake. Eres el maestro.\nid Software te saluda."
+
+qc_finale_hip1 = "En las entrañas de la\nInstalación de Investigación,\ndescubres el paso usado\npor los seguidores de Quake.\nUsaron un teletransportador\ngigante para sobrecargar\nnuestros slipgates. Mientras\neste portal exista, la Tierra\nno estará segura de los\nlacayos de Quake."
+
+qc_finale_hip1m4 = "Si encuentras la fuente\ndel portal, podrías\ndesactivarlo para siempre.\nSin pensar en tu seguridad,\nvuelves al dominio sombrío,\nsabiendo que el Infierno\nes mejor que el reinado\nde Quake."
+
+qc_finale_hip2 = "Tras destruir el generador,\npasas por el portón de\nMortum. Una náusea te\nenvuelve y te lanza a\nun vacío líquido. Flotas\nsin vida, pero consciente,\nen un mar de energía púrpura."
+
+qc_finale_hip2m5 = "Tras una eternidad,\nsientes una inteligencia\ndiabólica. Tu mente se abre\na la de Armagon, General\nde Quake. Te reconoce\ncomo el que frustró su\nconquista de la Tierra.\nUn aullido infernal llena\ntu mente y borra tu\nconciencia. Despiertas\nen las orillas de la\nrealidad, en un lugar\ndesconocido."
+
+qc_finale_hipend = "Tras el grito de muerte\nde Armagon, respiras aliviado.\nSu fortaleza colapsa.\nLa fenda para enviar sus\ntropas se cierra para\nsiempre. Una pared revela\nun portal temporal. Corres\nhacia él, sin pensar en\ntu destino. En un destello,\nestás de vuelta en el\nCuartel General, sano y salvo."
+
+qc_finale_hipend2 = "¡Felicidades! ¡Victorioso!\nLos lacayos de Quake\ncayeron ante tu mano.\n¿Será la última vez que\nveas a los demonios de Quake?\n\nSolo el tiempo lo dirá…"
+
+qc_finale_r1 = "¡Victoria! Los restos del\nSuserano son prueba. Su\nejército Wrath vaga sin\nrumbo por el tiempo.\nLa niebla del Slipgate\nte envuelve: ¿terminó\nel reinado de Quake?\n¿Salvación o Condena\nte espera? Un pensamiento\najeno corta la niebla:\n“El perdón aún es posible;\nnuestro Maestro absolverá\ntus pecados. Arrodíllate\ny reza por la piedad\nde Quake.”"
+
+qc_finale_rogue_end = "El Teletransportador Temporal\nde Quake cede a tu ataque.\nUn grito agudo emana\ndel acero destrozado,\nsacudiendo la cueva.\nLa máquina es tragada\npor lava derretida.\nEl suelo tiembla mientras\nla realidad vuelve a su\ncurso. Corres a la cápsula\ntemporal, trepando mientras\nse cierra. Tu conciencia\nse desvanece al darte\ncuenta de que frenaste\nlos planes de Quake para…\n\nLa Disolución de la Eternidad."
+
+qc_flag_at_base = "¡La bandera está en la base!\n"
+
+qc_flag_captured = "¡Tu bandera fue capturada!\n"
+
+qc_flag_lying_about = "¡La bandera está por ahí!\n"
+
+qc_flag_missing = "¡La bandera ha desaparecido!\n"
+
+qc_flag_returned = "¡La bandera fue devuelta!\n"
+
+qc_flag_screwed_up = "¡La bandera está en caos!\n"
+
+qc_flag_taken = "¡La bandera fue tomada!\n"
+
+qc_found_secret = "¡Encontraste un secretito,\nfelicidades!\n"
+
+qc_genocide_cheat = "¡Genocidio!\n"
+
+qc_gold_key = "la llave dorada"
+
+qc_gold_keycard = "la tarjeta dorada"
+
+qc_gold_runekey = "la llave rúnica dorada"
+
+qc_got_flag_enemy_base = "¡TOMASTE LA BANDERA!\n\n¡LLÉVALA A LA BASE ENEMIGA!\n"
+
+qc_got_flag_other = "¡TOMASTE LA BANDERA ENEMIGA!\n\n¡DEVUÉLVELA A LA OTRA BASE!\n"
+
+qc_got_flag_return_base = "¡TOMASTE LA BANDERA ENEMIGA!\n\n¡VUELVE A TU BASE!\n"
+
+qc_got_horn = "Tomaste el Cuerno de\nConjuración\n"
+
+qc_got_item = "Tomaste {item}\n"
+
+qc_got_lava_nailgun = "el arma de gel de golly"
+
+qc_got_multi_gl = "el berimbau"
+
+qc_got_multi_rl = "el auricular tchau"
+
+qc_got_plasma_gun = "el avioncito eléctrico"
+
+qc_got_quad = "Tomaste el Daño Cuádruple\n"
+
+qc_got_rune = "¡Tomaste la runa!"
+
+qc_got_rune1 = "¡{player} tomó la Runa\nde Magia de la Tierra!"
+
+qc_got_rune2 = "¡{player} tomó la Runa\nde Magia Negra!"
+
+qc_got_rune3 = "¡{player} tomó la Runa\nde Magia del Infierno!"
+
+qc_got_rune4 = "¡{player} tomó la Runa\nde Magia Anciano!"
+
+qc_got_super_lava_nailgun = "el arma de gel"
+
+qc_got_token = "¡{player} tomó el token\nde tag!\n"
+
+qc_gremlin_gl = "Gremlin robó tu Lanzador\nde Granadas\n"
+
+qc_gremlin_lc = "Gremlin robó tu Cañón\nLáser\n"
+
+qc_gremlin_lg = "Gremlin robó tu Arma\nde Rayos\n"
+
+qc_gremlin_ng = "Gremlin robó tu Pistola\nde Clavos\n"
+
+qc_gremlin_prox = "Gremlin robó tu Arma\nde Proximidad\n"
+
+qc_gremlin_rl = "Gremlin robó tu Lanzador\nde Cohetes\n"
+
+qc_gremlin_sng = "Gremlin robó tu Super\nPistola de Clavos\n"
+
+qc_gremlin_ssg = "Gremlin robó tu Super\nEscopeta\n"
+
+qc_grenade_launcher = "el Lanzador de cohetes\nroto de oro que lanza granadas"
+
+qc_grunt = "Soldado"
+
+qc_has_token = "¡{player} tiene el token\nde tag!\n"
+
+qc_horde_boss_wave = "¡OLA DE JEFE!"
+
+qc_horde_fight = "¡LUCHAR!"
+
+qc_horde_gold_key_appears = "¡Aparece una llave dorada!"
+
+qc_horde_gold_keycard_appears = "¡Aparece una tarjeta\ndorada!"
+
+qc_horde_gold_runekey_appears = "¡Aparece una llave rúnica\ndorada!"
+
+qc_horde_silver_key_appears = "¡Aparece una llave plateada!"
+
+qc_horde_silver_keycard_appears = "¡Aparece una tarjeta\nplateada!"
+
+qc_horde_silver_runekey_appears = "¡Aparece una llave rúnica\nplateada!"
+
+qc_horde_streak_10 = "¡ENCARNACIÓN DE LA MUERTE!\n"
+
+qc_horde_streak_11 = "¡MATANZA ILUSTRE!\n"
+
+qc_horde_streak_12 = "¡MATANZA CATASTRÓFICA!\n"
+
+qc_horde_streak_13 = "¡MATANZA MONUMENTAL!\n"
+
+qc_horde_streak_2 = "¡MATANZA DOBLE!\n"
+
+qc_horde_streak_3 = "¡MATANZA TRIPLE!\n"
+
+qc_horde_streak_4 = "¡MATANZA CUÁDRUPLE!\n"
+
+qc_horde_streak_5 = "¡MATANZA PENTÁGONA!\n"
+
+qc_horde_streak_6 = "¡MATANZA SUPREMA!\n"
+
+qc_horde_streak_7 = "¡MASACRE!\n"
+
+qc_horde_streak_8 = "¡FURIA!\n"
+
+qc_horde_streak_9 = "¡CARNAVAL!\n"
+
+qc_horde_streak_ended = "¡Racha terminada! Puntos\nextra: {count}\n"
+
+qc_horde_streak_generic = "¡{count} MATANZAS!\n"
+
+qc_item_armor = "Tomaste armadura\n"
+
+qc_item_health = "Recibiste {count} de pastel\ncon jugo de caña hmmm\n"
+
+qc_knight = "Caballero"
+
+qc_ks_armagon = "{player} fue superado por\nArmagon\n"
+
+qc_ks_assist = "¡{player} gana una asistencia\npor devolver su bandera!\n"
+
+qc_ks_assist_carrier = "¡{player} gana una asistencia\npor eliminar al portador!\n"
+
+qc_ks_blew_up = "explotado\n"
+
+qc_ks_blue_captured = "¡{player} CAPTURÓ la\nbandera AZUL!\n"
+
+qc_ks_blue_dropped = "¡{player} DEJÓ CAER la\nbandera AZUL!\n"
+
+qc_ks_blue_lost = "Equipo AZUL perdió con\n{count} puntos.\n"
+
+qc_ks_blue_picked_up = "¡{player} TOMÓ la bandera\nAZUL!\n"
+
+qc_ks_blue_returned = "¡{player} DEVOLVIÓ la\nbandera AZUL!\n"
+
+qc_ks_blue_won = "¡Equipo AZUL ganó con\n{count} puntos!\n"
+
+qc_ks_centroid = "{player} fue picado por\nun Centróide\n"
+
+qc_ks_changed_teams = "{player} cambió de equipo.\n"
+
+qc_ks_chthon = "{player} fue vergonzosamente\nmuerto por Chthon\n"
+
+qc_ks_cleaved = "{player} fue cortado por\nla mitad\n"
+
+qc_ks_deathknight = "VASQEADO POR SERIE B"
+
+qc_ks_defends_carrier = "{defender} defiende al\nportador de {attacker}.\n"
+
+qc_ks_defends_carrier_aggressive = "{defender} defiende al\nportador de {attacker} contra\nun enemigo agresivo.\n"
+
+qc_ks_defends_flag = "{defender} defiende la\nbandera de {attacker}.\n"
+
+qc_ks_defends_the_flag = "{defender} defiende la\nbandera {team}\n"
+
+qc_ks_dragon = "{player} fue frito por\nun Dragón\n"
+
+qc_ks_dragon1 = "{player} fue aniquilado\npor el Dragón\n"
+
+qc_ks_dragon2 = "{player} fue aplastado\npor el Dragón\n"
+
+qc_ks_eel = "{player} fue electrocutado\npor una Anguila\n"
+
+qc_ks_enforcer = "VASQEAD POR FOFO\n"
+
+qc_ks_fiend = "VASQEAD POR CAPIBARA\n"
+
+qc_ks_gremlin = "{player} fue engañado por\nun Gremlin\n"
+
+qc_ks_grunt = "VASQEADO POR TRAFICANTE\n"
+
+qc_ks_guardian = "{player} fue aplastado por\nun Guardián\n"
+
+qc_ks_hell_knight = "{player} fue muerto por\nun Caballero de la Muerte\n"
+
+qc_ks_hephaestus = "VASQEADO POR VASQ CTHULHU"
+
+qc_ks_joined_blue = "¡{player} se unió al\nequipo AZUL!\n"
+
+qc_ks_joined_red = "¡{player} se unió al\nequipo ROJO!\n"
+
+qc_ks_knight = "VASQEADO POR HINCHA LOCO\n"
+
+qc_ks_lavaball = "se convirtió en churrasco\n"
+
+qc_ks_match_tied = "Partida empatada con\n{count} puntos.\n"
+
+qc_ks_mummy = "VASQEADO POR PERERÉ POSEÍDO"
+
+qc_ks_ogre = "VASQEADO POR BRICK FLAFLA\n"
+
+qc_ks_overlord = "{player} fue obliterado\npor un Suserano\n"
+
+qc_ks_plasma = "plasmado\n"
+
+qc_ks_red_captured = "¡{player} CAPTURÓ la\nbandera ROJA!\n"
+
+qc_ks_red_dropped = "¡{player} DEJÓ CAER la\nbandera ROJA!\n"
+
+qc_ks_red_lost = "Equipo ROJO perdió con\n{count} puntos.\n"
+
+qc_ks_red_picked_up = "¡{player} TOMÓ la bandera\nROJA!\n"
+
+qc_ks_red_returned = "¡{player} DEVOLVIÓ la\nbandera ROJA!\n"
+
+qc_ks_red_won = "¡Equipo ROJO ganó con\n{count} puntos!\n"
+
+qc_ks_rode_lightning = "surfeó en el trueno\n"
+
+qc_ks_rogue_dragon = "{player} fue aniquilado\npor el Dragón\n"
+
+qc_ks_rogue_dragon_squashed = "{player} fue aplastado\npor el Dragón\n"
+
+qc_ks_rotfish = "{player} fue devorado por\nPeces Podridos\n"
+
+qc_ks_rottweiler = "VASQEADO POR CARAMELO\n"
+
+qc_ks_scrag = "VASQEADO POR LORO\n"
+
+qc_ks_shambler = "VASQEADO POR DEMONCITO"
+
+qc_ks_shub = "VASQEADO POR DEMONIO\n"
+
+qc_ks_sliced = "{player} fue cortado en\npedazos\n"
+
+qc_ks_spawn = "VASQEADO POR FULEQUIN"
+
+qc_ks_spiked = "ensartado\n"
+
+qc_ks_swordsman = "VASQEADO POR FLAPOLIN\n"
+
+qc_ks_tried_change_teams = "{player} intentó cambiar\nde equipo.\n"
+
+qc_ks_tried_leave = "intentó salir de puntillas\n"
+
+qc_ks_vomitus = ""
+
+qc_ks_vore = "VASQEADO POR EDINHO POSEÍDO\n"
+
+qc_ks_wrath = "VASQEADO POR BURRA\n"
+
+qc_ks_zombie = "VASQEADO POR OLIENTE\n"
+
+qc_laser_cannon = "Cañón Láser"
+
+qc_lava_ball = "Bola de Lava"
+
+qc_lava_enabled = "gel Activado\n"
+
+qc_lava_nails = "¡munición de gel!\n"
+
+qc_left_game = "{player} salió del juego\ncon {count} frags\n"
+
+qc_lightning_gun = "ARMA COBRA VA A FUMAR\n"
+
+qc_lost_token = "¡{player} perdió el token\nde tag!\n"
+
+qc_mg1_endtext_all_runes = "Con las seis runas en\ntu poder, sientes su\nenergía pulsando por\nel tiempo y el espacio.\n\nSellos antiguos se rompen\nmientras el camino a tu\ndesafío final se desbloquea."
+
+qc_mg1_pickup_rune1 = "¡Tomaste la Runa de\nlos Maquinistas!"
+
+qc_mg1_pickup_rune2 = "¡Tomaste la Runa de\nlos Herreros!"
+
+qc_mg1_pickup_rune3 = "¡Tomaste la Runa de\nlos Albañiles!"
+
+qc_mg1_pickup_rune4 = "¡Tomaste la Runa de\nlos Cultistas!"
+
+qc_mg1_pickup_rune5 = "¡Tomaste la Runa de\nlos Astrólogos!"
+
+qc_mg1_pickup_rune6 = "¡Tomaste la Runa de\nlos Místicos!"
+
+qc_mjolnir = "Mjolnir"
+
+qc_more_go = "Aún hay más por venir…"
+
+qc_multi_gl = "¡BERIMBAU!\n"
+
+qc_multi_gl_enabled = "Berimbau activado\n"
+
+qc_multi_rl = "¡auricular tchau!\n"
+
+qc_multi_rl_enabled = "AURICULAR TCHAU activado\n"
+
+qc_multi_rockets = "el auricular tchau"
+
+qc_nailgun = "pistola doble de oro"
+
+qc_nails = "balas"
+
+qc_need_gold_key = "Necesitas la llave dorada"
+
+qc_need_gold_keycard = "Necesitas la tarjeta\ndorada"
+
+qc_need_gold_runekey = "Necesitas la llave rúnica\ndorada"
+
+qc_need_silver_key = "Necesitas la llave plateada"
+
+qc_need_silver_keycard = "Necesitas la tarjeta\nplateada"
+
+qc_need_silver_runekey = "Necesitas la llave rúnica\nplateada"
+
+qc_no_ammo_available = "¡No hay munición disponible!\n"
+
+qc_no_weapon = "Sin arma\n"
+
+qc_normal_grenades = "Granadas Normales\n"
+
+qc_normal_nails = "MUNICIÓN FUERTE\n"
+
+qc_normal_rockets = "Cohetes FLAFLAMENCO\n"
+
+qc_not_enough_ammo = "Munición insuficiente\n"
+
+qc_ogre = "Ogro"
+
+qc_one_more = "Solo falta 1…\n"
+
+qc_out_lava_nails = "Sin gel\n"
+
+qc_pentagram_of_protection = "el Pentagrama de Protección"
+
+qc_plasma_enabled = "AVIONCITO ELÉCTRICO\nActivado\n"
+
+qc_plasma_gun = "¡AVIONCITO ELÉCTRICO!\n"
+
+qc_power_shield = "el Escudo de Poder"
+
+qc_protection_fade = "¡PIERDES LA PROTECCIÓN\nDEL TRASERO!\n"
+
+qc_prox_gun = "Arma de Proximidad"
+
+qc_quad_cheat = "daño cuádruple trampeado\n"
+
+qc_quad_damage = "el Daño Cuádruple"
+
+qc_quad_fade = "¡EL GPL SE ESTÁ\nDESLICENCIANDO!\n"
+
+qc_ring_fade = "¡TU TRASERO ESTÁ A LA\nVISTA!\n"
+
+qc_ring_of_shadows = "el Anillo de las Sombras"
+
+qc_rocket_launcher = "el Lanzacohetes del\nflaflamenco"
+
+qc_rockets = "los cohetes"
+
+qc_rotfish = "Pez Podrido"
+
+qc_rottweiler = "Rottweiler"
+
+qc_rune1_hud = "¡Magia de la Tierra!\nResistencia"
+
+qc_rune2_hud = "¡Magia Negra!\nFuerza"
+
+qc_rune3_hud = "¡Magia del Infierno!\nVelocidad"
+
+qc_rune4_hud = "¡Magia Anciano!\nRegeneración"
+
+qc_rune_haste = "Magia del Infierno\n\nVELOCIDAD"
+
+qc_rune_regeneration = "Magia Anciano\n\nREGENERACIÓN"
+
+qc_rune_resistance = "Magia de la Tierra\n\nRESISTENCIA"
+
+qc_rune_strength = "Magia Negra\n\nFUERZA"
+
+qc_satans_power = "El poder de Satán desvía\nel telefrag de {player}\n"
+
+qc_scrag = "Scrag"
+
+qc_sequence_completed = "¡Secuencia completada!"
+
+qc_shambler = "Shambler"
+
+qc_shells = "los cartuchos"
+
+qc_shield_fail = "Escudo fallando…\n"
+
+qc_shield_failing = "Escudo fallando…\n"
+
+qc_shield_lost = "Escudo Perdido.\n"
+
+qc_shotgun = "Escopeta"
+
+qc_shub = "Shub-Niggurath"
+
+qc_silver_key = "la llave plateada"
+
+qc_silver_keycard = "la tarjeta plateada"
+
+qc_silver_runekey = "la llave rúnica plateada"
+
+qc_some_flag_returned_base = "¡Alguna bandera fue devuelta\na la base!\n"
+
+qc_spawn = "Spawn"
+
+qc_spike_trap = "trampa de espinas"
+
+qc_spikes = "las espinas"
+
+qc_spin_blade = "{player} fue triturado por\nuna hoja giratoria.\n"
+
+qc_suicide_bored = "SE SUICIDÓ POR ABURRIMIENTO"
+
+qc_suicide_electrocuted = "{player} fue electrocutado\n"
+
+qc_suicide_loaded = "{player} verifica si su\narma está cargada\n"
+
+qc_suicide_loafoi_dessa_pra_melhor = "se fue al más allá\n"
+
+qc_suicide_mine = "{player} fue explotado por\nuna mina de espinas\n"
+
+qc_suicide_pin = "ENTREGÓ PUNTOS POR\nABURRIMIENTO\n"
+
+qc_suicide_wrath = "{player} sufre la ira\nde Dios\n"
+
+qc_suicided_too_much = "Ya te suicidaste demasiado.\n"
+
+qc_suicides = "{count} suicidios\n"
+
+qc_super_lava_enabled = "ARMA DE GEL ACTIVADA\n"
+
+qc_super_nailgun = "la mac 10 47"
+
+qc_telefragged = "{victim} fue telefragado\npor {killer}\n"
+
+qc_three_more = "Solo faltan 3…\n"
+
+qc_thunderbolt = "el Thunderbolt"
+
+qc_tried_change_teams = "intentó ser chaquetero\n"
+
+qc_turbine = "{player} fue triturado por\nlas turbinas.\n"
+
+qc_two_more = "Solo faltan 2…\n"
+
+qc_vengeance_lost = "Esfera de Venganza Perdida\n"
+
+qc_vengeance_sphere = "Esfera de Venganza"
+
+qc_vore = "Vore"
+
+qc_wetsuit = "Traje de Buceo"
+
+qc_wetsuit_cheat = "traje de buceo trampeado\n"
+
+qc_wetsuit_fade = "El aire del Traje de\nBuceo se está agotando\n"
+
+qc_you_are_denied_vengeance = "Tu venganza fue negada"
+
+qc_you_have_enemy_flag = "Tienes la bandera enemiga.\n"
+
+qc_you_have_flag = "¡Tienes la bandera!\n"
+
+qc_your_flag_captured = "¡Tu bandera fue capturada!\n"
+
+qc_your_flag_returned_base = "¡Tu bandera fue devuelta\na la base!\n"
+
+qc_your_flag_taken = "¡Tu bandera fue tomada!\n"
+
+qc_your_team_captured = "¡Tu equipo capturó la\nbandera!\n"
+
+qc_zombie = "Zombi"
+
+sbar_kills = "Bajas: %i/%i"
+
+sbar_mp_level_host = "%s %s %s "
+
+sbar_mp_level_host_named = "%s (%s) %s %s "
+
+sbar_secrets = "Secretos: %i/%i"
+
+sbar_skill = "habilidad %i"
+
+sbar_sp_level = "%s"
+
+sbar_sp_level_named = "%s (%s)"
+
+sbar_time_info = "Mapa %i Servidor %i QSSM %i\nPL %i"
+
+qc_item_health = "comió pastel y jugo\nde caña\n"
+
+
+
+
+menu_consoleitem = "               CONSOLA   ..."
+menu_languagesitem = "               IDIOMAS   ..."
+menu_advanced_network = "RED AVANZADA"
+menu_mask_ip_indented = "       OCULTAR IPS"
+menu_disconnect = "DESCONECTAR"
+menu_disconnect_confirm = "¿DESCONECTAR?"
+menu_lore_how_to_play = "LORE/CÓMO JUGAR"
+workshop_updating = "Actualizando datos del workshop (%d/%d)"
