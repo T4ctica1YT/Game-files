@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Melee Web</title>
+<meta name="description" content="Super Smash Bros. Melee, built from the decompilation, running in the browser with WebGPU.">
+<style>
+  :root {
+    --bg: #0d0f14;
+    --panel: #161a22;
+    --line: #2a3140;
+    --text: #e8ebf2;
+    --muted: #9aa3b5;
+    --accent: #e8b422;
+    --accent-text: #1a1406;
+    --danger: #ff7a6b;
+    color-scheme: dark;
+  }
+  :root[data-theme="light"] {
+    --bg: #f3f4f7;
+    --panel: #ffffff;
+    --line: #d5d9e2;
+    --text: #151821;
+    --muted: #586176;
+    --accent: #c99300;
+    --accent-text: #ffffff;
+    --danger: #c0392b;
+    color-scheme: light;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; height: 100%; background: var(--bg); color: var(--text);
+    font: 15px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 48px; }
+  h1 { font-size: 26px; margin: 0 0 4px; letter-spacing: -0.01em; }
+  h2 { font-size: 15px; margin: 0 0 12px; color: var(--muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; }
+  p.lead { color: var(--muted); margin: 0 0 24px; }
+  section { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 18px; margin-bottom: 16px; }
+  .row { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px 18px; }
+  label { display: flex; flex-direction: column; gap: 4px; font-size: 13px; color: var(--muted); }
+  label.check { flex-direction: row; align-items: center; gap: 8px; color: var(--text); font-size: 14px; }
+  select, button, .file { font: inherit; color: var(--text); background: var(--bg); border: 1px solid var(--line);
+    border-radius: 7px; padding: 8px 10px; }
+  button, .file { cursor: pointer; }
+  button:hover, .file:hover { border-color: var(--muted); }
+  button.primary { background: var(--accent); color: var(--accent-text); border-color: transparent; font-weight: 700; padding: 10px 22px; }
+  button.primary:disabled { opacity: 0.45; cursor: not-allowed; }
+  .file input { display: none; }
+  .muted { color: var(--muted); font-size: 13px; }
+  .error { color: var(--danger); font-size: 14px; margin-top: 10px; }
+  .notice { border-color: var(--danger); color: var(--danger); }
+  .tag { font-size: 11px; color: var(--muted); border: 1px solid var(--line); border-radius: 4px; padding: 0 4px; margin-left: 4px; }
+  details summary { cursor: pointer; color: var(--muted); }
+  #controls { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 6px 18px; margin-top: 12px; }
+  .key-row { display: flex; justify-content: space-between; align-items: center; gap: 8px; font-size: 14px; }
+  .key { min-width: 84px; padding: 4px 8px; font-size: 13px; }
+
+  /* The settings, a dialog: before the game starts and from the game */
+  #settings { width: min(720px, calc(100vw - 32px)); max-height: calc(100vh - 32px); padding: 0;
+    background: var(--panel); color: var(--text); border: 1px solid var(--line); border-radius: 12px; }
+  #settings::backdrop { background: rgba(0, 0, 0, 0.6); }
+  #settings form { display: flex; flex-direction: column; max-height: calc(100vh - 34px); }
+  .dialog-head { display: flex; align-items: center; justify-content: space-between; padding: 14px 18px; border-bottom: 1px solid var(--line); }
+  .dialog-head h2 { margin: 0; color: var(--text); font-size: 17px; text-transform: none; letter-spacing: 0; }
+  .dialog-head button { border: none; background: none; font-size: 22px; line-height: 1; padding: 2px 8px; color: var(--muted); }
+  .dialog-body { overflow-y: auto; padding: 16px 18px; }
+  .dialog-body section { background: var(--bg); }
+  .dialog-foot { display: flex; gap: 12px; align-items: center; justify-content: flex-end; padding: 14px 18px; border-top: 1px solid var(--line); flex-wrap: wrap; }
+  .dialog-foot .spacer { flex: 1; }
+  /* The credit: spins forever, and much harder when clicked */
+  .credit { display: flex; align-items: center; gap: 8px; background: none; border: none; padding: 0;
+    color: var(--muted); font-size: 11px; font-style: italic; cursor: pointer; }
+  .credit:hover { border: none; color: var(--text); }
+  .credit img { width: 44px; height: 44px; animation: credit-idle 6s linear infinite; }
+  .credit.elbuwh img { animation: credit-elbuwh 1.1s cubic-bezier(.2, .8, .3, 1.4); }
+  @keyframes credit-idle { to { transform: rotate(360deg); } }
+  @keyframes credit-elbuwh {
+    0% { transform: rotate(0) scale(1); }
+    30% { transform: rotate(900deg) scale(1.6); }
+    60% { transform: rotate(1620deg) scale(.7) skewX(20deg); }
+    80% { transform: rotate(2000deg) scale(1.2) skewX(-15deg); }
+    100% { transform: rotate(2160deg) scale(1); }
+  }
+  @media (prefers-reduced-motion: reduce) { .credit img { animation: none; } }
+  #restartNote { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; margin-top: 12px; font-size: 13px; color: var(--accent); }
+  #restartNote[hidden] { display: none; }
+
+  #stage { position: fixed; inset: 0; background: #000; display: flex; align-items: center; justify-content: center; }
+  #stage[hidden] { display: none; }
+  #canvas { width: min(100vw, calc(100vh * 4 / 3)); height: min(100vh, calc(100vw * 3 / 4)); display: block; outline: none; }
+  #hud { position: absolute; top: 8px; right: 8px; display: flex; gap: 8px; align-items: center; }
+  #fps { font: 12px ui-monospace, monospace; color: #cfd6e4; background: rgba(0,0,0,0.5); padding: 3px 6px; border-radius: 4px; }
+  #fps:empty { display: none; }
+  #hud button { background: rgba(0,0,0,0.5); color: #cfd6e4; border-color: rgba(255,255,255,0.15); padding: 4px 10px; font-size: 13px; }
+  #status { position: absolute; color: #cfd6e4; background: rgba(0,0,0,0.7); padding: 10px 14px; border-radius: 8px; max-width: 80vw; }
+  #status[hidden] { display: none; }
+</style>
+</head>
+<body>
+<div id="setup">
+<main>
+  <h1>Melee Web</h1>
+  <p class="lead">Super Smash Bros. Melee, compiled from the decompilation to WebAssembly and drawn with WebGPU. It runs from your own copy of the game, which never leaves this computer.</p>
+
+  <section id="support" class="notice" hidden></section>
+
+  <section>
+    <h2>Your disc</h2>
+    <div class="row">
+      <label class="file"><input type="file" id="discInput" accept=".iso,.gcm,.rvz">Choose disc image…</label>
+      <span id="discName" class="muted">Looking for a disc…</span>
+      <button type="button" id="forget" hidden>Forget it</button>
+    </div>
+    <p class="muted">Super Smash Bros. Melee NTSC 1.02 (GALE01), as a plain .iso or .gcm. A disc image placed in this page's folder loads by itself.</p>
+    <div id="discError" class="error" hidden></div>
+    <div class="row" style="margin-top:14px">
+      <button type="button" id="openSettings" class="primary" hidden>Settings and play</button>
+    </div>
+  </section>
+</main>
+</div>
+
+<div id="stage" hidden>
+  <canvas id="canvas" tabindex="0" width="640" height="480"></canvas>
+  <div id="hud">
+    <span id="fps"></span>
+    <button type="button" id="settingsButton" title="Settings (Esc closes)">Settings</button>
+    <button type="button" id="fullscreen">Fullscreen</button>
+  </div>
+  <div id="status"></div>
+</div>
+
+<dialog id="settings">
+  <form method="dialog">
+    <div class="dialog-head">
+      <h2>Settings</h2>
+      <button type="button" id="closeSettings" aria-label="Close">×</button>
+    </div>
+    <div class="dialog-body">
+      <section>
+        <h2>Performance</h2>
+        <div class="grid">
+          <label>Preset
+            <select id="preset">
+              <option value="low">Low-end device</option>
+              <option value="balanced">Balanced</option>
+              <option value="high">High quality</option>
+              <option value="custom">Custom</option>
+            </select>
+          </label>
+          <label>Resolution
+            <select id="renderScale">
+              <option value="0.5">0.5× (320×240)</option>
+              <option value="0.75">0.75× (480×360)</option>
+              <option value="1">1× (640×480, original)</option>
+              <option value="1.5">1.5× (960×720)</option>
+              <option value="2">2× (1280×960)</option>
+              <option value="3">3× (1920×1440)</option>
+            </select>
+          </label>
+          <label>Frame rate
+            <select id="frameSkip">
+              <option value="1">60 fps</option>
+              <option value="2">30 fps (game runs at full speed)</option>
+              <option value="3">20 fps (game runs at full speed)</option>
+            </select>
+          </label>
+          <label><span>Anti-aliasing<span class="tag restart-tag" hidden>restart</span></span>
+            <select id="msaa">
+              <option value="1">Off</option>
+              <option value="4">4× MSAA</option>
+            </select>
+          </label>
+          <label><span>Texture filtering<span class="tag restart-tag" hidden>restart</span></span>
+            <select id="anisotropy">
+              <option value="1">Standard</option>
+              <option value="2">2× anisotropic</option>
+              <option value="4">4× anisotropic</option>
+            </select>
+          </label>
+        </div>
+        <div class="row" style="margin-top:12px">
+          <label class="check"><input type="checkbox" id="audio"> Sound</label>
+          <label class="check"><input type="checkbox" id="audioEffects"> Reverb and echo</label>
+          <label class="check"><input type="checkbox" id="showFps"> Show frame rate</label>
+        </div>
+        <p class="muted" id="settingsHint">For slow devices, the low-end preset renders at a lower resolution and draws every other frame while the game itself keeps full speed.</p>
+        <div id="restartNote" hidden>
+          <span>Anti-aliasing and texture filtering change when the game restarts.</span>
+          <button type="button" id="restart">Restart now</button>
+        </div>
+      </section>
+
+      <section>
+        <h2>Controls</h2>
+        <p class="muted">Gamepads work in their standard layout (A, B, X, Y; bumpers are Z; triggers are L and R). The keyboard plays as player 1:</p>
+        <details>
+          <summary>Keyboard layout (click a key to change it)</summary>
+          <div id="controls"></div>
+          <p><button type="button" id="resetKeys">Restore the defaults</button></p>
+        </details>
+      </section>
+    </div>
+    <div class="dialog-foot">
+      <button type="button" id="credit" class="credit" title="ELBUWH">
+        <img id="creditImage" src="MyBeloved1.gif" alt="My beloved" width="44" height="44">
+        <span>port by Idiotonline I guess</span>
+      </button>
+      <span id="discSummary" class="muted"></span>
+      <span class="spacer"></span>
+      <button type="button" id="play" class="primary" autofocus>Play</button>
+    </div>
+  </form>
+</dialog>
+
+<script src="melee.js?v=8"></script>
+<script type="module" src="app.js?v=8"></script>
+<script>
+  // If the page script never starts (an old copy in the browser cache, or a
+  // browser too old for it), say so instead of sitting still
+  setTimeout(() => {
+    if (window.meleePageStarted) return;
+    const el = document.getElementById('discError');
+    el.textContent = 'The page didn’t start. Reload it with Ctrl+F5 (an old copy may be cached), and use a recent Chrome or Edge.';
+    el.hidden = false;
+    document.getElementById('discName').textContent = '';
+  }, 5000);
+</script>
+</body>
+</html>

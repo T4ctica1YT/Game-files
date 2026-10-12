@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>Melee Test</title>
+<style>html,body{margin:0;background:#000}canvas{width:640px;height:480px;display:block}</style>
+</head>
+<body>
+<canvas id="canvas" width="640" height="480"></canvas>
+<script src="melee.js"></script>
+<script type="module">
+// Development page: reads the disc from disc.iso over HTTP range requests
+import { Input } from './input.js';
+const input = new Input(window);
+const disc = {
+  async read(offset, length) {
+    const r = await fetch('disc.iso', { headers: { Range: `bytes=${offset}-${offset + length - 1}` } });
+    return new Uint8Array(await r.arrayBuffer());
+  },
+};
+async function startAudio() {
+  try {
+    const context = new AudioContext({ sampleRate: 32000 });
+    await context.audioWorklet.addModule('audio-worklet.js');
+    const node = new AudioWorkletNode(context, 'melee-output', { outputChannelCount: [2] });
+    node.connect(context.destination);
+    let pushed = 0;
+    return { push(s) { pushed += s.length / 2; if (pushed % 32000 < 640) console.log('audio frames', pushed, 'peak', Math.max(...s.map(Math.abs)).toFixed(3)); node.port.postMessage(s, [s.buffer]); } };
+  } catch (e) { console.warn('no audio', e); return null; }
+}
+const audio = await startAudio();
+const settings = Object.fromEntries([...new URLSearchParams(location.search).entries()].map(([k, v]) => [k, Number(v)]));
+// ?card=1: a memory card kept in localStorage
+const card = settings.card ? {
+  async load() {
+    const s = localStorage.getItem('test.card');
+    return s ? Uint8Array.from(atob(s), (c) => c.charCodeAt(0)) : null;
+  },
+  save(bytes) {
+    let s = '';
+    for (let i = 0; i < bytes.length; i += 0x8000) s += String.fromCharCode(...bytes.subarray(i, i + 0x8000));
+    localStorage.setItem('test.card', btoa(s));
+    console.log('card saved', bytes.length);
+  },
+} : undefined;
+// ?win=75,90: at those seconds, the CPU fighters fall (debug.cpp)
+const melee = {
+  disc, settings, audio, card,
+  readPad: (port) => input.read(port),
+  rumble: (port, on) => input.rumble(port, on),
+  onStats: (s) => console.log('stats', JSON.stringify(s)),
+  onFatal: (msg) => console.error('FATAL', msg),
+};
+for (const t of String(new URLSearchParams(location.search).get('win') || '').split(',').filter(Boolean)) {
+  setTimeout(() => { console.log('debug: win'); melee.debugCommand = 'win'; }, Number(t) * 1000);
+}
+createMelee({
+  canvas: document.getElementById('canvas'),
+  print: (t) => console.log(t),
+  printErr: (t) => console.error(t),
+  melee,
+});
+</script>
+</body>
+</html>
