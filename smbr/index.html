@@ -4,9 +4,6 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
 		<title>SMB1R</title>
-		<script>
-		alert("After dragging in the rom refresh the page for the game to load");
-		</script>
 		<style>
 html, body, #canvas {
 	margin: 0;
@@ -93,22 +90,11 @@ body {
 	z-index: 1;
 }
 		</style>
-		<link id="-gd-engine-icon" rel="icon" type="image/png" href="SMB1R.icon.png" />
-		
-<link rel="apple-touch-icon" href="SMB1R.apple-touch-icon.png"/>
+		<link id="-gd-engine-icon" rel="icon" type="image/png" href="Index.icon.png" />
+<link rel="apple-touch-icon" href="Index.apple-touch-icon.png"/>
 
 	</head>
 	<body>
-		<a href="https://cdn.jsdelivr.net/gh/bubbls/ports@main/smb-remastered/Super%20Mario%20Bros.%20(Europe).nes">
-		<button onclick="hideButton(this)", style="position: absolute; z-index: 10; top: 20px;">
-    Download ROM
-</button>
-</a>
-<script>
-function hideButton(btn) {
-    btn.style.display = 'none';
-}
-</script>
 		<canvas id="canvas">
 			Your browser does not support the canvas tag.
 		</canvas>
@@ -118,15 +104,14 @@ function hideButton(btn) {
 		</noscript>
 
 		<div id="status">
-			<img id="status-splash" class="show-image--false fullsize--true use-filter--false" src="SMB1R.png" alt="">
+			<img id="status-splash" class="show-image--false fullsize--false use-filter--false" src="Index.png" alt="">
 			<progress id="status-progress"></progress>
 			<div id="status-notice"></div>
 		</div>
 
-		<script src="SMB1R.js"></script>
-		<script type='text/javascript' src='merge.js'></script>
+		<script src="Index.js"></script>
 		<script>
-const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"SMB1R","experimentalVK":false,"fileSizes":{"SMB1R.pck":51797432,"SMB1R.wasm":36145869},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
+const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"Index","experimentalVK":false,"fileSizes":{"Index.pck":56003468,"Index.wasm":35754592},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
 const GODOT_THREADS_ENABLED = false;
 const engine = new Engine(GODOT_CONFIG);
 
@@ -228,7 +213,6 @@ const engine = new Engine(GODOT_CONFIG);
 			setStatusMode('hidden');
 		}, displayFailureNotice);
 	}
-	
 }());
 		</script>
 	</body>
