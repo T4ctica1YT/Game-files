@@ -109,22 +109,14 @@
     return [];
   }
 
-  async function headSize(url) {
-    try {
-      const res = await fetch(url, { method: "HEAD", cache: "no-cache" });
-      if (!res.ok) return null;
-      return Number(res.headers.get("content-length")) || 0;
-    } catch (e) {
-      return null;
-    }
-  }
-
   // Size of a game file, or null if it's missing. Files stored as parts (see
-  // split-files.py) are present only if every part is.
+  // split-files.py) are present only if every part is. (probeSize uses GET,
+  // not HEAD, which some CDNs such as raw.githack.com reject.)
   async function fileSize(file) {
+    const probeSize = window.AIRRuntime.probeSize;
     const split = await window.AIRRuntime.splitEntryFor(GAME_FILES_DIR + file);
-    if (!split) return headSize(GAME_FILES_DIR + file);
-    const sizes = await Promise.all(split.partUrls.map(headSize));
+    if (!split) return probeSize(new URL(GAME_FILES_DIR + file, document.baseURI).href);
+    const sizes = await Promise.all(split.partUrls.map(probeSize));
     if (sizes.includes(null)) {
       log(file + " is split into parts, but some are missing: " +
         split.partUrls.filter((u, i) => sizes[i] === null).map((u) => decodeURIComponent(u.split("/").pop())).join(", "), "error");

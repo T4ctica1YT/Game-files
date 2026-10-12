@@ -70,7 +70,10 @@
     // Static web servers don't reliably expose directories, so a path with no file
     // extension (the game probes for an optional "Resources" folder) counts as absent.
     if (!/\.[^/]+$/.test(path)) return false;
-    return syncRequest("HEAD", path) !== null;
+    // A GET rather than HEAD: some CDNs (raw.githack.com) refuse every HEAD with
+    // 403. The app files the game checks for are small text files, and the read
+    // is cached, so the read that usually follows costs nothing extra.
+    return readApp(path) !== null;
   }
 
   function read(root, path) {

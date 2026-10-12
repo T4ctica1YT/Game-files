@@ -76,6 +76,25 @@
     return splitManifestPromise;
   }
 
+  /**
+   * Size in bytes of the file at `url`, or null if it can't be fetched.
+   * Uses GET and cancels the download as soon as the headers arrive, instead of
+   * HEAD: some static hosts and CDNs (raw.githack.com, for one) answer every HEAD
+   * request with 403 Forbidden even for files that exist.
+   */
+  async function probeSize(url) {
+    const controller = new AbortController();
+    try {
+      const res = await realFetch(url, { cache: "no-cache", signal: controller.signal });
+      const size = res.ok ? Number(res.headers.get("content-length")) || 0 : null;
+      controller.abort();
+      return size;
+    } catch (e) {
+      controller.abort();
+      return null;
+    }
+  }
+
   /** The split entry ({ size, partUrls }) for a URL, or null if it isn't split. */
   async function splitEntryFor(url) {
     const clean = new URL(url, document.baseURI);
@@ -130,9 +149,8 @@
     let response;
     const split = isSwf && method === "GET" ? await splitEntryFor(url) : null;
     if (split) {
-      // Check the first part exists, so a missing file still looks like a 404 to Ruffle.
-      const head = await realFetch(split.partUrls[0], { method: "HEAD", cache: "no-cache" }).catch(() => null);
-      response = head && head.ok ? joinedResponse(split, init) : new Response(null, { status: 404 });
+      // Missing parts surface as a stream error when the joined body is read.
+      response = joinedResponse(split, init);
     } else {
       response = await realFetch(input, init);
     }
@@ -277,6 +295,7 @@
   window.AIRRuntime.loadSwf = loadSwf;
   window.AIRRuntime.unload = unload;
   window.AIRRuntime.splitEntryFor = splitEntryFor;
+  window.AIRRuntime.probeSize = probeSize;
   window.AIRRuntime.audioBlocked = audioBlocked;
   window.AIRRuntime.resumeAudio = resumeAudio;
   window.AIRRuntime.onAudioUnblocked = onAudioUnblocked;
